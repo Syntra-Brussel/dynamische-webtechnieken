@@ -9,7 +9,10 @@ items:
         title: 'Statisch vs. dynamisch'
       - url: /introductie/client-server
         published: 'yes'
-        title: 'Client-Server'    
+        title: 'Client-Server' 
+      - url: /introductie/http-aanvraag
+        published: 'yes'
+        title: 'HTTP aanvraag'    
       - url: /introductie/lokaal-vs-publiek
         published: 'yes'
         title: 'Lokaal vs. publiek'            
