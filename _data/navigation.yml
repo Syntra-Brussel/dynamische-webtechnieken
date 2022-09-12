@@ -1,16 +1,16 @@
 items:
- - url: /introductie  
+  - url: /introductie  
     published: 'yes'
     collection: introductie  
     title: 'Introductie'
     topics:
-      - url: /voorbereiding/statisch-vs-dynamisch
+      - url: /introductie/statisch-vs-dynamisch
         published: 'yes'
         title: 'Statisch vs Dynamisch'    
-      - url: /voorbereiding/webserver
+      - url: /introductie/webserver
         published: 'yes'
         title: 'Webserver opzetten'
- - url: /programmeren  
+  - url: /programmeren  
     published: 'yes'
     collection: programmeren  
     title: 'Kennismaken met programmeren'
