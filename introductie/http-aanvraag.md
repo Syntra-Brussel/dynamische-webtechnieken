@@ -13,7 +13,7 @@ Een vraag via de webbrowser gebeurt via het HTTP protocol.
 Het HTTP protocol staat voor Hypertext Transfer Protocol.
 
 <div class="highlight">
-Een webbrowser ontvangt enkel HTML informatie. Om dynamische inhoud te tonen is een <strong>webserver</strong> noodzakelijk die HTML kan opbouwen. 
+Een webbrowser ontvangt enkel HTML informatie. Om dynamische inhoud te tonen is een <strong>webserver</strong> noodzakelijk die die HTML kan opbouwen. 
 </div>
 
 De gegevens worden doorgaans in een database bewaard. De webserver communiceert daarvoor dus met een <strong>databaseserver</strong>.
