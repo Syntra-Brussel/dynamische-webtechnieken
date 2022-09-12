@@ -19,5 +19,20 @@ De gevens worden doorgaans in een database bewaard. De webserver communiceert da
 
 <img src="images/client_server.png" />
 
+Aan de hand van de URL weet de webserver wat wordt opgevraagd en welke services nodig zijn om het resultaat (HTML) ge verkrijgen dat moet worden terug gestuurd.
+
+<img src="images/url.png" />
+
+<ul>
+  <li><span style="color: red">het protocol:</span> http(s)</li>
+  <li><span style="color: green">de domeinnaam</span> die achterliggend verwijst naar een IP adres (elke publieke server heeft een publiek IP adres) en een plekje op de server waar de bestanden staan</li>
+  <li><span style="color: darkblue">de folder</span> binnen het gereserveerde plekje op de server</li>
+  <li><span style="color: orange">het bestand</span> in de folder</li>
+</ul>
+
+In het beeld hierboven is het opgevraagd bestand een HTML bestand, statisch dus. Daarvoor is geen verwerking op de server nodig. Als dit een PHP bestand is weet de webserver dat de PHP service moet gestart worden.
+
+## Altijd nog een beetje statische informatie
+
 De CSS/JS, beelden en andere documenten die bij een aanvraag van dynamische inhoud horen worden wel nog steeds statisch aangeboden. De webserver functioneert dan enkel als doorgeeflijk. De inhoud kan bijvoorbeeld wel nog afgeschermd worden wanneer de aanvrager niet de correcte authorisatie heeft.
 
