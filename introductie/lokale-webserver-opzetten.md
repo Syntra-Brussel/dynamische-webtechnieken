@@ -16,5 +16,5 @@ Ook een lokale server heeft een IP adres en een <em>domeinnaam</em>.<br /><br />
 
 Het IP adres is 127.0.0.1 en de <em>domeinnaam</em> is <strong>localhost</strong>.<br /><br />
 
-Na het installeren en starten van de XAMPP configratie is de locale webserver dus bereikbaar via <a href="http://localhost" target="_blank">http://localhost</a>.
+Na het installeren en starten van de XAMPP configratie is de lokale webserver dus bereikbaar via <a href="http://localhost" target="_blank">http://localhost</a>.
 </div>
