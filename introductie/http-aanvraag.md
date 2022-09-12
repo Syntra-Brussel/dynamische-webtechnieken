@@ -66,7 +66,7 @@ Dat kan de HTML zijn, maar evengoed de inhoud van een Javascript of CSS bestand 
 
 Naast de inhoud komt ook altijd een inhoud type mee. Op die manier kan de client het antwoord op de correcte manier weer geven. 
 
-### De code
+#### De code
 
 Het resultaat van een aanvraag komt naast de inhoud (de HTML bijvoorbeeld, of het opgevraagde document) ook altijd met een <strong>code</strong>. Deze weerspiegelt of de server de vraag correct heeft kunnen afhandelen of dat er een probleem is opgetreden.
 
