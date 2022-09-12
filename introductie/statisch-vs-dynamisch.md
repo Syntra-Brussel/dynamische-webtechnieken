@@ -14,4 +14,4 @@ Er zijn verschillende programmeertalen die vaak worden gebruikt. Voorbeelden zij
 
 De inhoud die wordt in een databank bewaard. De meest courante zijn MariaDB/MySQL, MSSQL, ... .
 
-Wij gaan in onze cursus <strong>PHP</strong> gebruiken in combinatie met MySQL. Dat zijn open-source technologiën en vereisen dus geen dure licenties.
+Wij gaan in onze cursus <strong>PHP</strong> gebruiken in combinatie met <strong>MySQL</strong>. Dat zijn open-source technologiën en vereisen dus geen dure licenties.

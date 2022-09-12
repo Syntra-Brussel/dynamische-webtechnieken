@@ -21,6 +21,8 @@ De gevens worden doorgaans in een database bewaard. De webserver communiceert da
 
 Aan de hand van de URL weet de webserver wat wordt opgevraagd en welke services nodig zijn om het resultaat (HTML) ge verkrijgen dat moet worden terug gestuurd.
 
+## De (unieke) URL
+
 <img src="images/url.png" />
 
 <ul>
