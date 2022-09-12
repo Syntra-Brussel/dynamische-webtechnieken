@@ -52,10 +52,11 @@ Naast de parameters via de URL kunnen er ook nog parameters (verborgen) worden v
 ### De aanvraag methode
 
 Een URL aanvraag gaat ook gepaard met een methode. De belangrijkste zijn:
-* GET: Opvragen van informatie (standaard via een webbrowser)
-* POST: Versturen van informatie (bijvoorbeeld via de submit knop van een formulier)
+* <strong>GET</strong>: Opvragen van informatie (standaard via een webbrowser)
+* <strong>POST</strong>: Versturen van informatie (bijvoorbeeld via de submit knop van een formulier)
 * PUT: Bijwerken van (bestaande) informatie (bijvoorbeeld op basis van een URL parameter)
 * DELETE: Verwijderen van (bestaande) informatie (bijvoorbeeld op basis van een URL parameter)
+* ...
 
 ### Altijd nog een beetje statische informatie
 
