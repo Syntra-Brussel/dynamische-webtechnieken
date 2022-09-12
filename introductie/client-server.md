@@ -5,7 +5,9 @@ url: /introductie/client-server
 collection: introductie
 ---
 
-In de client-server architectuur is de client de partij die een vraag stelt, de server is de partij die daarop antwoord.
+<div class="highlight">
+In de client-server architectuur is de <strong>client</strong> de partij die een <strong>vraag stelt</strong>, de <strong>server</strong> is de partij die daarop <strong>antwoord</strong>.
+</div>
 
 Het werk dat een server heeft met het beantwoorden van de vraag is afhankelijk van het type vraag en de hoeveelheid informatie die wordt ontvangen, moet worden verwerkt en/of moet worden terug gestuurd.
 
