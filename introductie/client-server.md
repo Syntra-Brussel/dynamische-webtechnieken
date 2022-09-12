@@ -4,6 +4,8 @@ title: Client-Server
 url: /introductie/client-server
 collection: introductie
 links:
+  - url: https://www.w3schools.com/tags/ref_httpmethods.asp
+  - url: https://www.w3schools.com/tags/ref_httpmessages.asp
   - url: https://syntra-brussel.github.io/webdesign/tips-and-tricks/website-online-zetten
 ---
 
@@ -57,6 +59,16 @@ Een URL aanvraag gaat ook gepaard met een methode. De belangrijkste zijn:
 * PUT: Bijwerken van (bestaande) informatie (bijvoorbeeld op basis van een URL parameter)
 * DELETE: Verwijderen van (bestaande) informatie (bijvoorbeeld op basis van een URL parameter)
 * ...
+
+### Het aanvraag resultaat
+
+Het resultaat van een aanvraag komt naast de inhoud (de HTML bijvoorbeeld, of het opgevraagde document) ook altijd met een <strong>code</strong>. Deze weerspiegelt of de server de vraag correct heeft kunnen afhandelen of dat er een probleem is opgetreden.
+
+De meest courante codes:
+* <strong>200</strong>: Alles ok
+* <strong>404</strong>: Het opgevraagde bestand of script werd niet gevonden
+* 403: Niet voldoende rechten (bijvoorbeeld omdat met de vraag niet de correcte authorisatie gegevens zijn mee gestuurd).
+* <strong>500</strong>: Intere server fout (meestal door een PHP code die niet correct werd geschreven)
 
 ### Altijd nog een beetje statische informatie
 
