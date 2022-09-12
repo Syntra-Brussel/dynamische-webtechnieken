@@ -22,7 +22,8 @@ Client-server aanvragen in het kader van deze cursus:
 * Plaatsen van een website via een FTP client
 
 Andere voorbeelden van client-server aanvragen:
-* Communicatie tussen de mail client (bijvoorbeeld Outlook) en de mail server
-* Communicatie tussen de computer en de printer
-* Communicatie tussen een een slimme lamp en uw gsm (gsm -> cloud -> slimme lamp)
+* Ophalen van mails via een mail client (bijvoorbeeld Outlook)
+* Het afdrukken van een bestand via de computer
+* Het doen brangen van een slimme lamp via uw gsm
+* Het verhogen van de temperatuur van de airco via een app
 * ...
