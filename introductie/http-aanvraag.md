@@ -12,7 +12,7 @@ Een vraag via de webbrowser gebeurt via het HTTP protocol.
 
 <div class="highlight">
 Het HTTP protocol staat voor <strong>Hypertext</strong> Transfer Protocol.
-
+<br /><br />
 Een webbrowser ontvangt enkel HTML informatie. Om dynamische inhoud te tonen is een <strong>webserver</strong> noodzakelijk die die HTML kan opbouwen. 
 </div>
 
@@ -37,7 +37,7 @@ In het beeld hierboven is het opgevraagd bestand een HTML bestand, statisch dus.
 
 ### De URL parameters
 
-<img src="images/url_parameter.png" />
+<img src="image/url_parameter.png" />
 
 Bij een URL aanvraag kunnen extra parameters verstuurd worden die voor PHP nuttig zijn in de verwerking van informatie.
 
