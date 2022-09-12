@@ -54,7 +54,19 @@ Een URL aanvraag gaat ook gepaard met een methode. De belangrijkste zijn:
 * DELETE: Verwijderen van (bestaande) informatie (bijvoorbeeld op basis van een URL parameter)
 * ...
 
-### Het aanvraag resultaat
+### Het resultaat
+
+#### De inhoud
+
+Het resultaat van een aanvraag is (meestal) de opgevraagde inhoud. 
+
+Dat kan de HTML zijn, maar evengoed de inhoud van een Javascript of CSS bestand of  de inhoud van beeld of Excel bestand.
+
+#### Het inhoud type
+
+Naast de inhoud komt ook altijd een inhoud type mee. Op die manier kan de client het antwoord op de correcte manier weer geven. 
+
+### De code
 
 Het resultaat van een aanvraag komt naast de inhoud (de HTML bijvoorbeeld, of het opgevraagde document) ook altijd met een <strong>code</strong>. Deze weerspiegelt of de server de vraag correct heeft kunnen afhandelen of dat er een probleem is opgetreden.
 
