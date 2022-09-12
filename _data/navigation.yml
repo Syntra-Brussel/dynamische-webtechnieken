@@ -1,0 +1,35 @@
+items:
+ - url: /introductie  
+    published: 'yes'
+    collection: introductie  
+    title: 'Introductie'
+    topics:
+      - url: /voorbereiding/statisch-vs-dynamisch
+        published: 'yes'
+        title: 'Statisch vs Dynamisch'    
+      - url: /voorbereiding/webserver
+        published: 'yes'
+        title: 'Webserver opzetten'
+ - url: /programmeren  
+    published: 'yes'
+    collection: programmeren  
+    title: 'Kennismaken met programmeren'
+    topics:
+      - url: /programmeren/html-vs-php
+        published: 'yes'
+        title: 'HTML vs PHP'
+      - url: /programmeren/variabelen
+        published: 'yes'
+        title: 'Variabelen'
+      - url: /programmeren/functies
+        published: 'yes'
+        title: 'Functies'     
+      - url: /programmeren/voorwaardes
+        published: 'yes'
+        title: 'Voorwaardes'      
+      - url: /programmeren/lussen
+        published: 'yes'
+        title: 'lussen'           
+  - url: /wordpress  
+    published: 'yes'
+    title: 'Wordpress'

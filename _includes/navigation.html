@@ -1,0 +1,41 @@
+<ul class="nav nav-list">
+    {% for item in site.data.navigation.items %} 
+        {% assign item_url = item.url | append: '.html' %}
+        {% if page.url == item_url %}
+            <li class="active published-{{ item.published }}"><a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+        {% else %} 
+            <li class="published-{{ item.published }}"><a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+        {% endif %}
+        {% if page.collection contains item.collection %}
+            {% if item.topics %}
+                <ul class="nav nav-list">
+                {% for topic in item.topics %}
+                    {% assign topic_url = topic.url | append: '.html' %}
+                    {% if page.url == topic_url %}
+                        <li class="active published-{{ topic.published }}"><a href="{{ topic.url | relative_url }}">{{ topic.title }}</a>
+                    {% else %} 
+                        <li class="published-{{ topic.published }}"><a href="{{ topic.url | relative_url }}">{{ topic.title }}</a>
+                    {% endif %}                                 
+                    {% if page.collection contains topic.collection %}
+                        {% if topic.subjects %}
+                            <ul class="nav nav-list">
+                            {% for subject in topic.subjects %}
+                                {% assign subject_url = subject.url | append: '.html' %}
+                                {% if page.url == subject_url %}
+                                    <li class="active published-{{ subject.published }}"><a href="{{ subject.url | relative_url }}">{{ subject.title }}</a>
+                                {% else %} 
+                                    <li class="published-{{ subject.published }}"><a href="{{ subject.url | relative_url }}">{{ subject.title }}</a>
+                                {% endif %}
+                                </li>
+                            {% endfor %}
+                            </ul>
+                        {% endif %}
+                    {% endif %}
+                    </li>
+                {% endfor %}
+                </ul>
+            {% endif %}
+        {% endif %}
+        </li>
+    {% endfor %}            
+</ul>

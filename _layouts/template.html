@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Syntra Brussel - Webdesign</title>
+  <meta charset="utf-8">
+  <meta name="author" content="Bert Jansen / dataweb">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="https://kit.fontawesome.com/2d03a6046d.js"></script>
+  <link rel="stylesheet" href="{{ '/assets' | relative_url }}/css/style.css?v=76">
+  
+  <!-- EnlighterJS CSS !-->
+  <link rel="stylesheet" href="{{ '/assets' | relative_url }}/enlighter/enlighterjs.min.css" />
+ 
+  <script src="{{ '/assets' | relative_url }}/js/script.js?v=9"></script>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row content">
+            <div class="col-sm-3 sidenav">
+                <div class="logo">
+                    <a href="{{ '/' | relative_url}}"><img src="{{ site.logo | relative_url}}" /></a>
+                </div>
+                <nav>	
+                    {% include navigation.html %}
+                </nav>   
+            </div>
+
+            <div class="col-sm-9 content-right">
+                <h1>{{ page.title }}</h1>
+                {{ content }}
+                {% include links.html %}
+            </div>
+        </div>
+    </div>
+
+    <footer class="container-fluid">
+    <p>(c) Bert Jansen - Syntra Brussel</p>
+    </footer>
+
+    <!-- EnlighterJS -->
+    <script type="text/javascript" src="{{ '/assets' | relative_url }}/enlighter/enlighterjs.min.js"></script>
+    <!-- Init Code -->
+    <script type="text/javascript">
+        // - highlight all pre + code tags (CSS3 selectors)
+        // - use javascript as default language
+        // - use theme "enlighter" as default theme
+        // - replace tabs with 2 spaces
+        EnlighterJS.init('pre', {
+                //language : ['javascript'],
+                theme: 'monokai',
+                indent : 2
+        }); 
+    </script>
+</body>
+</html>
