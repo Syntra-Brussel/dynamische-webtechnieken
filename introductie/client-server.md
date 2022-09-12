@@ -14,7 +14,7 @@ Het werk dat een server heeft met het beantwoorden van de vraag is afhankelijk v
 Afhankelijk van de taak zijn er verschillende client programma’s die kunnen worden gebruikt. 
 Afhankelijk van de taak worden ook verschillende types server aangesproken.
 
-De taak wordt ook wel een <strong>protocol</strong> genoemd. Elk protocol is een set van afspraken over hoe informatie moet worden uitgewisseld.
+De taak wordt via een <strong>protocol</strong> uitgevoerd. Een protocol is een set van afspraken over hoe informatie moet worden uitgewisseld.
 
 Client-server aanvragen in het kader van deze cursus:
 * URL aanvraag via een web client (= web browser)
