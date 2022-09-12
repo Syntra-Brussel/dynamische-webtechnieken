@@ -20,9 +20,11 @@ De gegevens worden doorgaans in een database bewaard. De webserver communiceert 
 
 <img src="images/client_server.png" />
 
+### De aanvraag 
+
 Aan de hand van de URL weet de webserver wat wordt opgevraagd en welke services nodig zijn om het resultaat (HTML) ge verkrijgen dat moet worden terug gestuurd.
 
-### De (unieke) URL
+#### De (unieke) URL
 
 <img src="images/url.png" />
 
@@ -35,7 +37,7 @@ Aan de hand van de URL weet de webserver wat wordt opgevraagd en welke services 
 
 In het beeld hierboven is het opgevraagd bestand een HTML bestand, statisch dus. Daarvoor is geen verwerking op de server nodig. Als dit een PHP bestand is weet de webserver dat de PHP service moet gestart worden.
 
-### De URL parameters
+#### De URL parameters
 
 <img src="images/url_parameter.png" />
 
@@ -45,7 +47,7 @@ Dat kan een unieke waarde zijn om in een database de juiste gegevens op te halen
 
 Naast de parameters via de URL kunnen er ook nog parameters (verborgen) worden verstuurd. Dat is vooral interessant als de inhoud die moet worden verstuurd uitgebreid is (bv. bij het versturen van een formulier) of gevoelig is (bv. een paswoord).
 
-### De aanvraag methode
+#### De aanvraag methode
 
 Een URL aanvraag gaat ook gepaard met een methode. De belangrijkste zijn:
 * <strong>GET</strong>: Opvragen van informatie (standaard via een webbrowser)
