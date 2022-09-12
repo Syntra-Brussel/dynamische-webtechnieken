@@ -6,6 +6,8 @@ collection: introductie
 links:
   - url: https://syntra-brussel.github.io/webdesign/tips-and-tricks/website-online-zetten
 ---
+
+## Algemeen
 In de client-server architectuur is de client de partij die een vraag stelt, de server is de partij die daarop antwoord.
 
 Het werk dat een server heeft met het beantwoorden van de vraag is afhankelijk van het type vraag.
@@ -21,7 +23,7 @@ De gevens worden doorgaans in een database bewaard. De webserver communiceert da
 
 Aan de hand van de URL weet de webserver wat wordt opgevraagd en welke services nodig zijn om het resultaat (HTML) ge verkrijgen dat moet worden terug gestuurd.
 
-## De (unieke) URL
+### De (unieke) URL
 
 <img src="images/url.png" />
 
@@ -34,7 +36,7 @@ Aan de hand van de URL weet de webserver wat wordt opgevraagd en welke services 
 
 In het beeld hierboven is het opgevraagd bestand een HTML bestand, statisch dus. Daarvoor is geen verwerking op de server nodig. Als dit een PHP bestand is weet de webserver dat de PHP service moet gestart worden.
 
-## Altijd nog een beetje statische informatie
+### Altijd nog een beetje statische informatie
 
 De CSS/JS, beelden en andere documenten die bij een aanvraag van dynamische inhoud horen worden wel nog steeds statisch aangeboden. De webserver functioneert dan enkel als doorgeeflijk. De inhoud kan bijvoorbeeld wel nog afgeschermd worden wanneer de aanvrager niet de correcte authorisatie heeft.
 
