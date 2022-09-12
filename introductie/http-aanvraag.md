@@ -10,9 +10,9 @@ links:
 
 Een vraag via de webbrowser gebeurt via het HTTP protocol.
 
-Het HTTP protocol staat voor Hypertext Transfer Protocol.
-
 <div class="highlight">
+Het HTTP protocol staat voor <strong>Hypertext</strong> Transfer Protocol.
+
 Een webbrowser ontvangt enkel HTML informatie. Om dynamische inhoud te tonen is een <strong>webserver</strong> noodzakelijk die die HTML kan opbouwen. 
 </div>
 
