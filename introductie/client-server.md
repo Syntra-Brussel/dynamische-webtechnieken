@@ -11,7 +11,8 @@ In de client-server architectuur is de <strong>client</strong> de partij die een
 
 Het werk dat een server heeft met het beantwoorden van de vraag is afhankelijk van het type vraag en de hoeveelheid informatie die wordt ontvangen, moet worden verwerkt en/of moet worden terug gestuurd.
 
-Afhankelijk van de taak zijn er verschillende client programma’s die kunnen worden gebruikt. Afhankelijk van de taak worden ook verschillende types server aangesproken.
+Afhankelijk van de taak zijn er verschillende client programma’s die kunnen worden gebruikt. 
+Afhankelijk van de taak worden ook verschillende types server aangesproken.
 
 De taak wordt ook wel een <strong>protocol</strong> genoemd. Elk protocol is een set van afspraken over hoe informatie moet worden uitgewisseld.
 
