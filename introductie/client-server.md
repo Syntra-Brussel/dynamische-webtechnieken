@@ -49,13 +49,13 @@ Dat kan een unieke waarde zijn om in een database de juiste gegevens op te halen
 
 Naast de parameters via de URL kunnen er ook nog parameters (verborgen) worden verstuurd. Dat is vooral interessant als de inhoud die moet worden verstuurd uitgebreid is (bv. bij het versturen van een formulier) of gevoelig is (bv. een paswoord).
 
-### Aanvraag methode
+### De aanvraag methode
 
 Een URL aanvraag gaat ook gepaard met een methode. De belangrijkste zijn:
-* GET: Opvragen van informatie
-* POST: Versturen van informatie
-* PUT: Bijwerken van (bestaande) informatie
-* DELETE: Verwijderen van (bestaande) informatie
+* GET: Opvragen van informatie (standaard via een webbrowser)
+* POST: Versturen van informatie (bijvoorbeeld via de submit knop van een formulier)
+* PUT: Bijwerken van (bestaande) informatie (bijvoorbeeld op basis van een URL parameter)
+* DELETE: Verwijderen van (bestaande) informatie (bijvoorbeeld op basis van een URL parameter)
 
 ### Altijd nog een beetje statische informatie
 
