@@ -37,7 +37,7 @@ In het beeld hierboven is het opgevraagd bestand een HTML bestand, statisch dus.
 
 ### De URL parameters
 
-<img src="image/url_parameter.png" />
+<img src="images/url_parameter.png" />
 
 Bij een URL aanvraag kunnen extra parameters verstuurd worden die voor PHP nuttig zijn in de verwerking van informatie.
 
