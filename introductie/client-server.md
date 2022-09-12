@@ -36,6 +36,22 @@ Aan de hand van de URL weet de webserver wat wordt opgevraagd en welke services 
 
 In het beeld hierboven is het opgevraagd bestand een HTML bestand, statisch dus. Daarvoor is geen verwerking op de server nodig. Als dit een PHP bestand is weet de webserver dat de PHP service moet gestart worden.
 
+### De URL parameters
+
+<img src="images/url_parameter.png" />
+
+Bij een URL aanvraag kunnen extra parameters verstuurd worden die voor PHP nuttig zijn in de verwerking van informatie.
+
+Naast parameters via de URL kunnen ook nog parameters (verborgen) worden verstuurd. Dat is vooral interessant als de inhoud die moet worden verstuurd uitgebreid is (bv. bij het versturen van een formulier) of gevoelig is (bv. een paswoord).
+
+### Aanvraag methode
+
+Een URL aanvraag gaat ook gepaard met een methode. De belangrijkste zijn:
+* GET: Opvragen van informatie
+* POST: Versturen van informatie
+* PUT: Bijwerken van (bestaande) informatie
+* DELETE: Verwijderen van (bestaande) informatie
+
 ### Altijd nog een beetje statische informatie
 
 De CSS/JS, beelden en andere documenten die bij een aanvraag van dynamische inhoud horen worden wel nog steeds statisch aangeboden. De webserver functioneert dan enkel als doorgeeflijk. De inhoud kan bijvoorbeeld wel nog afgeschermd worden wanneer de aanvrager niet de correcte authorisatie heeft.
