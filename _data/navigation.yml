@@ -6,11 +6,11 @@ items:
     topics:
       - url: /introductie/statisch-vs-dynamisch
         published: 'yes'
-        title: 'Statisch vs. dynamisch'    
+        title: 'Statisch vs. dynamisch'
       - url: /introductie/client-server
         published: 'yes'
         title: 'Client-Server'    
-      - url: /introductie/lokcaal-vs-publiek
+      - url: /introductie/lokaal-vs-publiek
         published: 'yes'
         title: 'Lokaal vs. publiek'            
       - url: /introductie/lokale-webserver-opzetten
