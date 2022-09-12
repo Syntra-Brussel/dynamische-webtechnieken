@@ -15,9 +15,12 @@ Het werk dat een server heeft met het beantwoorden van de vraag is afhankelijk v
 Afhankelijk van de taak zijn er verschillende client programma’s die kunnen worden gebruikt. Afhankelijk van de taak worden ook verschillende types server aangesproken.
 
 ## Opvragen van inhoud via de browser
-Een webbrowser (= client) kan enkel HTML informatie ontvangen en tonen. Om dynamische inhoud te tonen is een <strong>webserver</strong> noodzakelijk die deze HTML kan opbouwen. 
 
-De gevens worden doorgaans in een database bewaard. De webserver communiceert daarvoor dus met een <strong>databaseserver</strong>.
+Een vraag via de webbrowser gebeurt via het HTTP protocol.
+
+Een webbrowser (= client) ontvangt enkel HTML informatie. Om dynamische inhoud te tonen is een <strong>webserver</strong> noodzakelijk die HTML kan opbouwen. 
+
+De gegevens worden doorgaans in een database bewaard. De webserver communiceert daarvoor dus met een <strong>databaseserver</strong>.
 
 <img src="images/client_server.png" />
 
@@ -42,7 +45,9 @@ In het beeld hierboven is het opgevraagd bestand een HTML bestand, statisch dus.
 
 Bij een URL aanvraag kunnen extra parameters verstuurd worden die voor PHP nuttig zijn in de verwerking van informatie.
 
-Naast parameters via de URL kunnen ook nog parameters (verborgen) worden verstuurd. Dat is vooral interessant als de inhoud die moet worden verstuurd uitgebreid is (bv. bij het versturen van een formulier) of gevoelig is (bv. een paswoord).
+Dat kan een unieke waarde zijn om in een database de juiste gegevens op te halen, of een parameter die aangeeft of informatie oplopend of aflopend moet worden gesorteerd.
+
+Naast de parameters via de URL kunnen er ook nog parameters (verborgen) worden verstuurd. Dat is vooral interessant als de inhoud die moet worden verstuurd uitgebreid is (bv. bij het versturen van een formulier) of gevoelig is (bv. een paswoord).
 
 ### Aanvraag methode
 
