@@ -1,16 +1,14 @@
 ---
-title: Syntra Brussel - Wordpress
+title: Syntra Brussel - Dynamische Webtechnieken
 layout: template
 filename: index
 --- 
-Welkom bij de cursus "Wordpress" van Syntra Brussel.
+Welkom bij de cursus "Dynamische Webtechnieken" van Syntra Brussel.
 
 <div class="links">
     <h3>De cursus bevat volgende hoofdstukken:</h3>
-    <!--
     <ul>
-        <li><a href="{{ '/git' | relative_url}}">GIT</a></li>
-        <li><a href="{{ '/html' | relative_url}}">HTML</a></li>
+        <li><a href="{{ '/introductie' | relative_url}}">Introductie</a></li>
+        <li><a href="{{ '/programmeren' | relative_url}}">Programmeren</a></li>
     </ul>    
-    -->
 </div>
