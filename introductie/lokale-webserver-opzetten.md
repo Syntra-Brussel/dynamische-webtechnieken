@@ -10,3 +10,11 @@ Voor de wat complexere configuraties worden Docker, Vagrant, Virtual Box, ... va
 
 We gaan gebruik maken van XAMPP, deze is beschikbaar voor Windows, Mac en Linux.
 <a href="https://www.apachefriends.org" target="_blank">https://www.apachefriends.org</a>.
+
+<div class="highlight">
+Ook een lokale server heeft een IP adres en een <em>domeinnaam</em>.<br /><br />
+
+Het IP adres is 127.0.0.1 en de <em>domeinnaam</em> is <strong>localhost</strong>.<br /><br />
+
+De locale webserver is dus bereikbaar via <a href="http://localhost" target="_blank">http://localhost</a>.
+</div>
