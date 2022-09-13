@@ -189,6 +189,9 @@ footer {
 .strike .enlighter {
     text-decoration: line-through;
 }
+.strike div.enlighter>div>div::before {
+    text-decoration: none!important;
+}
 
 .center {
     margin: auto;
