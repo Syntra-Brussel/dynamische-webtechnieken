@@ -73,6 +73,6 @@ switch ($statuut) {
     // code die wordt uitgevoerd wanneer $statuut gelijk is aan 'Arbeider'
     break;    
   default:
-    // code die wordt uitgevoerd wanneer wanner $statuut een andere waarde heeft;
+    // code die wordt uitgevoerd wanneer $statuut een andere waarde heeft
 }
 </pre>
