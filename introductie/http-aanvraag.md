@@ -8,10 +8,10 @@ links:
   - url: https://www.w3schools.com/tags/ref_httpmessages.asp
 ---
 
-Een vraag via de webbrowser gebeurt via het HTTP protocol.
-
 <div class="highlight">
-Het HTTP protocol staat voor <strong>Hypertext</strong> Transfer Protocol.
+Een vraag via de webbrowser gebeurt via het HTTP protocol.
+<br />
+Dat staat voor <strong>Hypertext</strong> Transfer Protocol.
 <br /><br />
 Een webbrowser ontvangt enkel HTML informatie. Om dynamische inhoud te tonen is een <strong>webserver</strong> noodzakelijk die de HTML kan opbouwen. 
 </div>
