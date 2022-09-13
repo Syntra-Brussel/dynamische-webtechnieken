@@ -79,9 +79,9 @@ Een URL aanvraag gaat ook gepaard met een methode. De belangrijkste zijn:
 
 #### De inhoud
 
-Het resultaat van een aanvraag is (meestal) de opgevraagde inhoud. 
+Het resultaat van een aanvraag is (meestal) de opgevraagde inhoud. Meestal, want er kan natuurlijk ook vanalles fout lopen.
 
-Dat kan de HTML zijn, maar evengoed de inhoud van een Javascript of CSS bestand of  de inhoud van beeld of Excel bestand.
+De inhoud kan het HTML resultaat zijn, maar evengoed de inhoud van een Javascript, een CSS bestand of de inhoud van een beeld of Excel document.
 
 #### Het inhoud type
 
@@ -92,14 +92,14 @@ Naast de inhoud komt ook altijd een inhoud type mee. Op die manier kan de client
 Het resultaat van een aanvraag komt naast de inhoud ook altijd met een <strong>code</strong>. Deze weerspiegelt of de server de vraag correct heeft kunnen afhandelen of dat er een probleem is opgetreden.
 
 De meest courante codes:
-* <strong>200</strong>: Alles ok
+* <strong>200</strong>: Alles OK
 * <strong>404</strong>: Het opgevraagde bestand of script werd niet gevonden
 * 403: Niet voldoende rechten (bijvoorbeeld omdat met de vraag niet de correcte authorisatie gegevens zijn mee gestuurd).
-* <strong>500</strong>: Intere server fout (meestal door een PHP code die niet correct werd geschreven)
+* <strong>500</strong>: Intere server fout (meestal door PHP code die niet correct kon worden uitgevoerd)
 
 ### Altijd nog een beetje statische informatie
 
-De CSS/JS, beelden en andere documenten die bij een aanvraag van dynamische inhoud horen worden wel nog steeds statisch aangeboden. 
+Het CSS bestad, het JavaScript bestand, beelden en andere documenten die bij een aanvraag van dynamische inhoud horen worden wel nog steeds statisch aangeboden. 
 
 De webserver functioneert dan enkel als doorgeeflijk. De inhoud kan bijvoorbeeld wel nog afgeschermd worden wanneer de aanvrager niet de correcte authorisatie heeft.
 
