@@ -170,6 +170,14 @@ footer {
     margin-top: 1.5rem!important;
 }
 
+.shadow.result {
+    margin-top: 2rem!important;
+}
+
+.shadow.result:before {
+    content: 'Het resultaat';
+}
+
 .center {
     margin: auto;
 }
