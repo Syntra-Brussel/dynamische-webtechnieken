@@ -171,11 +171,16 @@ footer {
 }
 
 .shadow.result {
-    margin-top: 2rem!important;
+    margin-bottom: 2rem!important;
 }
 
 .shadow.result:before {
-    content: 'Het resultaat';
+    content: 'De uitvoer';
+    position: relative;
+    left: -10px;
+    top: -30px;
+    font-size: .8rem;
+    color: #C0C0C0;
 }
 
 .center {
