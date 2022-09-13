@@ -98,3 +98,8 @@ De CSS/JS, beelden en andere documenten die bij een aanvraag van dynamische inho
 
 De webserver functioneert dan enkel als doorgeeflijk. De inhoud kan bijvoorbeeld wel nog afgeschermd worden wanneer de aanvrager niet de correcte authorisatie heeft.
 
+<div class="highlight">
+Het opvragen van élk bestand of script is een aparte HTTP aanvragen.<br /><br />
+
+Op die manier kan de HTML van een pagina perfect in orde zijn (code 200), maar een beeld in die pagina niet getoond worden omdat de locatie niet correct is (code 404).
+</div>
