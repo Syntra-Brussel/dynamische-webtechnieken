@@ -21,7 +21,9 @@ Gebruik de waardes uit het verzenden van een formulier.
 &lt;?php
 if ($_POST) {
     ?&gt;
-    <p>Totaal: 
+    <hr />
+    <p>
+    Totaal: 
     &lt;?php
     $totaal = $_POST['getal_1'] + $_POST['getal_2'];
     echo 'Totaal: ' . $totaal;
@@ -52,5 +54,6 @@ if ($_POST) {
     </ul>
     <input type="submit" value="Verstuur" />
     </form>
+    <hr />
     <p>Totaal: 300</p>
 </div>
