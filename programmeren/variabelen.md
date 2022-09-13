@@ -7,7 +7,7 @@ links:
   - url: https://www.w3schools.com/php/php_variables.asp
   - url: https://www.w3schools.com/php/php_operators.asp
 ---
-In een variabele kan een bepaalde waarde geplaatst worden om daarmee te 'werken' in het PHP script. Het resultaat kan dan worden gebruikt om daarmee verder te werken of te tonen als uitvoer.
+In een variabele kan een bepaalde waarde geplaatst worden om daarmee te 'werken' in het PHP script. Het resultaat kan dan worden gebruikt om daarmee verder te werken of te tonen als resultaat.
 
 ## Werken met getallen
 <pre data-enlighter-theme="beyond" data-enlighter-language="php">
@@ -126,21 +126,4 @@ Met het . kan je de inhoud van verschillende variabelen aan mekaar 'lijmen'.
 &lt;?php echo '$voornaam $achternaam'; ?&gt;
 </pre>
 </div>
-</div>
-
-## Werken GET / URL parameters
-
-De URL parameter kan ook gebruikt in een script.
-
-<code>script.php?getal_1=100&getal_2=200</code>
-<pre data-enlighter-theme="beyond" data-enlighter-language="php">
-&lt;p&gt;
-  &lt;?php echo $_GET['getal_1']; ?&gt; + 
-  &lt;?php echo $_GET['getal_2']; ?&gt; = 
-  &lt;?php echo $_GET['getal_1'] + $_GET['getal_2']; ?&gt;
-&lt;/p&gt;
-</pre>
-
-<div class="shadow result">
-<p>100 + 200 = 300</p>
 </div>
