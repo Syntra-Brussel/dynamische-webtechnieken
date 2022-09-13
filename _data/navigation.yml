@@ -38,7 +38,7 @@ items:
         title: 'Voorwaardes'           
       - url: /programmeren/lussen
         published: 'yes'
-        title: 'Lussen - Herhalingen'    '           
+        title: 'Lussen - Herhalingen'           
       - url: /programmeren/functies
         published: 'yes'
         title: 'Functies'    
