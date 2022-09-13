@@ -27,7 +27,7 @@ Client-server aanvragen in het kader van deze cursus:
 Andere voorbeelden van client-server aanvragen:
 * Ophalen van mails via een mail client (bijvoorbeeld Outlook)
 * Het afdrukken van een bestand via de computer
-* Het doen brangen van een slimme lamp via uw gsm
+* Het doen branden van een slimme lamp via uw gsm
 * Het verhogen van de temperatuur van de airco via een app
 * ...
 
