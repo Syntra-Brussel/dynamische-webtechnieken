@@ -26,6 +26,9 @@ In een variabele kan een bepaalde waarde geplaatst worden om daarmee te 'werken'
 </div>
 
 ## Werken met tekst
+
+Met het . kan je de inhoud van verschillende variabelen aan mekaar 'lijmen'.
+
 <pre data-enlighter-theme="beyond" data-enlighter-language="php">
 &lt;p&gt;
   Mijn naam is &lt;strong&gt;
