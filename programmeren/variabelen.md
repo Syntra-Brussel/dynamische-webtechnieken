@@ -1,6 +1,6 @@
 ---
 layout: template
-title: HTML vs PHP
-url: /programmeren/HTML vs. PHP
+title: Variabelen
+url: /programmeren/variablen
 collection: programmeren
 ---
