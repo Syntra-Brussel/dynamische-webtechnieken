@@ -14,11 +14,12 @@ In functie van het resultaat van een bepaalde voorwaarde kan een bepaald deel va
   $getal_1 = 100; 
   $getal_2 = 200; 
   if ($getal_1 > $getal_2) {
-    echo 'getal 1 is groter dan getal 2'; 
+    $vergelijking = 'groter'; 
   }
   else {
-    echo 'getal 1 is kleiner dan getal 2'; 
+     $vergelijking = 'kleiner'; 
   }
+  echo 'getal 1 is ' . $vergelijking . ' dan getal 2'; 
   ?&gt;
 &lt;/p&gt;
 </pre>
@@ -33,11 +34,12 @@ In functie van het resultaat van een bepaalde voorwaarde kan een bepaald deel va
   $getal_1 = 200; 
   $getal_2 = 100; 
   if ($getal_1 > $getal_2) {
-    echo 'getal 1 is groter dan getal 2'; 
+    $vergelijking = 'groter'; 
   }
   else {
-    echo 'getal 1 is kleiner dan getal 2'; 
+     $vergelijking = 'kleiner'; 
   }
+  echo 'getal 1 is ' . $vergelijking . ' dan getal 2'; 
   ?&gt;
 &lt;/p&gt;
 </pre>
