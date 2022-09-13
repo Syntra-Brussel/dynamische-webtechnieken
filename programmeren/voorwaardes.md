@@ -59,6 +59,7 @@ In functie van het resultaat van een bepaalde voorwaarde kan een bepaald deel va
 Interessant wanneer de er meerdere voorwaardes zijn.
 
 <pre data-enlighter-theme="beyond" data-enlighter-language="php">
+&lt;?php 
 switch ($statuut) {
   case 'Student':
     // code die wordt uitgevoerd wanneer $statuut gelijk is aan 'Student'
@@ -75,4 +76,5 @@ switch ($statuut) {
   default:
     // code die wordt uitgevoerd wanneer $statuut een andere waarde heeft
 }
+?&gt;
 </pre>
