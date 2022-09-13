@@ -13,7 +13,7 @@ Een vraag via de webbrowser gebeurt via het HTTP protocol.
 <div class="highlight">
 Het HTTP protocol staat voor <strong>Hypertext</strong> Transfer Protocol.
 <br /><br />
-Een webbrowser ontvangt enkel HTML informatie. Om dynamische inhoud te tonen is een <strong>webserver</strong> noodzakelijk die die HTML kan opbouwen. 
+Een webbrowser ontvangt enkel HTML informatie. Om dynamische inhoud te tonen is een <strong>webserver</strong> noodzakelijk die de HTML kan opbouwen. 
 </div>
 
 De gegevens worden doorgaans in een database bewaard. De webserver communiceert daarvoor dus met een <strong>databaseserver</strong>.
@@ -22,7 +22,7 @@ De gegevens worden doorgaans in een database bewaard. De webserver communiceert 
 
 ### De aanvraag 
 
-Aan de hand van de URL weet de webserver wat wordt opgevraagd en welke services nodig zijn om het resultaat (HTML) ge verkrijgen dat moet worden terug gestuurd.
+Aan de hand van de URL weet de webserver welk bestand of script opgevraagd en welke services nodig zijn om het resultaat te verkrijgen dat moet worden terug gestuurd.
 
 #### De (unieke) URL
 
@@ -35,17 +35,29 @@ Aan de hand van de URL weet de webserver wat wordt opgevraagd en welke services 
   <li><span style="color: orange">het bestand</span> in de folder</li>
 </ul>
 
-In het beeld hierboven is het opgevraagd bestand een HTML bestand, statisch dus. Daarvoor is geen verwerking op de server nodig. Als dit een PHP bestand is weet de webserver dat de PHP service moet gestart worden.
+In het beeld hierboven is het opgevraagd bestand een HTML bestand, statische inhoud dus. Daarvoor is geen verwerking op de server nodig. Als dit een PHP bestand zou zijn weet de webserver dat de PHP service moet gestart worden om de dynamische inhoud te bouwen.
 
 #### De URL parameters
 
 <img src="images/url_parameter.png" />
 
-Bij een URL aanvraag kunnen extra parameters verstuurd worden die voor PHP nuttig zijn in de verwerking van informatie.
+Bij een URL aanvraag kunnen extra parameters verstuurd worden die voor, bijvoorbeeld, PHP nuttig zijn bij het verwerken van de informatie.
 
-Dat kan een unieke waarde zijn om in een database de juiste gegevens op te halen, of een parameter die aangeeft of informatie oplopend of aflopend moet worden gesorteerd.
+Die parameter kan bijvoorbeeld een ID zijn (een unieke waarde / sleutel) om in een database de juiste gegevens op te halen, of een parameter die bijvoorbeeld aangeeft of een overzicht van gegevens oplopend of aflopend moet worden gesorteerd.
 
-Naast de parameters via de URL kunnen er ook nog parameters (verborgen) worden verstuurd. Dat is vooral interessant als de inhoud die moet worden verstuurd uitgebreid is (bv. bij het versturen van een formulier) of gevoelig is (bv. een paswoord).
+De parameters zijn dus belangrijk om de resultaat van de HTTP aanvraag te bepalen.
+
+Enkel voorbeelden, kijk goed naar het resultaat:
+* https://www.google.be/
+* https://www.google.be/imghp
+* https://www.google.be/?query=url%20parameters
+* https://www.google.be/search?query=url%20parameters
+* https://www.google.be/search?as_q=url%20parameters&tbm=isch
+* https://www.google.be/search?query=url%20parameters&lr=lang_zh-CN
+
+Zoals je ziet zijn parameters soms betekenisvol, soms niet. Het belangrijkste is dat het ontvangende script ze "begrijpt". Als ze ook belangrijk zijn voor SEO (Search Engine Optimisation) dan zijn ze natuurlijk wel best betekenisvol.
+
+Naast de parameters via de URL kunnen er ook (nog) parameters (verborgen) worden verstuurd. Dat is vooral interessant als de inhoud die moet worden verstuurd uitgebreid is (bv. bij het versturen van een formulier) of gevoelig is (bv. een paswoord).
 
 #### De aanvraag methode
 
