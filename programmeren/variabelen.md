@@ -90,7 +90,7 @@ Met het . kan je de inhoud van verschillende variabelen aan mekaar 'lijmen'.
 </pre>
 
 <div class="shadow result">
-<p>Mijn naam: <strong>Bert Jansen</strong></p>
+<p>Mijn naam is <strong>Bert Jansen</strong></p>
 </div>
 
 <div class="highlight">
