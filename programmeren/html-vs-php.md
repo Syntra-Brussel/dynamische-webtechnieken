@@ -15,6 +15,8 @@ collection: programmeren
 &lt;/html&gt;
 </pre>
 
+Het <code>index.html</code> bestand wordt integraal opgehaald en via de webserver naar de webbrowser gestuurd.
+
 <code>index.php</code>
 <pre data-enlighter-theme="beyond" data-enlighter-language="php">
 &lt;html&gt;
@@ -24,3 +26,5 @@ collection: programmeren
   &lt;/body&gt;
 &lt;/html&gt;
 </pre>
+
+De code tussen <code><?php</code> en <code>?></code> wordt uitgevoerd door de <strong>PHP processor</strong>. Dat levert een uitvoer (= tekst) op dat samen met de HTML elementen errond via de webserver naar de webbrowser wordt gestuurd.
