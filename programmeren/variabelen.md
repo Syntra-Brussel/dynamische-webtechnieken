@@ -3,6 +3,8 @@ layout: template
 title: Variabelen
 url: /programmeren/variablen
 collection: programmeren
+links:
+  - url: https://www.w3schools.com/php/php_variables.asp
 ---
 In een variabele kan een bepaalde waarde geplaatst worden om daarmee te 'werken' in het PHP script. Het resultaat kan dan worden gebruikt om daarmee verder te werken of te tonen als uitvoer.
 
