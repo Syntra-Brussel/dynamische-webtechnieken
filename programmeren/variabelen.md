@@ -26,15 +26,15 @@ Werken met getallen:
 Werken met tekst:
 <pre data-enlighter-theme="beyond" data-enlighter-language="php">
 &lt;p&gt;
-  Mijn naam is:  
+  Mijn naam is &lt;strong&gt;
   &lt;?php 
   $voornaam = 'Bert'; 
   $achternaam = 'Jansen'; 
   echo $voornaam . ' ' . $achternaam; 
-  ?&gt;
+  ?&gt;&lt;/strong&gt;
 &lt;/p&gt;
 </pre>
 
 <div class="shadow result">
-<p>Mijn naam: Bert Jansen</p>
+<p>Mijn naam: <strong>Bert Jansen</strong></p>
 </div>
