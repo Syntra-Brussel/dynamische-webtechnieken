@@ -9,9 +9,14 @@ collection: introductie
 In de client-server architectuur is de <strong>client</strong> de partij die een <strong>vraag stelt</strong>, de <strong>server</strong> is de partij die daarop <strong>antwoord</strong>.
 </div>
 
-Het werk dat een server heeft met het beantwoorden van de vraag is afhankelijk van het type vraag en de hoeveelheid informatie die wordt ontvangen, moet worden verwerkt en/of moet worden terug gestuurd.
+Het werk dat een server heeft met het beantwoorden van de vraag is afhankelijk van:
+* het type vraag 
+* de hoeveelheid informatie die wordt ontvangen
+* de hoeveelheid informatie die moet worden verwerkt 
+* de hoeveelheid informatie moet worden terug gestuurd
 
 Afhankelijk van de taak zijn er verschillende client programma’s die kunnen worden gebruikt. 
+
 Afhankelijk van de taak worden ook verschillende types server aangesproken.
 
 Client-server aanvragen in het kader van deze cursus:

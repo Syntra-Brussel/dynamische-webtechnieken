@@ -42,3 +42,6 @@ items:
   - url: /wordpress  
     published: 'yes'
     title: 'Wordpress'
+  - url: /seo  
+    published: 'yes'
+    title: 'SEI'
