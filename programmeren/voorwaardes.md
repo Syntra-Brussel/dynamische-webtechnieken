@@ -11,7 +11,7 @@ In functie van het resultaat van een bepaalde voorwaarde kan een bepaald deel va
 
 ## if - then - else
 
-### voorbeeld 1
+#### voorbeeld 1
 <pre data-enlighter-theme="beyond" data-enlighter-language="php">
 &lt;p&gt;
   &lt;?php 
@@ -32,7 +32,7 @@ In functie van het resultaat van een bepaalde voorwaarde kan een bepaald deel va
 <p>getal 1 is kleiner dan getal 2</p>
 </div>
 
-### voorbeeld 2
+#### voorbeeld 2
 
 <pre data-enlighter-theme="beyond" data-enlighter-language="php">
 &lt;p&gt;
