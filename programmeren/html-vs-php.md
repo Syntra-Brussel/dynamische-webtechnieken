@@ -49,7 +49,7 @@ Zonder een webserver (met de PHP service) zal de PHP niet uitgevoerd worden maar
 <h3>Best practice</h3>
 -> Vermijd zoveel mogelijk HTML elementen binnen een PHP script te verwerken.
 <br /><br />
-
+ 
 <div style='color: green'>Goed:</div>
 <pre data-enlighter-theme="beyond" data-enlighter-language="php" data-enlighter-linenumbers="false">
 &lt;p&gt;&lt;?php echo 'Hallo wereld!'; ?&gt;&lt;/p&gt;
