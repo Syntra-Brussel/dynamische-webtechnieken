@@ -20,7 +20,7 @@ De kostprijs wordt bepaald door de aangeboden harde schijf ruimte, de bandbreedt
 
 ## Lokale webserver
 
-Wanneer we een website aan het ontwikkelen zijn is het veel interessanter om een webserver op te zetten op een computer. 
+Wanneer we een website aan het ontwikkelen zijn is het veel interessanter om een webserver op te zetten op uw eigen computer. 
 
 Voordelen:
 * Een <strong>internet verbinding</strong> is dan <strong>niet nodig</strong>. 
