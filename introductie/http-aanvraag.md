@@ -47,7 +47,7 @@ Die parameter kan bijvoorbeeld een ID zijn (een unieke waarde / sleutel) om in e
 
 De parameters zijn dus belangrijk om de resultaat van de HTTP aanvraag te bepalen.
 
-Enkel voorbeelden, kijk goed naar het resultaat:
+Enkel voorbeelden, kijk goed naar het verschil in resultaat:
 * <a href="https://www.google.be/" target="_blank">https://www.google.be/</a>
 * <a href="https://www.google.be/imghp" target="_blank">https://www.google.be/imghp
 * <a href="https://www.google.be/?q=url%20parameters" target="_blank">https://www.google.be/?q=url%20parameters</a>
