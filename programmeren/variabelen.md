@@ -137,9 +137,11 @@ De URL parameter kan ook gebruikt in een script.
 &lt;p&gt;
   &lt;?php 
   echo $_GET['getal_1"]; 
-  ?&gt; + &lt;?php 
+  ?&gt; + 
+  &lt;?php 
   echo $_GET['getal_2"]; 
-  ?&gt; = &lt;?php 
+  ?&gt; = 
+  &lt;?php 
   echo $_GET['getal_1"] + $_GET['getal_2"]; 
   ?&gt;
 &lt;/p&gt;
