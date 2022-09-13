@@ -63,7 +63,8 @@ Enkel voorbeelden, kijk goed naar het verschil in resultaat:
 
 Zoals je ziet zijn parameters soms betekenisvol, soms niet. Het belangrijkste is dat het ontvangende script ze "begrijpt". Als ze ook belangrijk zijn voor <strong>SEO</strong> (<strong>S</strong>earch <strong>E</strong>ngine <strong>O</strong>ptimisation) dan zijn ze natuurlijk wel best betekenisvol.
 
-Naast de parameters via de URL kunnen er ook (nog) parameters verborgen worden verstuurd. Dat is vooral interessant als de inhoud die moet worden verstuurd uitgebreid is (bv. bij het versturen van een formulier) of gevoelig is (bv. een paswoord).
+#### De verborgen parameters of informatie
+Naast de parameters via de URL kunnen er ook (nog) parameters of informatie verborgen worden verstuurd. Dat is vooral interessant als de inhoud die moet worden verstuurd uitgebreid is (bv. bij het versturen van een formulier) of gevoelig is (bv. een paswoord).
 
 #### De aanvraag methode
 
