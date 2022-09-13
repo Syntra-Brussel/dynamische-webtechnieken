@@ -48,7 +48,7 @@ Die parameter kan bijvoorbeeld een ID zijn (een unieke waarde / sleutel) om in e
 De parameters zijn dus belangrijk om de resultaat van de HTTP aanvraag te bepalen.
 
 Enkel voorbeelden, kijk goed naar het resultaat:
-* https://www.google.be/
+* (https://www.google.be/)
 * https://www.google.be/imghp
 * https://www.google.be/?query=url%20parameters
 * https://www.google.be/search?query=url%20parameters
