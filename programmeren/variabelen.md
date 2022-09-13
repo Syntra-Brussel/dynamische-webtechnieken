@@ -83,6 +83,7 @@ Plus 1:
 <pre data-enlighter-theme="beyond" data-enlighter-language="php" data-enlighter-linenumbers="false">
 &lt;?php $teller = $teller + 1; ?&gt;
 </pre>
+</div>
 <h3>min 1</h3>
 <pre data-enlighter-theme="beyond" data-enlighter-language="php" data-enlighter-linenumbers="false">
 &lt;?php $teller--; ?&gt;
