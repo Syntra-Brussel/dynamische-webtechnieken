@@ -16,7 +16,7 @@ Dat staat voor <strong>Hypertext</strong> Transfer Protocol.
 Een webbrowser ontvangt enkel tekstuele informatie (bijvoorbeeld HTML). Om dynamische inhoud te tonen is een <strong>webserver</strong> noodzakelijk die de HTML kan opbouwen. 
 </div>
 
-De gegevens worden doorgaans in een database bewaard. De webserver communiceert daarvoor dus met een <strong>databaseserver</strong>.
+De gegevens worden doorgaans in een database bewaard. De webserver communiceert daarvoor dus via een programmeertaal, bijvoorbeeld <strong>PHP</strong>, met een <strong>databaseserver</strong>.
 
 <img src="images/client_server.png" />
 
