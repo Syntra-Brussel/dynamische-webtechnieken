@@ -1,6 +1,6 @@
 ---
 layout: template
-title: Webserver opzetten
+title: Lokale webserver opzetten
 url: /introductie/lokale-webserver-opzetten
 collection: introductie
 ---
