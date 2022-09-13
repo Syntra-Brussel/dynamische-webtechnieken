@@ -127,20 +127,6 @@ Met het . kan je de inhoud van verschillende variabelen aan mekaar 'lijmen'.
 </pre>
 </div>
 
-<div class="highlight">
-<h3>Best practice</h3>
-
-<pre data-enlighter-theme="beyond" data-enlighter-language="php" data-enlighter-linenumbers="false">
-&lt;?php echo $voornaam . ' ' . $achternaam; ?&gt;
-</pre>
-
-<div class='strike'>
-<pre data-enlighter-theme="beyond" data-enlighter-language="php" data-enlighter-linenumbers="false">
-&lt;?php echo '$voornaam $achternaam'; ?&gt;
-</pre>
-</div>
-</div>
-
 ## Werken URL parameters
 
 De URL parameter kan ook gebruikt in een script.
