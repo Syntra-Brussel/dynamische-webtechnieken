@@ -47,7 +47,7 @@ Zonder een webserver (met de PHP service) zal de PHP niet uitgevoerd worden maar
 
 <div class="highlight">
 <h3>Best practice</h3>
-Vermijd zoveel mogelijk HTML elementen binnen een PHP script te verwerken.
+-> Vermijd zoveel mogelijk HTML elementen binnen een PHP script te verwerken.
 <br /><br />
 
 <div style='color: green'>Goed:</div>
