@@ -49,13 +49,11 @@ Zonder een webserver (met de PHP service) zal de PHP code niet uitgevoerd worden
 <h3>Best practice</h3>
 Vermijd zoveel mogelijk HTML elementen binnen een PHP script te verwerken. Focus op de (dynamische) inhoud.
 <br /><br />
- 
-Goed:
+
 <pre data-enlighter-theme="beyond" data-enlighter-language="php" data-enlighter-linenumbers="false">
 &lt;p&gt;&lt;?php echo 'Hallo wereld!'; ?&gt;&lt;/p&gt;
 </pre>
 
-Te vermijden:
 <div class='strike'>
 <pre data-enlighter-theme="beyond" data-enlighter-language="php" data-enlighter-linenumbers="false">
 &lt;?php echo '&lt;p&gt;Hallo wereld!&lt;/p&gt;'; ?&gt;
