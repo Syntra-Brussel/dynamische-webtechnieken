@@ -50,12 +50,12 @@ Zonder een webserver (met de PHP service) zal de PHP niet uitgevoerd worden maar
 Vermijd zoveel mogelijk HTML elementen binnen een PHP script te verwerken.
 <br /><br />
 
-Goed:
+<div style='color: green'>Goed:</div>
 <pre data-enlighter-theme="beyond" data-enlighter-language="php">
   &lt;p&gt;&lt;?php echo 'Hallo wereld!'; ?&gt;&lt;/p&gt;
 </pre>
 
-Te vermijden:
+<div style='color: red'>Te vermijden:</div>
 <pre data-enlighter-theme="beyond" data-enlighter-language="php">
   &lt;?php echo '&lt;p&gt;Hallo wereld!&lt;/p&gt;'; ?&gt;
 </pre>
