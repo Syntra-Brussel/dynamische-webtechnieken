@@ -48,12 +48,12 @@ Die parameter kan bijvoorbeeld een ID zijn (een unieke waarde / sleutel) om in e
 De parameters zijn dus belangrijk om de resultaat van de HTTP aanvraag te bepalen.
 
 Enkel voorbeelden, kijk goed naar het resultaat:
-* (https://www.google.be/)
-* https://www.google.be/imghp
-* https://www.google.be/?query=url%20parameters
-* https://www.google.be/search?query=url%20parameters
-* https://www.google.be/search?as_q=url%20parameters&tbm=isch
-* https://www.google.be/search?query=url%20parameters&lr=lang_zh-CN
+* <a href="https://www.google.be/" target="_blank">https://www.google.be/</a>
+* <a href="https://www.google.be/imghp" target="_blank">https://www.google.be/imghp
+* <a href="https://www.google.be/?query=url%20parameters" target="_blank">https://www.google.be/?query=url%20parameters</a>
+* <a href="https://www.google.be/search?query=url%20parameters" target="_blank">https://www.google.be/search?query=url%20parameters</a>
+* <a href="https://www.google.be/search?as_q=url%20parameters&tbm=isch" target="_blank">https://www.google.be/search?as_q=url%20parameters&tbm=isch</a>
+* <a href="https://www.google.be/search?query=url%20parameters&lr=lang_zh-CN" target="_blank">https://www.google.be/search?query=url%20parameters&lr=lang_zh-CN</a>
 
 Zoals je ziet zijn parameters soms betekenisvol, soms niet. Het belangrijkste is dat het ontvangende script ze "begrijpt". Als ze ook belangrijk zijn voor SEO (Search Engine Optimisation) dan zijn ze natuurlijk wel best betekenisvol.
 
