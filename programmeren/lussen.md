@@ -26,7 +26,6 @@ De lus die geschikt is om een taak een welbepaald aantal keer uit te voeren.
 &lt;/p&gt;
 </pre>
 
-
 <div class="shadow result">
 <ul>
     <li>item 1</li>
@@ -39,5 +38,35 @@ De lus die geschikt is om een taak een welbepaald aantal keer uit te voeren.
     <li>item 8</li>
     <li>item 9</li>
     <li>item 10</li>
+</ul>
+</div>
+
+## foreach
+
+De lus die heel geschikt is om over het aantal elementen in een array te gaan.
+
+<pre data-enlighter-theme="beyond" data-enlighter-language="php">
+&lt;p&gt;
+  &lt;ul&gt;
+  &lt;?php 
+    $tatuten = ['Student', 'Docent', 'Bediende', 'Arbeider'];
+    foreach ($tatuten as $statuut) {
+      ?&gt;
+      &lt;li&gt;&lt;?php echo $statuut; ?&gt;&lt;/li&gt;
+      &lt;?php 
+    }
+    ?&gt;
+  }
+  ?&gt;
+  &lt;/ul&gt;
+&lt;/p&gt;
+</pre>
+
+<div class="shadow result">
+<ul>
+    <li>Student</li>
+    <li>Docent</li>
+    <li>Bediende</li>
+    <li>Arbeider</li>
 </ul>
 </div>
