@@ -25,6 +25,5 @@ Wanneer we een website aan het ontwikkelen zijn is het veel interessanter om een
 * Een <strong>internet verbinding</strong> is dan <strong>niet nodig</strong>. 
 * De website is helemaal <strong>afgeschermd van het publiek</strong>. Je kan er dus rustig aan bouwen tot hij volledig af en veilig is.
 * De website kan nog niet worden gevonden door Google en (fout) worden geïndexeerd.
-* Je werkt veel sneller omdat je op de computer zelf werkt.
-
-Nog een voordeel is dat we <strong>geen FTP server</strong> moeten gebruiken omdat we, als eigenaar van de computer, bestanden rechtstreeks op de lokale server kunnen plaatsen.
+* Je werkt <strong>veel sneller</strong> omdat je op de computer zelf werkt.
+* We moeten <strong>geen FTP server</strong> gebruiken omdat we, als eigenaar van de computer, bestanden rechtstreeks op de lokale server kunnen plaatsen.
