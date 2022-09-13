@@ -9,7 +9,7 @@
                 {% if first_char != "/" %}
                     {% assign target = "_blank" %}
                 {% endif %}
-                {% if link.title != "" %}
+                {% if link.title is not empty %}
                     {{ link.title }}: 
                 {% endif %}
                 <a target="{{ target }}" href="{{ link.url }}">{{ link.url }}</a>
@@ -23,7 +23,7 @@
                     {% if first_char != "/" %}
                         {% assign target = "_blank" %}
                     {% endif %}
-                    {% if link.title != "" %}
+                    {% if link.title is not empty %}
                         {{ link.title }}: 
                     {% endif %}
                     <a target="{{ target }}" href="{{ link.url }}">{{ link.url }}</a>
