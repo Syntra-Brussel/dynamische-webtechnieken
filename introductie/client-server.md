@@ -32,5 +32,5 @@ Andere voorbeelden van client-server aanvragen:
 * ...
 
 <div class="highlight">
-De taak wordt via een <strong>protocol</strong> uitgevoerd. Een protocol is een set van afspraken over hoe informatie moet worden uitgewisseld.
+De taak wordt via een <strong>protocol</strong> uitgevoerd.<br /><br /> Een protocol is een set van afspraken over hoe informatie moet worden uitgewisseld.
 </div>
