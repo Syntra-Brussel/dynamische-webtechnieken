@@ -35,7 +35,11 @@ Aan de hand van de URL weet de webserver welk bestand of script wordt opgevraagd
   <li><span style="color: orange">het bestand</span> in de folder</li>
 </ul>
 
-In het beeld hierboven is het opgevraagd bestand een HTML bestand, statische inhoud dus. Daarvoor is geen verwerking op de server nodig. Als dit een PHP bestand zou zijn weet de webserver dat de PHP service moet gestart worden om de dynamische inhoud te bouwen.
+In het beeld hierboven is het opgevraagd bestand een HTML bestand, statische inhoud dus. Daarvoor is geen verwerking op de server nodig. Als dit een PHP bestand zou zijn weet de webserver dat de PHP service moet worden gestart om de dynamische inhoud te bouwen.
+
+<div class="highlight">
+Wanneer geen bestand is opgegeven in de URL wordt gezocht naar <code>index.html</code> of <code>index.php</code> om op te vragen.
+</div>
 
 #### De URL parameters
 
