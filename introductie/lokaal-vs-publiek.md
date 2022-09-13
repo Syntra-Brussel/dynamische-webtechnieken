@@ -10,7 +10,7 @@ Wanneer we een website op het wereldwijde web willen aanbieden moet onze website
 Aanbieders zijn bijvoorbeeld <a href="https://www.combell.com" target="_blank">Combell</a>, <a href="https://www.one.com" target="_blank">one.com</a>, <a href="https://www.godaddy.com/nl-be" target="_blank">godaddy.com</a>, ... . 
 
 Wat aanbieders bieden:
-* ruimte op een bestandsserver (vaak op een Linux machine) toegankelijk via het (S)FTP of SSH protocol.
+* ruimte op een bestandsserver (vaak op een Linux machine) toegankelijk via een (S)FTP client.
 * gekoppeld aan een eigen domeinnaam (al dan niet bij hen geregistreerd en beheerd)
 * op hun server draait vaak Apache of nginx als webserver 
 * op hun server draait vaak PHP als service voor dynamische inhoud
