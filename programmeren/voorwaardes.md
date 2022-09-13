@@ -56,19 +56,23 @@ In functie van het resultaat van een bepaalde voorwaarde kan een bepaald deel va
 
 ## switch
 
-<pre>
-switch (n) {
-  case label1:
-    code die wordt uitgevoerd wanneer n=label1;
+Interessant wanneer de er meerdere voorwaardes zijn.
+
+<pre data-enlighter-theme="beyond" data-enlighter-language="php">
+switch ($statuut) {
+  case 'Student':
+    // code die wordt uitgevoerd wanneer $statuut gelijk is aan 'Student'
     break;
-  case label2:
-    code die wordt uitgevoerd wanneer n=label2;
+  case 'Docent':
+    // code die wordt uitgevoerd wanneer $statuut gelijk is aan 'Docent'
     break;
-  case label3:
-    code die wordt uitgevoerd wanneer n=label3;
+  case 'Bediende':
+    // code die wordt uitgevoerd wanneer $statuut gelijk is aan 'Bediende'
     break;
-    ...
+  case 'Arbeider':
+    // code die wordt uitgevoerd wanneer $statuut gelijk is aan 'Arbeider'
+    break;    
   default:
-    code die wordt uitgevoerd wanneer wanner n een andere waarde heeft;
+    // code die wordt uitgevoerd wanneer wanner $statuut een andere waarde heeft;
 }
 </pre>
