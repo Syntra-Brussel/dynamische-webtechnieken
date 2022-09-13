@@ -16,7 +16,7 @@ De lus die geschikt is om een taak een welbepaald aantal keer uit te voeren.
   &lt;?php 
     for ($teller = 1; $teller <= 10; $teller++) {
       ?&gt;
-      &lt;li&gt;item &lt;?php echo $teller ?&gt;&lt;/li&gt;
+      &lt;li&gt;item &lt;?php echo $teller; ?&gt;&lt;/li&gt;
       &lt;?php 
     }
     ?&gt;
