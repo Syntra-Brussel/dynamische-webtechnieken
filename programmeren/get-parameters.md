@@ -1,7 +1,7 @@
 ---
 layout: template
-title: URL (GET) parameters
-url: /programmeren/url-parameters
+title: GET (URL) parameters
+url: /programmeren/get-parameters
 collection: programmeren
 links:
   - url: https://www.w3schools.com/php/php_superglobals_get.asp

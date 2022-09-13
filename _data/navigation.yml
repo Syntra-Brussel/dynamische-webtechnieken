@@ -42,9 +42,9 @@ items:
       - url: /programmeren/php-functies
         published: 'yes'
         title: 'Ingebouwde PHP functies' 
-      - url: /programmeren/url-parameters
+      - url: /programmeren/get-parameters
         published: 'yes'
-        title: 'URL (GET) parameters' 
+        title: 'GET (URL) parameters' 
       - url: /programmeren/post-parameters
         published: 'yes'
         title: 'POST parameters'                                      
