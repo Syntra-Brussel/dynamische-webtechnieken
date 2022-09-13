@@ -29,6 +29,6 @@ Voordelen:
 * Je werkt <strong>veel sneller</strong> omdat je op je computer werkt.
 * Je moet <strong>geen FTP server</strong> gebruiken omdat je, als eigenaar van je computer, bestanden rechtstreeks op de lokale server kunt plaatsen via de Verkenner (Windows) of Finder (Mac).
 
-<div class="link">
+<div class="links">
 <h3>Een win-win-situatie</h3>
 </div>
