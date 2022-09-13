@@ -30,9 +30,9 @@ In een variabele kan een bepaalde waarde geplaatst worden om daarmee te 'werken'
     <tbody>
         <tr>
             <th style="width:15%">Operator</th>
-            <th style="width:20%">Name</th>
-            <th style="width:20%">Example</th>
-            <th style="width:35%">Result</th>
+            <th style="width:20%">Naam</th>
+            <th style="width:20%">Voorbeeld</th>
+            <th style="width:35%">Resultaat</th>
         </tr>
         <tr>
             <td>+</td>
