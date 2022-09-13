@@ -39,7 +39,7 @@ De code tussen <code><?php</code> en <code>?></code> wordt uitgevoerd door de <s
 <p>Hallo wereld!</p>
 </div>
 
-Zonder een webserver (met de PHP service) zal de PHP niet uitgevoerd worden maar gewoon als tekst worden gestuurd.
+Zonder een webserver (met de PHP service) zal de PHP code niet uitgevoerd worden maar gewoon als tekst worden gestuurd.
 
 <div class="shadow result">
 <p>&lt;?php echo 'Hallo wereld!'; ?&gt;</p>
