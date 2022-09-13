@@ -25,14 +25,14 @@ Gebruik de waardes uit het verzenden van een formulier.
 &lt;?php
 if ($_POST) {
   ?&gt;
-  <hr />
-  <p>
+  &lt;hr /&gt;
+  &lt;p&gt;
   Totaal: 
   &lt;?php
   $totaal = $_POST['getal_1'] + $_POST['getal_2'];
   echo 'Totaal: ' . $totaal;
   ?&gt;
-  </p>
+  &lt;/p&gt;
   &lt;?php
 }
 ?&gt;
