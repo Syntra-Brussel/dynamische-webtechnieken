@@ -5,6 +5,7 @@ url: /programmeren/lussen
 collection: programmeren
 links:
   - url: https://www.w3schools.com/php/php_looping_for.asp
+  - url: https://www.w3schools.com/php/php_looping_foreach.asp
 ---
 ## for-loop
 
@@ -70,3 +71,9 @@ De lus die heel geschikt is om over het aantal elementen in een array te gaan.
     <li>Arbeider</li>
 </ul>
 </div>
+
+## de do-while en de while-loop lus
+
+Lees er alles over via:
+* <a target="_blank" href="https://www.w3schools.com/php/php_looping_while.asp">https://www.w3schools.com/php/php_looping_while.asp</a>
+* <a target="_blank" href="https://www.w3schools.com/php/php_looping_do_while.asp">https://www.w3schools.com/php/php_looping_do_while.asp</a>
