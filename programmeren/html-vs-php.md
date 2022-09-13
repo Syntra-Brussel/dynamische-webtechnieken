@@ -15,7 +15,6 @@ collection: programmeren
 &lt;/html&gt;
 </pre>
 
-Het resultaat:
 <div class="shadow result">
 <p>Hallo wereld!</p>
 </div>
@@ -34,14 +33,12 @@ Het <code>index.html</code> bestand wordt integraal opgehaald en via de webserve
 
 De code tussen <code><?php</code> en <code>?></code> wordt uitgevoerd door de <strong>PHP processor</strong>. Dat levert een uitvoer (= tekst) op dat samen met de HTML elementen errond via de webserver naar de webbrowser wordt gestuurd.
 
-Het resultaat:
 <div class="shadow result">
 <p>Hallo wereld!</p>
 </div>
 
 Zonder een webserver (met de PHP service) zal de PHP niet uitgevoerd worden maar gewoon als tekst worden gestuurd.
 
-Het resultaat:
 <div class="shadow result">
 <p>&lt;?php echo 'Hallo wereld!'; ?&gt;</p>
 </div>

@@ -171,16 +171,18 @@ footer {
 }
 
 .shadow.result {
-    margin-bottom: 2rem!important;
+    margin-bottom: 3rem!important;
+    margin-top: 4rem!important;
 }
 
 .shadow.result:before {
-    content: 'De uitvoer';
+    content: 'UITVOER';
     position: relative;
     left: -10px;
-    top: -30px;
-    font-size: .8rem;
+    top: -35px;
+    font-size: 1.3rem;
     color: #C0C0C0;
+    font-weight: bold;
 }
 
 .center {
