@@ -97,9 +97,9 @@ De meest courante codes:
 * 403: Niet voldoende rechten (bijvoorbeeld omdat met de vraag niet de correcte authorisatie gegevens zijn mee gestuurd).
 * <strong>500</strong>: Intere server fout (meestal door PHP code die niet correct kon worden uitgevoerd)
 
-### Altijd nog een beetje statische informatie
+### Dynamische informatie in combinatie met statische informatie
 
-Het CSS bestand, het JavaScript bestand, de beelden en eventuele andere documenten die bij een aanvraag horen worden wel nog steeds statisch aangeboden. 
+Het CSS bestand, het JavaScript bestand, de beelden en eventuele andere documenten die bij een aanvraag van dynamische informat horen worden wel nog steeds statisch aangeboden. 
 
 De webserver functioneert dan enkel als doorgeeflijk. De inhoud kan bijvoorbeeld wel nog afgeschermd worden wanneer de aanvrager niet de correcte authorisatie heeft.
 
