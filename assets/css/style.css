@@ -176,7 +176,7 @@ footer {
 }
 
 .shadow.result:before {
-    content: 'UITVOER';
+    content: 'RESULTAAT';
     position: relative;
     left: -10px;
     top: -35px;
