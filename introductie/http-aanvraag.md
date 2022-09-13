@@ -99,7 +99,7 @@ De meest courante codes:
 
 ### Altijd nog een beetje statische informatie
 
-Het CSS bestand, het JavaScript bestand, de beelden en andere eventuele andere documenten die bij een aanvraag horen worden wel nog steeds statisch aangeboden. 
+Het CSS bestand, het JavaScript bestand, de beelden en eventuele andere documenten die bij een aanvraag horen worden wel nog steeds statisch aangeboden. 
 
 De webserver functioneert dan enkel als doorgeeflijk. De inhoud kan bijvoorbeeld wel nog afgeschermd worden wanneer de aanvrager niet de correcte authorisatie heeft.
 
