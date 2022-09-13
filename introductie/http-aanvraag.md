@@ -9,11 +9,9 @@ links:
 ---
 
 <div class="highlight">
-Een vraag via de webbrowser gebeurt via het HTTP protocol.
-<br />
-Dat staat voor <strong>Hypertext</strong> Transfer Protocol.
+Een vraag via de webbrowser gebeurt via het HTTP protocol. Dat staat voor <strong>Hypertext Transfer Protocol</strong>.
 <br /><br />
-Een webbrowser is het doorgeefluik van tekstuele informatie (bijvoorbeeld HTML) of de inhoud van een beeld of document.
+Een webbrowser is het doorgeefluik van tekstuele informatie. Dat kan bijvoorbeeld HTML zijn of de inhoud van een beeld of document.
 </div>
 
 Om de dynamische inhoud te bouwen wordt een script, bijvoorbeeld via <strong>PHP</strong>, uitgevoerd dat textuele informatie oplevert waarmee de webserver kan werken.
