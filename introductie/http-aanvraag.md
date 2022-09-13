@@ -84,7 +84,7 @@ Naast de inhoud komt ook altijd een inhoud type mee. Op die manier kan de client
 
 #### De code
 
-Het resultaat van een aanvraag komt naast de inhoud (de HTML bijvoorbeeld, of het opgevraagde document) ook altijd met een <strong>code</strong>. Deze weerspiegelt of de server de vraag correct heeft kunnen afhandelen of dat er een probleem is opgetreden.
+Het resultaat van een aanvraag komt naast de inhoud ook altijd met een <strong>code</strong>. Deze weerspiegelt of de server de vraag correct heeft kunnen afhandelen of dat er een probleem is opgetreden.
 
 De meest courante codes:
 * <strong>200</strong>: Alles ok
