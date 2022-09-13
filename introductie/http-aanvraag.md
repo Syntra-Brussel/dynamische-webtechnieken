@@ -104,7 +104,7 @@ Het CSS bestand, het JavaScript bestand, de beelden en eventuele andere document
 De webserver functioneert dan enkel als doorgeeflijk. De inhoud kan bijvoorbeeld wel nog afgeschermd worden wanneer de aanvrager niet de correcte authorisatie heeft.
 
 <div class="highlight">
-Het opvragen van élk bestand of script gebeurt via een aparte HTTP aanvragen.<br /><br />
+Het opvragen van élk bestand of script gebeurt via een aparte HTTP aanvraag.<br /><br />
 
 Op die manier kan de HTML van een pagina perfect in orde zijn (code 200), maar een beeld in die pagina niet getoond worden omdat de locatie niet correct is (code 404).
 </div>
