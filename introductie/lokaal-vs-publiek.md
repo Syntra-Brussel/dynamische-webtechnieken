@@ -16,7 +16,7 @@ Wat bieden ze aan:
 * op hun server draait vaak PHP als service voor dynamische inhoud
 * op hun server draait vaak MySQL als databaseserver
 
-De aangeboden harde schijf ruimte, de bandbreedte (upload naar en download van de webserver), de beschikbare database ruimte en de eventuele andere opties.
+De kostprijs wordt bepaald door de aangeboden harde schijf ruimte, de bandbreedte (upload naar en download van de webserver), de beschikbare database ruimte en eventuele andere opties.
 
 ## Lokale webserver
 
