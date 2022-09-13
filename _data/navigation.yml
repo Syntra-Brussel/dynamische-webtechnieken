@@ -39,6 +39,9 @@ items:
       - url: /programmeren/lussen
         published: 'yes'
         title: 'Lussen - Herhalingen'           
+      - url: /programmeren/oefening-factuur
+        published: 'yes'
+        title: 'OEFENING: Factuur'         
       - url: /programmeren/functies
         published: 'yes'
         title: 'Functies'    
