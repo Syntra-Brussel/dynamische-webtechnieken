@@ -27,11 +27,7 @@ if ($_POST) {
   ?&gt;
   &lt;hr /&gt;
   &lt;p&gt;
-    Totaal: 
-    &lt;?php
-    $totaal = $_POST['getal_1'] + $_POST['getal_2'];
-    echo 'Totaal: ' . $totaal;
-    ?&gt;
+    Totaal: &lt;?php echo $_POST['getal_1'] + $_POST['getal_2']; ?&gt;
   &lt;/p&gt;
   &lt;?php
 }
