@@ -20,4 +20,11 @@ De aanboden harde schijf ruimte, de bandbreedte (upload naar en download van de 
 
 ## Lokale webserver
 
-Wanneer we een website aan het ontwikkelen zijn is het veel interessanter om een webserver op te zetten op een computer. Een verbinding met het internet is dan niet nodig. Hij is dan ook nog helemaal afgeschermd van het publiek tot hij volledig af en veilig is.
+Wanneer we een website aan het ontwikkelen zijn is het veel interessanter om een webserver op te zetten op een computer. 
+
+* Een <strong>internet verbinding</strong> is dan <strong>niet nodig</strong>. 
+* De website is helemaal <strong>afgeschermd van het publiek</strong>. Je kan er dus rustig aan bouwen tot hij volledig af en veilig is.
+* De website kan nog niet worden gevonden door Google en (fout) worden geïndexeerd.
+* Je werkt veel sneller omdat je op de computer zelf werkt.
+
+Nog een voordeel is dat we <strong>geen FTP server</strong> moeten gebruiken omdat we, als eigenaar van de computer, bestanden rechtstreeks op de lokale server kunnen plaatsen.
