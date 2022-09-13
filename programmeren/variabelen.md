@@ -10,13 +10,13 @@ Werken met getallen:
 <pre data-enlighter-theme="beyond" data-enlighter-language="php">
 ...
 &lt;p&gt;
-    100 + 200 = 
-    &lt;?php 
-    $getal_1 = 100; 
-    $getal_2 = 200; 
-    $totaal = $getal_1 + $getal_2; 
-    echo $totaal; 
-    ?&gt;
+  100 + 200 = 
+  &lt;?php 
+  $getal_1 = 100; 
+  $getal_2 = 200; 
+  $totaal = $getal_1 + $getal_2; 
+  echo $totaal; 
+  ?&gt;
 &lt;/p&gt;
 ...
 </pre>
