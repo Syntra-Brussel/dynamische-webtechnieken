@@ -135,15 +135,9 @@ De URL parameter kan ook gebruikt in een script.
 <code>script.php?getal_1=100&getal_2=200</code>
 <pre data-enlighter-theme="beyond" data-enlighter-language="php">
 &lt;p&gt;
-  &lt;?php 
-  echo $_GET['getal_1"]; 
-  ?&gt; + 
-  &lt;?php 
-  echo $_GET['getal_2"]; 
-  ?&gt; = 
-  &lt;?php 
-  echo $_GET['getal_1"] + $_GET['getal_2"]; 
-  ?&gt;
+  &lt;?php echo $_GET['getal_1"]; ?&gt; + 
+  &lt;?php echo $_GET['getal_2"]; ?&gt; = 
+  &lt;?php echo $_GET['getal_1"] + $_GET['getal_2"]; ?&gt;
 &lt;/p&gt;
 </pre>
 
