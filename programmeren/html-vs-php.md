@@ -59,4 +59,4 @@ Vermijd zoveel mogelijk HTML elementen binnen een PHP script te verwerken.
 <pre data-enlighter-theme="beyond" data-enlighter-language="php" data-enlighter-linenumbers="false">
 &lt;?php echo '&lt;p&gt;Hallo wereld!&lt;/p&gt;'; ?&gt;
 </pre>
-</div>
+</div> 
