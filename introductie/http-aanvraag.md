@@ -57,7 +57,7 @@ Enkel voorbeelden, kijk goed naar het resultaat:
 * <a href="https://www.google.be/search?query=url%20parameters&lr=lang_zh-CN" target="_blank">https://www.google.be/search?query=url%20parameters&lr=lang_zh-CN</a>
 * <a href="https://www.google.be/search?query=url%20parameters&lr=lang_zh-CN&hl=zh-CN" target="_blank">https://www.google.be/search?query=url%20parameters&lr=lang_zh-CN&hl=zh-CN</a>
 
-Zoals je ziet zijn parameters soms betekenisvol, soms niet. Het belangrijkste is dat het ontvangende script ze "begrijpt". Als ze ook belangrijk zijn voor SEO (Search Engine Optimisation) dan zijn ze natuurlijk wel best betekenisvol.
+Zoals je ziet zijn parameters soms betekenisvol, soms niet. Het belangrijkste is dat het ontvangende script ze "begrijpt". Als ze ook belangrijk zijn voor <strong>SEO</strong> (<strong>S</strong>earch <strong>E</strong>ngine <strong>O</strong>ptimisation) dan zijn ze natuurlijk wel best betekenisvol.
 
 Naast de parameters via de URL kunnen er ook (nog) parameters verborgen worden verstuurd. Dat is vooral interessant als de inhoud die moet worden verstuurd uitgebreid is (bv. bij het versturen van een formulier) of gevoelig is (bv. een paswoord).
 
