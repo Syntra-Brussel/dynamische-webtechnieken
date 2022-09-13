@@ -17,7 +17,7 @@ In een variabele kan een bepaalde waarde geplaatst worden om daarmee te 'werken'
       $getal_2 = 200; 
       $totaal = $getal_1 + $getal_2; 
       echo $totaal; 
-    ?&gt;
+      ?&gt;
     &lt;/p&gt;
   &lt;/body&gt;
 &lt;/html&gt;
