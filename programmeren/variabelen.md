@@ -26,50 +26,52 @@ In een variabele kan een bepaalde waarde geplaatst worden om daarmee te 'werken'
 <p>100 + 200 = 300</p>
 </div>
 
-<table class="ws-table-all notranslate">
-<tbody><tr>
-<th style="width:15%">Operator</th>
-<th style="width:20%">Name</th>
-<th style="width:20%">Example</th>
-<th style="width:35%">Result</th>
-</tr>
-<tr>
-<td>+</td>
-<td>Optelling</td>
-<td>$x + $y</td>
-<td>Optelling van $x en $y</td>
-</tr>
-<tr>
-<td>-</td>
-<td>Aftrekking</td>
-<td>$x - $y</td>
-<td>Verschil tussen $x en $y</td>
-</tr>
-<tr>
-<td>*</td>
-<td>Vermenigvuldiging</td>
-<td>$x * $y</td>
-<td>Vermenigvuldiging van $x en $y</td>
-</tr>
-<tr>
-<td>/</td>
-<td>Deling</td>
-<td>$x / $y</td>
-<td>Deling van $x en $y</td>
-</tr>
-<tr>
-<td>%</td>
-<td>Modulus</td>
-<td>$x % $y</td>
-<td>Overblijfsel van $x gedeeld door $y</td>
-</tr>
-<tr>
-<td>**</td>
-<td>Exponent</td>
-<td>$x ** $y</td>
-<td>Resultaat van $x to tot de $y'de macht</td>
-</tr>
-</tbody></table>
+<table class="table">
+    <tbody>
+        <tr>
+            <th style="width:15%">Operator</th>
+            <th style="width:20%">Name</th>
+            <th style="width:20%">Example</th>
+            <th style="width:35%">Result</th>
+        </tr>
+        <tr>
+            <td>+</td>
+            <td>Optelling</td>
+            <td>$x + $y</td>
+            <td>Optelling van $x en $y</td>
+        </tr>
+        <tr>
+            <td>-</td>
+            <td>Aftrekking</td>
+            <td>$x - $y</td>
+            <td>Verschil tussen $x en $y</td>
+        </tr>
+        <tr>
+            <td>*</td>
+            <td>Vermenigvuldiging</td>
+            <td>$x * $y</td>
+            <td>Vermenigvuldiging van $x en $y</td>
+        </tr>
+        <tr>
+            <td>/</td>
+            <td>Deling</td>
+            <td>$x / $y</td>
+            <td>Deling van $x en $y</td>
+        </tr>
+        <tr>
+            <td>%</td>
+            <td>Modulus</td>
+            <td>$x % $y</td>
+            <td>Overblijfsel van $x gedeeld door $y</td>
+        </tr>
+        <tr>
+            <td>**</td>
+            <td>Exponent</td>
+            <td>$x ** $y</td>
+            <td>Resultaat van $x to tot de $y'de macht</td>
+        </tr>
+    </tbody>
+</table>
 
 ## Werken met tekst
 
