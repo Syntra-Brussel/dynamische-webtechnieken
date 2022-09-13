@@ -3,6 +3,8 @@ layout: template
 title: Lussen - Herhalingen
 url: /programmeren/lussen
 collection: programmeren
+links:
+  - url: https://www.w3schools.com/php/php_looping_for.asp
 ---
 ## for-loop
 
