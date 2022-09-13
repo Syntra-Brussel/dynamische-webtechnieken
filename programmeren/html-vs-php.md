@@ -44,3 +44,8 @@ Zonder een webserver (met de PHP service) zal de PHP niet uitgevoerd worden maar
 <div class="shadow result">
 <p>&lt;?php echo 'Hallo wereld!'; ?&gt;</p>
 </div>
+
+<div class="highlight">
+<h3>Best practice</h3>
+Vermijd zoveel mogelijk HTML elementen binnen een PHP script te verwerken.
+</div>
