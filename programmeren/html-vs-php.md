@@ -56,7 +56,9 @@ Vermijd zoveel mogelijk HTML elementen binnen een PHP script te verwerken.
 </pre>
 
 <div style='color: red'>Te vermijden:</div>
+<s>
 <pre data-enlighter-theme="beyond" data-enlighter-language="php" data-enlighter-linenumbers="false">
-<s>&lt;?php echo '&lt;p&gt;Hallo wereld!&lt;/p&gt;'; ?&gt;</s>
+&lt;?php echo '&lt;p&gt;Hallo wereld!&lt;/p&gt;'; ?&gt;
 </pre>
+</s>
 </div> 
