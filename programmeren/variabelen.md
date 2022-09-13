@@ -75,23 +75,22 @@ In een variabele kan een bepaalde waarde geplaatst worden om daarmee te 'werken'
 
 <div class="highlight">
     <h3>plus 1</h3>
-    Plus 1:
-    <pre data-enlighter-theme="beyond" data-enlighter-language="php" data-enlighter-linenumbers="false">
-    &lt;?php $teller++; ?&gt;
-    </pre>
+<pre data-enlighter-theme="beyond" data-enlighter-language="php" data-enlighter-linenumbers="false">
+&lt;?php $teller++; ?&gt;
+</pre>
     <div class='strike'>
-        <pre data-enlighter-theme="beyond" data-enlighter-language="php" data-enlighter-linenumbers="false">
-        &lt;?php $teller = $teller + 1; ?&gt;
-        </pre>
+<pre data-enlighter-theme="beyond" data-enlighter-language="php" data-enlighter-linenumbers="false">
+&lt;?php $teller = $teller + 1; ?&gt;
+</pre>
     </div>
     <h3>min 1</h3>
-    <pre data-enlighter-theme="beyond" data-enlighter-language="php" data-enlighter-linenumbers="false">
-    &lt;?php $teller--; ?&gt;
-    </pre>
+<pre data-enlighter-theme="beyond" data-enlighter-language="php" data-enlighter-linenumbers="false">
+&lt;?php $teller--; ?&gt;
+</pre>
     <div class='strike'>
-        <pre data-enlighter-theme="beyond" data-enlighter-language="php" data-enlighter-linenumbers="false">
-        &lt;?php $teller = $teller - 1; ?&gt;
-        </pre>
+<pre data-enlighter-theme="beyond" data-enlighter-language="php" data-enlighter-linenumbers="false">
+&lt;?php $teller = $teller - 1; ?&gt;
+</pre>
     </div>
 </div>
 ## Werken met tekst
