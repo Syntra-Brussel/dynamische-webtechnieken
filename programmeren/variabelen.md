@@ -126,3 +126,34 @@ Met het . kan je de inhoud van verschillende variabelen aan mekaar 'lijmen'.
 &lt;?php echo '$voornaam $achternaam'; ?&gt;
 </pre>
 </div>
+
+<div class="highlight">
+<h3>Best practice</h3>
+
+<pre data-enlighter-theme="beyond" data-enlighter-language="php" data-enlighter-linenumbers="false">
+&lt;?php echo $voornaam . ' ' . $achternaam; ?&gt;
+</pre>
+
+<div class='strike'>
+<pre data-enlighter-theme="beyond" data-enlighter-language="php" data-enlighter-linenumbers="false">
+&lt;?php echo '$voornaam $achternaam'; ?&gt;
+</pre>
+</div>
+
+## Werken URL parameters
+
+De URL parameter kan ook gebruikt in een script.
+
+<code>?getal_1=100&getal_2=200</code>
+<pre data-enlighter-theme="beyond" data-enlighter-language="php">
+&lt;p&gt;
+  &lt;?php echo $_GET['getal_1"]; ?&gt; + &lt;?php echo $_GET['getal_2"]; ?&gt; = 
+  &lt;?php 
+  echo $_GET['getal_1"] + $_GET['getal_2"]; 
+  ?&gt;
+&lt;/p&gt;
+</pre>
+
+<div class="shadow result">
+<p>100 + 200 = 300</p>
+</div>
