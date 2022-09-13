@@ -185,6 +185,10 @@ footer {
     font-weight: bold;
 }
 
+.strike .enlighter {
+    text-decoration: line-through;
+}
+
 .center {
     margin: auto;
 }
