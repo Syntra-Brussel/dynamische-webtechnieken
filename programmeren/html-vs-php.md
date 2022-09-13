@@ -3,6 +3,8 @@ layout: template
 title: HTML vs. PHP
 url: /programmeren/html-vs-php
 collection: programmeren
+links:
+  - url: https://www.w3schools.com/php/php_echo_print.asp
 ---
 
 ## <code>index.html</code>
