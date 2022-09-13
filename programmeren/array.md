@@ -1,6 +1,6 @@
 ---
 layout: template
-title: Array variablen
+title: Array variable
 url: /programmeren/array
 collection: programmeren
 links:

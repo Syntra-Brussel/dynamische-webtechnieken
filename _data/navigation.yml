@@ -32,7 +32,7 @@ items:
         title: 'Variabelen'  
       - url: /programmeren/array
         published: 'yes'
-        title: 'Array variablen'        
+        title: 'Array variable'        
       - url: /programmeren/voorwaardes
         published: 'yes'
         title: 'Voorwaardes'           
