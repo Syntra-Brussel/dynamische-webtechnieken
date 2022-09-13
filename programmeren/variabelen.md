@@ -128,7 +128,7 @@ Met het . kan je de inhoud van verschillende variabelen aan mekaar 'lijmen'.
 </div>
 </div>
 
-## Werken URL parameters
+## Werken GET / URL parameters
 
 De URL parameter kan ook gebruikt in een script.
 

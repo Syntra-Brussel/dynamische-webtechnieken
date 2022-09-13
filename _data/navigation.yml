@@ -41,7 +41,13 @@ items:
         title: 'Functies'    
       - url: /programmeren/php-functies
         published: 'yes'
-        title: 'Ingebouwde PHP functies'                      
+        title: 'Ingebouwde PHP functies' 
+      - url: /programmeren/url-parameters
+        published: 'yes'
+        title: 'URL (GET) parameters' 
+      - url: /programmeren/post-parameters
+        published: 'yes'
+        title: 'POST parameters'                                      
   - url: /wordpress  
     published: 'yes'
     title: 'Wordpress'
