@@ -173,6 +173,7 @@ footer {
 .shadow.result {
     margin-bottom: 3rem!important;
     margin-top: 4rem!important;
+    background-color: #FFF;
 }
 
 .shadow.result:before {
