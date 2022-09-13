@@ -38,7 +38,7 @@ if ($_POST) {
 ?&gt;
 </pre>
 
-### Resultaat voor het versturen
+### Resultaat voor het versturen van het formulier
 <div class="shadow result">
     <form>
     <ul>
@@ -49,7 +49,7 @@ if ($_POST) {
     </form>
 </div>
 
-### Resultaat na het versturen van 100 (getal 1) en 200 (getal 2)
+### Resultaat na het versturen van het formulier met 100 (getal 1) en 200 (getal 2)
 <div class="shadow result">
     <form>
     <ul>
