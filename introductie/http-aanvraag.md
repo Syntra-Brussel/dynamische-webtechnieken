@@ -22,7 +22,7 @@ De gegevens worden doorgaans in een database bewaard. De webserver communiceert 
 
 ### De aanvraag 
 
-Aan de hand van de URL weet de webserver welk bestand of script opgevraagd en welke services nodig zijn om het resultaat te verkrijgen dat moet worden terug gestuurd.
+Aan de hand van de URL weet de webserver welk bestand of script wordt opgevraagd en welke services nodig zijn om het resultaat te verkrijgen dat moet worden terug gestuurd.
 
 #### De (unieke) URL
 
