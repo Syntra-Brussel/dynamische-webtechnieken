@@ -74,7 +74,8 @@ In een variabele kan een bepaalde waarde geplaatst worden om daarmee te 'werken'
 </table>
 
 <div class="highlight">
-    <h3>plus 1</h3>
+<h3>Best practice</h3>
+    <h4>plus 1</h4>
 <pre data-enlighter-theme="beyond" data-enlighter-language="php" data-enlighter-linenumbers="false">
 &lt;?php $teller++; ?&gt;
 </pre>
@@ -83,7 +84,7 @@ In een variabele kan een bepaalde waarde geplaatst worden om daarmee te 'werken'
 &lt;?php $teller = $teller + 1; ?&gt;
 </pre>
     </div>
-    <h3>min 1</h3>
+    <h4>min 1</h4>
 <pre data-enlighter-theme="beyond" data-enlighter-language="php" data-enlighter-linenumbers="false">
 &lt;?php $teller--; ?&gt;
 </pre>
