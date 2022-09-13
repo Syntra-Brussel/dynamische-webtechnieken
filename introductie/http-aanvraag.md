@@ -50,14 +50,16 @@ De parameters zijn dus belangrijk om de resultaat van de HTTP aanvraag te bepale
 Enkel voorbeelden, kijk goed naar het resultaat:
 * <a href="https://www.google.be/" target="_blank">https://www.google.be/</a>
 * <a href="https://www.google.be/imghp" target="_blank">https://www.google.be/imghp
+* <a href="https://www.google.be/?q=url%20parameters" target="_blank">https://www.google.be/?q=url%20parameters</a>
 * <a href="https://www.google.be/?query=url%20parameters" target="_blank">https://www.google.be/?query=url%20parameters</a>
-* <a href="https://www.google.be/search?query=url%20parameters" target="_blank">https://www.google.be/search?query=url%20parameters</a>
+* <a href="https://www.google.be/search?q=url%20parameters" target="_blank">https://www.google.be/search?q=url%20parameters</a>
 * <a href="https://www.google.be/search?as_q=url%20parameters&tbm=isch" target="_blank">https://www.google.be/search?as_q=url%20parameters&tbm=isch</a>
 * <a href="https://www.google.be/search?query=url%20parameters&lr=lang_zh-CN" target="_blank">https://www.google.be/search?query=url%20parameters&lr=lang_zh-CN</a>
+* <a href="https://www.google.be/search?query=url%20parameters&lr=lang_zh-CN&hl=zh-CN" target="_blank">https://www.google.be/search?query=url%20parameters&lr=lang_zh-CN&hl=zh-CN</a>
 
 Zoals je ziet zijn parameters soms betekenisvol, soms niet. Het belangrijkste is dat het ontvangende script ze "begrijpt". Als ze ook belangrijk zijn voor SEO (Search Engine Optimisation) dan zijn ze natuurlijk wel best betekenisvol.
 
-Naast de parameters via de URL kunnen er ook (nog) parameters (verborgen) worden verstuurd. Dat is vooral interessant als de inhoud die moet worden verstuurd uitgebreid is (bv. bij het versturen van een formulier) of gevoelig is (bv. een paswoord).
+Naast de parameters via de URL kunnen er ook (nog) parameters verborgen worden verstuurd. Dat is vooral interessant als de inhoud die moet worden verstuurd uitgebreid is (bv. bij het versturen van een formulier) of gevoelig is (bv. een paswoord).
 
 #### De aanvraag methode
 
