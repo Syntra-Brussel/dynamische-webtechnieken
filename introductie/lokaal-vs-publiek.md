@@ -1,6 +1,6 @@
 ---
 layout: template
-title: Webserver opzetten
+title: Lokaal vs. publiek
 url: /introductie/lokaal-vs-publiek
 collection: introductie
 ---
