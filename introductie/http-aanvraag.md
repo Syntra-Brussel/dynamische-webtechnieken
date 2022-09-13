@@ -49,7 +49,7 @@ Bij een URL aanvraag kunnen extra parameters verstuurd worden die voor, bijvoorb
 
 Die parameter kan bijvoorbeeld een ID zijn (een unieke waarde / sleutel) om in een database de juiste gegevens op te halen, of een parameter die bijvoorbeeld aangeeft of een overzicht van gegevens oplopend of aflopend moet worden gesorteerd.
 
-De parameters zijn dus belangrijk om de resultaat van de HTTP aanvraag te bepalen.
+De parameters zijn dus belangrijk om het resultaat van de HTTP aanvraag te bepalen.
 
 Enkel voorbeelden, kijk goed naar het verschil in resultaat:
 * <a href="https://www.google.be/" target="_blank">https://www.google.be/</a>
