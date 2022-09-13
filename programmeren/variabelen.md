@@ -139,6 +139,7 @@ Met het . kan je de inhoud van verschillende variabelen aan mekaar 'lijmen'.
 &lt;?php echo '$voornaam $achternaam'; ?&gt;
 </pre>
 </div>
+</div>
 
 ## Werken URL parameters
 
