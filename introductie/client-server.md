@@ -10,7 +10,7 @@ In de client-server architectuur is de <strong>client</strong> de partij die een
 </div>
 
 Het werk dat een server heeft met het beantwoorden van de vraag is afhankelijk van:
-* het type vraag 
+* het type aanvraag 
 * de hoeveelheid informatie die wordt ontvangen
 * de hoeveelheid informatie die moet worden verwerkt 
 * de hoeveelheid informatie moet worden terug gestuurd
