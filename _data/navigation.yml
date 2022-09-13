@@ -30,12 +30,15 @@ items:
       - url: /programmeren/variabelen
         published: 'yes'
         title: 'Variabelen'  
+      - url: /programmeren/array
+        published: 'yes'
+        title: 'Array variablen'        
       - url: /programmeren/voorwaardes
         published: 'yes'
-        title: 'Voorwaardes'      
+        title: 'Voorwaardes'           
       - url: /programmeren/lussen
         published: 'yes'
-        title: 'Lussen - Herhalingen'    
+        title: 'Lussen - Herhalingen'    '           
       - url: /programmeren/functies
         published: 'yes'
         title: 'Functies'    
