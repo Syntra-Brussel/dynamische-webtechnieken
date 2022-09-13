@@ -36,7 +36,8 @@ Met het . kan je de inhoud van verschillende variabelen aan mekaar 'lijmen'.
   $voornaam = 'Bert'; 
   $achternaam = 'Jansen'; 
   echo $voornaam . ' ' . $achternaam; 
-  ?&gt;&lt;/strong&gt;
+  ?&gt;
+  &lt;/strong&gt;
 &lt;/p&gt;
 </pre>
 
