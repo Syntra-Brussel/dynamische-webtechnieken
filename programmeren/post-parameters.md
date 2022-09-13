@@ -11,11 +11,15 @@ Gebruik de waardes uit het verzenden van een formulier.
 <code>script.php</code>
 <pre data-enlighter-theme="beyond" data-enlighter-language="php">
 &lt;form action="script.php" method="post"&gt;
-&lt;ul&gt;
-&lt;li&gt;getal 1: &lt;input type="number" value="&lt;?php echo $_POST['getal_1']?&gt;" name="getal_1" /&gt;&lt;/li&gt;
-&lt;li&gt;getal 2: &lt;input type="number" value="&lt;?php echo $_POST['getal_2']?&gt;" name="getal_2" /&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;li&gt;&lt;input type="submit" value="Verstuur" /&gt;&lt;/li&gt;
+  &lt;ul&gt;
+    &lt;li&gt;
+      getal 1: &lt;input type="number" value="&lt;?php echo $_POST['getal_1']?&gt;" name="getal_1" /&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      getal 2: &lt;input type="number" value="&lt;?php echo $_POST['getal_2']?&gt;" name="getal_2" /&gt;
+    &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;input type="submit" value="Verstuur" /&gt;
 &lt;/form&gt;
 
 &lt;?php
