@@ -18,7 +18,7 @@ Een webbrowser is het doorgeefluik van tekstuele informatie (bijvoorbeeld HTML) 
 
 Om de dynamische inhoud te bouwen wordt een script, bijvoorbeeld via <strong>PHP</strong>, uitgevoerd dat textuele informatie oplevert waarmee de webserver kan werken.
 
-De gegevens worden doorgaans in een database bewaard. De communicatie met de databaseserver gebeurt ook via dat zelfde script.
+De gegevens worden doorgaans in een database bewaard. De communicatie met de <strong>databaseserver</strong> gebeurt ook via dat zelfde script.
 
 <img src="images/client_server.png" />
 
