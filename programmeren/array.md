@@ -14,10 +14,8 @@ Het eerste element is te benaderen met de <em>index</em> 0, het tweede met de <e
 <pre data-enlighter-theme="beyond" data-enlighter-language="php">
 &lt;p&gt;
   &lt;?php 
-    $tatuten = ['Student', 'Docent', 'Bediende', 'Arbeider'];
-    echo $statuten[0] . ' - ' . $statuten[1] . ' - ' . $statuten[2] . ' - ' . $statuten[3];
-    ?&gt;
-  }
+  $tatuten = ['Student', 'Docent', 'Bediende', 'Arbeider'];
+  echo $statuten[0] . ' - ' . $statuten[1] . ' - ' . $statuten[2] . ' - ' . $statuten[3];
   ?&gt;
 &lt;/p&gt;
 </pre>
@@ -30,11 +28,9 @@ Het eerste element is te benaderen met de <em>index</em> 0, het tweede met de <e
 <pre data-enlighter-theme="beyond" data-enlighter-language="php">
 &lt;p&gt;
   &lt;?php 
-    $tatuten = ['Student', 'Docent', 'Bediende', 'Arbeider'];
-    $derde = 2;
-    echo 'Het derde statuut "' . $statuut[$derde] .  '".';
-    ?&gt;
-  }
+  $tatuten = ['Student', 'Docent', 'Bediende', 'Arbeider'];
+  $derde = 2;
+  echo 'Het derde statuut "' . $statuut[$derde] .  '".';
   ?&gt;
 &lt;/p&gt;
 </pre>
