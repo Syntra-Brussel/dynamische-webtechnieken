@@ -48,9 +48,9 @@ items:
       - url: /programmeren/oefening-factuur
         published: 'yes'
         title: 'OEFENING: Factuur'         
-      - url: /programmeren/functies
+      - url: /programmeren/eigen-functies
         published: 'yes'
-        title: 'Functies'    
+        title: 'Eigen functies'    
       - url: /programmeren/php-functies
         published: 'yes'
         title: 'Ingebouwde PHP functies'                                    
