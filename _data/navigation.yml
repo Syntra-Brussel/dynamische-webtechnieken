@@ -25,34 +25,34 @@ items:
     title: 'Programmeren in PHP'
     topics:
       - url: /programmeren/html-vs-php
-        published: 'yes'
+        published: 'no'
         title: 'HTML vs PHP'
       - url: /programmeren/variabelen
-        published: 'yes'
+        published: 'no'
         title: 'Variabelen'  
       - url: /programmeren/array
-        published: 'yes'
+        published: 'no'
         title: 'Array variable'        
       - url: /programmeren/voorwaardes
-        published: 'yes'
+        published: 'no'
         title: 'Voorwaardes'           
       - url: /programmeren/lussen
-        published: 'yes'
+        published: 'no'
         title: 'Lussen - Herhalingen'    
       - url: /programmeren/get-parameters
-        published: 'yes'
+        published: 'no'
         title: 'GET (URL) parameters' 
       - url: /programmeren/post-parameters
-        published: 'yes'
+        published: 'no'
         title: 'POST parameters'               
       - url: /programmeren/oefening-factuur
-        published: 'yes'
+        published: 'no'
         title: 'OEFENING: Factuur'         
       - url: /programmeren/eigen-functies
-        published: 'yes'
+        published: 'no'
         title: 'Eigen functies'    
       - url: /programmeren/php-functies
-        published: 'yes'
+        published: 'no'
         title: 'Ingebouwde PHP functies'                                    
   - url: /wordpress  
     published: 'yes'
