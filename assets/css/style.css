@@ -186,17 +186,6 @@ footer {
     font-weight: bold;
 }
 
-.enlighter-default:before {
-    content: 'CODE';
-    position: relative;
-    left: -10px;
-    top: -35px;
-    font-size: 1.3rem;
-    color: #FF3521;
-    font-weight: bold;
-}
-
-
 .strike .enlighter {
     text-decoration: line-through;
 }
