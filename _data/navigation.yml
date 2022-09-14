@@ -38,7 +38,13 @@ items:
         title: 'Voorwaardes'           
       - url: /programmeren/lussen
         published: 'yes'
-        title: 'Lussen - Herhalingen'           
+        title: 'Lussen - Herhalingen'    
+      - url: /programmeren/get-parameters
+        published: 'yes'
+        title: 'GET (URL) parameters' 
+      - url: /programmeren/post-parameters
+        published: 'yes'
+        title: 'POST parameters'               
       - url: /programmeren/oefening-factuur
         published: 'yes'
         title: 'OEFENING: Factuur'         
@@ -47,13 +53,7 @@ items:
         title: 'Functies'    
       - url: /programmeren/php-functies
         published: 'yes'
-        title: 'Ingebouwde PHP functies' 
-      - url: /programmeren/get-parameters
-        published: 'yes'
-        title: 'GET (URL) parameters' 
-      - url: /programmeren/post-parameters
-        published: 'yes'
-        title: 'POST parameters'                                      
+        title: 'Ingebouwde PHP functies'                                    
   - url: /wordpress  
     published: 'yes'
     title: 'Wordpress'
