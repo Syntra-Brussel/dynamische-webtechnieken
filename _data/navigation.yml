@@ -45,7 +45,10 @@ items:
       - url: /programmeren/post-parameters
         published: 'no'
         title: 'POST parameters'               
-      - url: /programmeren/oefening-factuur
+      - url: /programmeren/oefening-getallen-vergelijken
+        published: 'no'
+        title: 'OEFENING: Rekenen'   
+      - url: /programmeren/oefening-rekenen
         published: 'no'
         title: 'OEFENING: Factuur'         
       - url: /programmeren/eigen-functies
