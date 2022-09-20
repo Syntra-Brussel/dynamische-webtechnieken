@@ -4,6 +4,14 @@ title: 'OEFENING: Rekenen'
 url: /programmeren/oefening-rekenen
 collection: programmeren
 ---
+<div class="highlight">
+    <h3>Instructies</h3>
+    <ul>
+        <li>werk ik het het script <code>programmeren/rekenen.php</code></li>
+        <li>Schrijf de HTML eerst statisch. Maak die daarna dynamisch door er <code><?php ... ?></code> aan te te voegen.</li>
+    </ul>
+</div>
+
 ### Resultaat voor het versturen van het formulier
 <div class="shadow result">
     <form>

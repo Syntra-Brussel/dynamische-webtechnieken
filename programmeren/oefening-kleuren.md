@@ -4,6 +4,14 @@ title: 'OEFENING: Kleuren'
 url: /programmeren/oefening-kleuren
 collection: programmeren
 ---
+<div class="highlight">
+    <h3>Instructies</h3>
+    <ul>
+        <li>werk ik het het script <code>programmeren/kleuren.php</code></li>
+        <li>Schrijf de HTML eerst statisch. Maak die daarna dynamisch door er <code><?php ... ?></code> aan te te voegen.</li>
+    </ul>
+</div>
+
 Je kan kiezen uit rood, blauw, geel, groen en grijs.
 
 ### Resultaat voor het versturen van het formulier
