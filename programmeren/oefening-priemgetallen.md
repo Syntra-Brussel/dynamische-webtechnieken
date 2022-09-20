@@ -4,7 +4,7 @@ title: 'OEFENING: Priemgetallen'
 url: /programmeren/oefening-priemgetallen
 collection: programmeren
 links:
-  - https://nl.wikipedia.org/wiki/Priemgetal
+  - url: https://nl.wikipedia.org/wiki/Priemgetal
 ---
 Toon de priemgetallen tussen 1 en 100.
 
