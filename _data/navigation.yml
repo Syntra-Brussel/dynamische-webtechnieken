@@ -30,25 +30,28 @@ items:
       - url: /programmeren/variabelen
         published: 'no'
         title: 'Variabelen'  
-      - url: /programmeren/array
+      - url: /programmeren/oefening-rekenen
         published: 'no'
-        title: 'Array variable'        
+        title: 'OEFENING: Rekenen'             
       - url: /programmeren/voorwaardes
         published: 'no'
         title: 'Voorwaardes'           
       - url: /programmeren/lussen
-        published: 'no'
+        published: 'no'          
         title: 'Lussen - Herhalingen'    
+      - url: /programmeren/oefening-priemgetallen
+        published: 'no'
+        title: 'OEFENING: Priemgetallen' 
+      - url: /programmeren/array
+        published: 'no'    
+        title: 'Array variable'                    
       - url: /programmeren/get-parameters
         published: 'no'
         title: 'GET (URL) parameters' 
       - url: /programmeren/post-parameters
         published: 'no'
         title: 'POST parameters'               
-      - url: /programmeren/oefening-rekenen
-        published: 'no'
-        title: 'OEFENING: Rekenen'   
-      - url: /programmeren/oefening-rekenen
+      - url: /programmeren/oefening-factuur
         published: 'no'
         title: 'OEFENING: Factuur'         
       - url: /programmeren/eigen-functies
