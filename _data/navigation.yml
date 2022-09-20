@@ -38,7 +38,10 @@ items:
         title: 'POST parameters'                    
       - url: /programmeren/oefening-rekenen
         published: 'no'
-        title: 'OEFENING: Rekenen'             
+        title: 'OEFENING: Rekenen'  
+      - url: /programmeren/oefening-kleuren
+        published: 'no'
+        title: 'OEFENING: Kleuren'                     
       - url: /programmeren/voorwaardes
         published: 'no'
         title: 'Voorwaardes'           
