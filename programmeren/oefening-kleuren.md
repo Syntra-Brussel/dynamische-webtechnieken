@@ -1,9 +1,11 @@
 ---
 layout: template
-title: 'OEFENING: Rekenen'
-url: /programmeren/oefening-rekenen
+title: 'OEFENING: Kleuren'
+url: /programmeren/oefening-kleuren
 collection: programmeren
 ---
+Je kan kiezen uit rood, blauw, geel, groen en grijs.
+
 ### Resultaat voor het versturen van het formulier
 <div class="shadow result">
     <form>
