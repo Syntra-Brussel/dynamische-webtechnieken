@@ -25,22 +25,22 @@ items:
     title: 'Programmeren in PHP'
     topics:
       - url: /programmeren/html-vs-php
-        published: 'no'
+        published: 'c'
         title: 'HTML vs PHP'
       - url: /programmeren/variabelen
-        published: 'no'
+        published: 'yes'
         title: 'Variabelen'  
       - url: /programmeren/get-parameters
-        published: 'no'
+        published: 'noyes'
         title: 'GET (URL) parameters' 
       - url: /programmeren/post-parameters
-        published: 'no'
+        published: 'yes'
         title: 'POST parameters'                    
       - url: /programmeren/oefening-rekenen
-        published: 'no'
+        published: 'yes'
         title: 'OEFENING: Rekenen'  
       - url: /programmeren/oefening-kleuren
-        published: 'no'
+        published: 'yes'
         title: 'OEFENING: Kleuren'                     
       - url: /programmeren/voorwaardes
         published: 'no'
