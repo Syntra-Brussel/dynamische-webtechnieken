@@ -30,6 +30,12 @@ items:
       - url: /programmeren/variabelen
         published: 'no'
         title: 'Variabelen'  
+      - url: /programmeren/get-parameters
+        published: 'no'
+        title: 'GET (URL) parameters' 
+      - url: /programmeren/post-parameters
+        published: 'no'
+        title: 'POST parameters'                    
       - url: /programmeren/oefening-rekenen
         published: 'no'
         title: 'OEFENING: Rekenen'             
@@ -44,13 +50,7 @@ items:
         title: 'OEFENING: Priemgetallen' 
       - url: /programmeren/array
         published: 'no'    
-        title: 'Array variable'                    
-      - url: /programmeren/get-parameters
-        published: 'no'
-        title: 'GET (URL) parameters' 
-      - url: /programmeren/post-parameters
-        published: 'no'
-        title: 'POST parameters'               
+        title: 'Array variable'                       
       - url: /programmeren/oefening-factuur
         published: 'no'
         title: 'OEFENING: Factuur'         
