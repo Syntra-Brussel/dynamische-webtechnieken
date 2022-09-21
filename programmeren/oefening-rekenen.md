@@ -47,7 +47,7 @@ collection: programmeren
     </form>
     <hr />
     <p>20 + 10 = 30</p>
-    <p>20 - 10 = 20</p>
+    <p>20 - 10 = 10</p>
     <p>20 x 10 = 200</p>
     <p>20 x 10 = 2</p>
 </div>
