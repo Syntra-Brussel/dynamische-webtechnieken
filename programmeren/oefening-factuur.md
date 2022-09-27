@@ -34,7 +34,7 @@ $klantgegevens = [
 ?&gt;
 </pre>
 
-### factuur.php
+#### factuur.php
 <pre data-enlighter-theme="beyond" data-enlighter-language="php">
 &lt;?php 
 include 'gegevens.php';
@@ -49,7 +49,7 @@ include 'gegevens.php';
 &lt;/html&gt;
 </pre>
 
-### Het resultaat
+#### Het resultaat
 
 <div class="shadow result">
       <table width="100%">
