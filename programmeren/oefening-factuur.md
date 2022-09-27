@@ -32,8 +32,8 @@ collection: programmeren
         </table>
 
         
-        <h1>FACTUUR 2016/1</h1>
-        <h3>Datum: 05/01/2016</h3>
+        <h1 style="color: #00">FACTUUR 2016/1</h1>
+        <h3 style="color: #00">Datum: 05/01/2016</h3>
         <table border="0" width="100%">
             <tr>
                 <td><strong>Omschrijving</strong></td>
@@ -89,8 +89,8 @@ collection: programmeren
             </tr>
             <tr>
                 <td colspan="3"></td>
-                <td><h3>vervaldag:</h3></td>
-                <td><h3>15/01/2016</h3></td>
+                <td>vervaldag:</td>
+                <td>15/01/2016</td>
             </tr>
         </table>
         <div>
