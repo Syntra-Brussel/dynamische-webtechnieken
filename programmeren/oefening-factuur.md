@@ -9,9 +9,24 @@ collection: programmeren
     <h3>Instructies</h3>
     <ul>
         <li>werk in het script <code>programmeren/factuur.php</code></li>
-        <li>Start vanaf de bestaande <a target="_blank" href="factuur.html">factuur.html</a>. Maak die dynamisch door er <code><?php ... ?></code> fragmenten aan te te voegen.</li>
+        <li>Start vanaf het bestaande <a target="_blank" href="factuur.html">factuur.html</a>. Maak die dynamisch door er <code><?php ... ?></code> fragmenten aan te te voegen.</li>
     </ul>
 </div>
+
+Je krijgt de array's alvast die de informatie bevatten om de factuur op te maken.
+
+<pre data-enlighter-theme="beyond" data-enlighter-language="php">
+  &lt;?php 
+    $bedrijfsgegevens = [
+      'logo' => 'factuur-logo.png', 
+      'naam' => 'Logo BV', 
+      'straat' => 'logo.png', 
+      'plaats' => '2910 Essen', 
+    ];
+  ?&gt;
+</pre>
+
+## Het resultaat
 
 <div class="shadow result">
       <table width="100%">
