@@ -32,8 +32,9 @@ collection: programmeren
         </table>
 
         
-        <h1 style="color: #00">FACTUUR 2016/1</h1>
-        <h3 style="color: #00">Datum: 05/01/2016</h3>
+        <div>FACTUUR 2016/1</div>
+        <div>Datum: 05/01/2016</div>
+        
         <table border="0" width="100%">
             <tr>
                 <td><strong>Omschrijving</strong></td>
@@ -83,9 +84,9 @@ collection: programmeren
             </tr>
             <tr>
                 <td colspan="2"></td>
-                <td><h1>Totaal:</h1></td>
+                <td>Totaal:</td>
                 <td></td>
-                <td><h1>€ 234,74</h1></td>
+                <td>€ 234,74</td>
             </tr>
             <tr>
                 <td colspan="3"></td>
