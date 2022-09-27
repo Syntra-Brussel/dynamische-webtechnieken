@@ -9,7 +9,7 @@ collection: programmeren
     <h3>Instructies</h3>
     <ul>
         <li>werk in het script <code>programmeren/factuur.php</code></li>
-        <li>Schrijf de HTML eerst statisch. Maak die daarna dynamisch door er <code><?php ... ?></code> aan te te voegen.</li>
+        <li>Start vanaf de bestaande HTML. Maak die dynamisch door er <code><?php ... ?></code> fragmenten aan te te voegen.</li>
     </ul>
 </div>
 
@@ -100,7 +100,7 @@ collection: programmeren
         <div>
             <table border="0" width="100%">
                 <tr>
-                    <ul><li><u>Algemene voorwaarden</u></li></th>
+                    <ul><li><u>Algemene voorwaarden</u></li>
                         <li>Al onze factuuren zijn betaalbaar op de vervaldag welke op defactuur in weergegeven.</li>
                         <li>Bij gebreek aan betaling behouden wij ons het recht voor, het bedrag te laten innen op kosten van de client</li>
                         <li>In geval van betwisting zijnenkel de rechtbanken van Antwerpen bevoegd</li>
