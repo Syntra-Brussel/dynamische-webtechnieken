@@ -18,17 +18,17 @@ Je krijgt de array's alvast die de informatie bevatten om de factuur op te maken
 <pre data-enlighter-theme="beyond" data-enlighter-language="php">
 &lt;?php 
 $bedrijfsgegevens = [
-    'logo' => 'factuur-logo.png', 
-    'naam' => 'Logo BV', 
-    'straat' => 'Dorpsstraat 1', 
-    'plaats' => '2910 Essen', 
+  'logo' => 'factuur-logo.png', 
+  'naam' => 'Logo BV', 
+  'straat' => 'Dorpsstraat 1', 
+  'plaats' => '2910 Essen', 
 ];
 
 $klantgegevens = [     
-    'naam' => 'Francis Van Hooren', 
-    'straat' => 'Grote Markt 10', 
-    'plaats' => '2000 Antwerpen', 
-    'land' => 'België', 
+  'naam' => 'Francis Van Hooren', 
+  'straat' => 'Grote Markt 10', 
+  'plaats' => '2000 Antwerpen', 
+  'land' => 'België', 
 ];
 ?&gt;
 </pre>
