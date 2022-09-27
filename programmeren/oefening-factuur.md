@@ -15,7 +15,7 @@ collection: programmeren
 
 Je krijgt de array's alvast die de informatie bevatten om de factuur op te maken.
 
-#### gegevens
+#### gegevens.php
 <pre data-enlighter-theme="beyond" data-enlighter-language="php">
 &lt;?php 
 $bedrijfsgegevens = [
@@ -34,7 +34,7 @@ $klantgegevens = [
 ?&gt;
 </pre>
 
-#### factuur
+#### factuur.php
 <pre data-enlighter-theme="beyond" data-enlighter-language="php">
 &lt;?php 
 include 'gegevens.php';
