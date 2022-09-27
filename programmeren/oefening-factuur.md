@@ -57,10 +57,10 @@ $factuur_product_gegevens = [
     'looptijd_van' => '01/01/2016',
     'looptijd_tot' => '31/12/2017',
     'btw_percentage' => 21,
-    'prijs' => 169,
+    'eenheids_prijs' => 169,
     'totaal' => 169,
   ],
-    [
+  [
     'naam' => 'domeinnaam',
     'project' => 'inspiratieloos.be',
     'omschrijving' => '<ul>
@@ -70,7 +70,7 @@ $factuur_product_gegevens = [
     'looptijd_van' => '01/01/2016',
     'looptijd_tot' => '31/12/2017',
     'btw_percentage' => 21,
-    'prijs' => 169,
+    'eenheids_prijs' => 169,
     'totaal' => 169,
   ],
 ];
