@@ -30,10 +30,10 @@ collection: programmeren
                 </td>
             </tr>
         </table>
-
+ 
         
         <div><strong>FACTUUR 2016/1</strong></div>
-        <div><strong<u>Datum:</u> 05/01/2016</strong></div>
+        <div><strong><u>Datum:</u> 05/01/2016</strong></div>
 
         <table border="0" width="100%">
             <tr>
