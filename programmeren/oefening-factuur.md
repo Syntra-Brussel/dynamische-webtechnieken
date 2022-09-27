@@ -31,6 +31,12 @@ $klantgegevens = [
   'plaats' => '2000 Antwerpen', 
   'land' => 'België', 
 ];
+
+$factuurgegevens = [
+  'jaar' => '2016',
+  'nummer' => '1',
+  'datum' => '05/01/2016',
+];
 ?&gt;
 </pre>
 
