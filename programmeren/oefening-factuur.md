@@ -49,7 +49,7 @@ include 'gegevens.php';
 &lt;/html&gt;
 </pre>
 
-## Het resultaat
+### Het resultaat
 
 <div class="shadow result">
       <table width="100%">
