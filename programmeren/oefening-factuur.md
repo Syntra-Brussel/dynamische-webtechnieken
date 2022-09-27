@@ -34,20 +34,7 @@ $klantgegevens = [
 ?&gt;
 </pre>
 
-#### factuur.php
-<pre data-enlighter-theme="beyond" data-enlighter-language="php">
-&lt;?php 
-include 'gegevens.php';
-?&gt;
-&lt;html&gt;
-  &lt;head&gt;
-  ...
-  &lt;/head&gt;
-  &lt;body&gt;
-  ...
-  &lt;/body&gt;
-&lt;/html&gt;
-</pre>
+
 
 #### Het resultaat
 
