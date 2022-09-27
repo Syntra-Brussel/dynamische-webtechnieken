@@ -45,14 +45,15 @@ $factuur_gegevens = [
 
 $factuur_product_gegevens = [
   [
-    'naam' => 'Webhosting - domeinnaam.be',
+    'naam' => 'Webhosting',
+    'project' => 'inspiratieloos.be',
     'omschrijving' => '<ul>
-            <li>1 GB webruimte</li>
-            <li>1 database van 250 MB</li>
-            <li>1 e-mail adres</li>
-            <li>onbeperkte bandbreedte</li>
-        </ul>',
-    'aantal => 1,
+                          <li>1 GB webruimte</li>
+                          <li>1 database van 250 MB</li>
+                          <li>1 e-mail adres</li>
+                          <li>onbeperkte bandbreedte</li>
+                        </ul>',
+    'aantal' => 1,
     'looptijd_van' => '01/01/2016',
     'looptijd_tot' => '31/12/2017',
     'btw_percentage' => 21,
@@ -60,11 +61,12 @@ $factuur_product_gegevens = [
     'totaal' => 169,
   ],
     [
-    'naam' => 'Domeinnaam - domeinnaam.be',
+    'naam' => 'domeinnaam',
+    'project' => 'inspiratieloos.be',
     'omschrijving' => '<ul>
-            <li>registiratie/verlenging domeinnaam</li>
-        </ul>',
-    'aantal => 1,
+                         <li>registiratie/verlenging domeinnaam</li>
+                       </ul>',
+    'aantal' => 1,
     'looptijd_van' => '01/01/2016',
     'looptijd_tot' => '31/12/2017',
     'btw_percentage' => 21,
