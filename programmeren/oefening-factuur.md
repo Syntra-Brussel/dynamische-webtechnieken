@@ -18,21 +18,21 @@ Je krijgt de array's alvast die de informatie bevatten om de factuur op te maken
 #### gegevens.php
 <pre data-enlighter-theme="beyond" data-enlighter-language="php">
 &lt;?php 
-$bedrijfsgegevens = [
+$bedrijf_gegevens = [
   'logo' => 'factuur-logo.png', 
   'naam' => 'Logo BV', 
   'straat' => 'Dorpsstraat 1', 
   'plaats' => '2910 Essen', 
 ];
 
-$klantgegevens = [     
+$klant_gegevens = [     
   'naam' => 'Francis Van Hooren', 
   'straat' => 'Grote Markt 10', 
   'plaats' => '2000 Antwerpen', 
   'land' => 'België', 
 ];
 
-$factuurgegevens = [
+$factuur_gegevens = [
   'jaar' => 2016,
   'nummer' => 1,
   'datum' => '05/01/2016',
@@ -41,6 +41,36 @@ $factuurgegevens = [
   'btw' => 40.70,
   'totaal' => 234.74,
   'vervaldatum' => '15/01/2016',
+];
+
+$factuur_product_gegevens = [
+  [
+    'naam' => 'Webhosting - domeinnaam.be',
+    'omschrijving' => '<ul>
+            <li>1 GB webruimte</li>
+            <li>1 database van 250 MB</li>
+            <li>1 e-mail adres</li>
+            <li>onbeperkte bandbreedte</li>
+        </ul>',
+    'aantal => 1,
+    'looptijd_van' => '01/01/2016',
+    'looptijd_tot' => '31/12/2017',
+    'btw_percentage' => 21,
+    'prijs' => 169,
+    'totaal' => 169,
+  ],
+    [
+    'naam' => 'Domeinnaam - domeinnaam.be',
+    'omschrijving' => '<ul>
+            <li>registiratie/verlenging domeinnaam</li>
+        </ul>',
+    'aantal => 1,
+    'looptijd_van' => '01/01/2016',
+    'looptijd_tot' => '31/12/2017',
+    'btw_percentage' => 21,
+    'prijs' => 169,
+    'totaal' => 169,
+  ],
 ];
 ?&gt;
 </pre>
