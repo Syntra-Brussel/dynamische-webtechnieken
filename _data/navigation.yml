@@ -42,6 +42,9 @@ items:
       - url: /programmeren/oefening-kleuren
         published: 'yes'
         title: 'OEFENING: Kleuren'                     
+      - url: /programmeren/array
+        published: 'no'    
+        title: 'Array variable'        
       - url: /programmeren/voorwaardes
         published: 'yes'
         title: 'Voorwaardes'           
@@ -51,9 +54,7 @@ items:
       - url: /programmeren/oefening-priemgetallen
         published: 'yes'
         title: 'OEFENING: Priemgetallen' 
-      - url: /programmeren/array
-        published: 'no'    
-        title: 'Array variable'                       
+            
       - url: /programmeren/oefening-factuur
         published: 'no'
         title: 'OEFENING: Factuur'         
