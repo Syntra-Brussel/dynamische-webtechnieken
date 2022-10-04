@@ -8,6 +8,10 @@ links:
 ---
 Een array variable wordt gebruikt voor een collectie van waardes. Elk element in de collectie is aparte te benaderen.
 
+## Numerieke array
+
+De elementen in de array zijn te benaderen via een nummer, een <em>index</em>.
+
 Het eerste element is te benaderen met de <em>index</em> 0, het tweede met de <em>index</em> 1 enz.
 
 #### voorbeeld 1
@@ -18,7 +22,20 @@ Het eerste element is te benaderen met de <em>index</em> 0, het tweede met de <e
   echo $statuten[0] . ' - ' . $statuten[1] . ' - ' . $statuten[2] . ' - ' . $statuten[3];
   ?&gt;
 &lt;/p&gt;
+<div class="strike">
 </pre>
+&lt;p&gt;
+  &lt;?php 
+  $statuten = [
+    0 => 'Student', 
+    1 => 'Docent', 
+    2 => 'Bediende', 
+    3 => 'Arbeider'
+  ];
+  ?&gt;
+&lt;/p&gt;
+</pre>
+</siv>
 
 <div class="shadow result">
 <p>Student - Docent - Bediende - Arbeider</p>
@@ -38,3 +55,21 @@ Het eerste element is te benaderen met de <em>index</em> 0, het tweede met de <e
 <div class="shadow result">
 <p>Het derde statuut is "Bediende".</p>
 </div>
+
+## Associatieve array
+
+De elementen in de array zijn te benaderen via een sleutel, een <em>key</em>.
+
+<pre data-enlighter-theme="beyond" data-enlighter-language="php">
+&lt;p&gt;
+  &lt;?php 
+  $persoonsgegevens = [
+    'voornaam' => 'Bert', 
+    'achternaam' => 'Jansen',
+    'woonplaats' => 'Kalmhout'
+  ];
+  $derde = 2;
+  echo 'Het derde statuut "' . $statuut[$derde] .  '".';
+  ?&gt;
+&lt;/p&gt;
+</pre>
