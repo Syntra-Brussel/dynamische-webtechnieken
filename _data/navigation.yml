@@ -49,7 +49,7 @@ items:
         published: 'yes'
         title: 'OEFENING: Fiche'         
       - url: /programmeren/voorwaardes
-        published: 'no'
+        published: 'yes'
         title: 'Voorwaardes'           
       - url: /programmeren/lussen
         published: 'yes'          

@@ -1,7 +1,7 @@
 ---
 layout: template
-title: 'OEFENING: Rekenen'
-url: /programmeren/oefening-rekenen
+title: 'OEFENING: Fiche'
+url: /programmeren/oefening-fiche
 collection: programmeren
 ---
 <div class="highlight">
