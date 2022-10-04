@@ -63,7 +63,6 @@ De elementen in de array zijn te benaderen via een sleutel, een <em>key</em>.
     'achternaam' => 'Jansen',
     'woonplaats' => 'Kalmhout'
   ];
-  $derde = 2;
   echo 'De voornaam is "' . $persoonsgegevens['voornaam'] .  '".';
   ?&gt;
 &lt;/p&gt;
