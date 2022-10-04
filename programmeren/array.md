@@ -72,7 +72,7 @@ De elementen in de array zijn te benaderen via een sleutel, een <em>key</em>.
 <p>De voornaam is "Bert".</p>
 </div>
 
-## Numerieke en associatieve array in mekaar
+## Numerieke en associatieve array tesamen
 
 Heel vaak heb je een combinatie van de numerieke en associatieve array omdat arrays worden gebruikt om bijvoorbeeld records uit een databank te verwerken.
 

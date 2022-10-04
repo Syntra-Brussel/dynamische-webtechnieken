@@ -43,7 +43,7 @@ items:
         published: 'yes'
         title: 'OEFENING: Kleuren'                     
       - url: /programmeren/array
-        published: 'no'    
+        published: 'yes'    
         title: 'Array variable'        
       - url: /programmeren/voorwaardes
         published: 'yes'
