@@ -61,7 +61,7 @@ De elementen in de array zijn te benaderen via een sleutel, een <em>key</em>.
   $persoonsgegevens = [
     'voornaam' => 'Bert', 
     'achternaam' => 'Jansen',
-    'woonplaats' => 'Kalmhout'
+    'woonplaats' => 'Kalmhout',
   ];
   echo 'De voornaam is "' . $persoonsgegevens['voornaam'] .  '".';
   ?&gt;
@@ -83,12 +83,12 @@ Heel vaak heb je een combinatie van de numerieke en associatieve array omdat arr
     [
       'voornaam' => 'Bert', 
       'achternaam' => 'Jansen',
-      'woonplaats' => 'Kalmhout'
+      'woonplaats' => 'Kalmhout',
     ],
     [
       'voornaam' => 'Tom', 
       'achternaam' => 'Pintens',
-      'woonplaats' => 'Brussel'
+      'woonplaats' => 'Brussel',
     ],
   ];
   
