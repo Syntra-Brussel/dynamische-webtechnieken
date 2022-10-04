@@ -22,7 +22,7 @@ collection: programmeren
         <td>Beroep: <strong>Docent</strong></td>
     </tr>
     <tr>
-        <td>Leeftijd: <strong>42</strong></td>
+        <td>Gehuwd: <strong>Ja</strong></td>
     </tr>
     <tr>
         <td>Woonplaats: <strong>Kalmthout</strong></td>
