@@ -33,10 +33,11 @@ collection: programmeren
     <tr>
     <td colspan="2">Hobby's:
         <ul>
-            <li>TV kijken<li>
-            <li>programmeren<li>
-            <li>Italiaans eten<li>
+            <li>TV kijken</li>
+            <li>programmeren</li>
+            <li>Italiaans eten</li>
         </ul>
     </td>
+    </tr>
     </table>
 </div>
