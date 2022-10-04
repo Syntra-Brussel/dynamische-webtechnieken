@@ -22,6 +22,8 @@ Het eerste element is te benaderen met de <em>index</em> 0, het tweede met de <e
   echo $statuten[0] . ' - ' . $statuten[1] . ' - ' . $statuten[2] . ' - ' . $statuten[3];
   ?&gt;
 &lt;/p&gt;
+<div class="highlight">
+<h3>Best practice</h3>
 <div class="strike">
 </pre>
 &lt;p&gt;
@@ -35,7 +37,8 @@ Het eerste element is te benaderen met de <em>index</em> 0, het tweede met de <e
   ?&gt;
 &lt;/p&gt;
 </pre>
-</siv>
+</div>
+</div>
 
 <div class="shadow result">
 <p>Student - Docent - Bediende - Arbeider</p>
