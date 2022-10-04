@@ -43,13 +43,13 @@ items:
         published: 'yes'
         title: 'OEFENING: Kleuren'                     
       - url: /programmeren/voorwaardes
-        published: 'no'
+        published: 'yes'
         title: 'Voorwaardes'           
       - url: /programmeren/lussen
-        published: 'no'          
+        published: 'yes'          
         title: 'Lussen - Herhalingen'    
       - url: /programmeren/oefening-priemgetallen
-        published: 'no'
+        published: 'yes'
         title: 'OEFENING: Priemgetallen' 
       - url: /programmeren/array
         published: 'no'    
