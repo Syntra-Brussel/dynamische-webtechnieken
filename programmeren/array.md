@@ -22,10 +22,11 @@ Het eerste element is te benaderen met de <em>index</em> 0, het tweede met de <e
   echo $statuten[0] . ' - ' . $statuten[1] . ' - ' . $statuten[2] . ' - ' . $statuten[3];
   ?&gt;
 &lt;/p&gt;
+</pre>
 <div class="highlight">
 <h3>Best practice</h3>
 <div class="strike">
-</pre>
+<pre data-enlighter-theme="beyond" data-enlighter-language="php">
 &lt;p&gt;
   &lt;?php 
   $statuten = [
