@@ -50,7 +50,7 @@ De lus die heel geschikt is om over het aantal elementen in een array te gaan.
 &lt;p&gt;
   &lt;ul&gt;
   &lt;?php 
-    $tatuten = ['Student', 'Docent', 'Bediende', 'Arbeider'];
+    $statuten = ['Student', 'Docent', 'Bediende', 'Arbeider'];
     foreach ($tatuten as $statuut) {
       ?&gt;
       &lt;li&gt;&lt;?php echo $statuut; ?&gt;&lt;/li&gt;
