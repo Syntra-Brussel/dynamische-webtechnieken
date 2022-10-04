@@ -45,6 +45,9 @@ items:
       - url: /programmeren/array
         published: 'yes'    
         title: 'Array variable'        
+      - url: /programmeren/oefening-fiche
+        published: 'yes'
+        title: 'OEFENING: Fiche'         
       - url: /programmeren/voorwaardes
         published: 'yes'
         title: 'Voorwaardes'           
