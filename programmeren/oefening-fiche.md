@@ -13,7 +13,7 @@ collection: programmeren
 </div>
 
 <div class="shadow result">
-    <table>
+    <table cellpadding="10">
     <tr>
         <td rowspan="5"><img src="https://monstar-lab.com/global/wp-content/uploads/sites/11/2019/04/male-placeholder-image-300x300.jpeg" /></td>
         <td>Naam: <strong>Bert Jansen</strong></td>
