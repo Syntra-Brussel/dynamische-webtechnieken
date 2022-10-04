@@ -71,3 +71,35 @@ De elementen in de array zijn te benaderen via een sleutel, een <em>key</em>.
 <div class="shadow result">
 <p>De voornaam is "Bert".</p>
 </div>
+
+## Numerieke en associatieve array in mekaar
+
+Heel vaak heb je een combinatie van de numerieke en associatieve array omdat arrays worden gebruikt om bijvoorbeeld records uit een databank te verwerken.
+
+<pre data-enlighter-theme="beyond" data-enlighter-language="php">
+&lt;p&gt;
+  &lt;?php 
+  $persoonsgegevens = [
+    [
+      'voornaam' => 'Bert', 
+      'achternaam' => 'Jansen',
+      'woonplaats' => 'Kalmhout'
+    ],
+    [
+      'voornaam' => 'Tom', 
+      'achternaam' => 'Pintens',
+      'woonplaats' => 'Brussel'
+    ],
+  ];
+  
+  echo '<p>De voornaam van persoon 1 is "' . $persoonsgegevens[0]['voornaam'] .  '"</p>.';
+  echo '<p>De voornaam van persoon 2 is "' . $persoonsgegevens[1]['voornaam'] .  '"</p>.';
+  ?&gt;
+&lt;/p&gt;
+</pre>
+
+<div class="shadow result">
+<p>De voornaam van persoon 1 is "Bert".</p>
+<p>De voornaam van persoon 2 is "Tom".</p>
+</div>
+
