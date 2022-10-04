@@ -16,22 +16,22 @@ collection: programmeren
     <table cellpadding="10">
     <tr>
         <td rowspan="5"><img src="https://monstar-lab.com/global/wp-content/uploads/sites/11/2019/04/male-placeholder-image-300x300.jpeg" /></td>
-        <td>Naam: <strong>Bert Jansen</strong></td>
+        <td><u>Naam:</u> <strong>Bert Jansen</strong></td>
     </tr>
     <tr>
-        <td>Beroep: <strong>Docent</strong></td>
+        <td><u>Beroep:</u> <strong>Docent</strong></td>
     </tr>
     <tr>
-        <td>Gehuwd: <strong>Ja</strong></td>
+        <td><u>Gehuwd:</u> <strong>Ja</strong></td>
     </tr>
     <tr>
-        <td>Woonplaats: <strong>Kalmthout</strong></td>
+        <td><u>Woonplaats:</u> <strong>Kalmthout</strong></td>
     </tr>
     <tr>
-        <td>E-mail: <strong>info@data-web.be</strong></td>
+        <td><u>E-mail:</u> <strong>info@data-web.be</strong></td>
     </tr>
     <tr>
-    <td colspan="2">Hobby's:
+    <td colspan="2"><u>Hobby's:</u>
         <ul>
             <li>TV kijken</li>
             <li>programmeren</li>
