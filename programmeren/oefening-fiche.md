@@ -15,7 +15,7 @@ collection: programmeren
 <div class="shadow result">
     <table>
     <tr>
-        <td rowspan="5"></td>
+        <td rowspan="5"><img src="xxx" /></td>
         <td>Naam: <strong>Bert Jansen</strong></td>
     </tr>
     <tr>
