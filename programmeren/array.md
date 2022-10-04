@@ -48,9 +48,9 @@ Het eerste element is te benaderen met de <em>index</em> 0, het tweede met de <e
 <pre data-enlighter-theme="beyond" data-enlighter-language="php">
 &lt;p&gt;
   &lt;?php 
-  $tatuten = ['Student', 'Docent', 'Bediende', 'Arbeider'];
+  $statuten = ['Student', 'Docent', 'Bediende', 'Arbeider'];
   $derde = 2;
-  echo 'Het derde statuut "' . $statuut[$derde] .  '".';
+  echo 'Het derde statuut "' . $statuten[$derde] .  '".';
   ?&gt;
 &lt;/p&gt;
 </pre>
@@ -72,7 +72,11 @@ De elementen in de array zijn te benaderen via een sleutel, een <em>key</em>.
     'woonplaats' => 'Kalmhout'
   ];
   $derde = 2;
-  echo 'Het derde statuut "' . $statuut[$derde] .  '".';
+  echo 'De voornaam is "' . $persoonsgegevens['voornaam'] .  '".';
   ?&gt;
 &lt;/p&gt;
 </pre>
+
+<div class="shadow result">
+<p>De voornaam is "Bert".</p>
+</div>
