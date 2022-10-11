@@ -58,7 +58,7 @@ items:
         published: 'yes'
         title: 'OEFENING: Priemgetallen' 
       - url: /programmeren/oefening-factuur
-        published: 'no'
+        published: 'yes'
         title: 'OEFENING: Factuur'         
       - url: /programmeren/eigen-functies
         published: 'no'
