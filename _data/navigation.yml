@@ -61,8 +61,11 @@ items:
         published: 'yes'
         title: 'OEFENING: Factuur'         
       - url: /programmeren/eigen-functies
-        published: 'no'
+        published: 'yes'
         title: 'Eigen functies'    
+      - url: /programmeren/oefening-rekenen-met-functies
+        published: 'yes'
+        title: 'OEFENING: Rekenen met functies'          
       - url: /programmeren/php-functies
         published: 'no'
         title: 'Ingebouwde PHP functies'                                    
