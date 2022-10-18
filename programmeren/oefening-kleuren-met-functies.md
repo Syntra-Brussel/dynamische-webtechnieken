@@ -22,7 +22,11 @@ function gekozenKleuren() {
     //...
 }
 
-function kleurenOpties($keuze) {
+function achtergrondOpties() {
+    //...
+}
+
+function voorgrondOpties() {
     //...
 }
 ?&gt;
@@ -36,13 +40,13 @@ function kleurenOpties($keuze) {
             &lt;li&gt;Voorgrond keur 
                 &lt;select name="voorgrond_kleur"&gt;
                     &lt;option&gt;&lt;/option&gt;
-                    &lt;?php echo kleurenOpties('voorgrond'); ?&gt;
+                    &lt;?php echo voorgrondOpties(); ?&gt;
                 &lt;/select&gt;
             &lt;/li&gt;
             &lt;li>Achtergrond keur 
                 &lt;select name="achtergrond_kleur"&gt;
-                    &lt:option&gt;&lt;/option&gt;
-                    &lt;?php echo kleurenOpties('achtegrond'); ?&gt;
+                    &lt;option&gt;&lt;/option&gt;
+                    &lt;?php echo achtergrondOpties(); ?&gt;
                 &lt;/select&gt;
             &lt;/li&gt;
         &lt;/ul&gt;
