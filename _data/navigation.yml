@@ -69,7 +69,7 @@ items:
       - url: /programmeren/oefening-kleuren-met-functies
         published: 'yes'
         title: 'OEFENING: kleuren met functies' 
-      - url: /programmeren/priemgetallen-met-functies
+      - url: /programmeren/oefening-priemgetallen-met-functies
         published: 'yes'
         title: 'OEFENING: priemgetallen met functies'                          
       - url: /programmeren/php-functies
