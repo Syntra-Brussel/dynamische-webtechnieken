@@ -65,7 +65,13 @@ items:
         title: 'Eigen functies'    
       - url: /programmeren/oefening-rekenen-met-functies
         published: 'yes'
-        title: 'OEFENING: Rekenen met functies'          
+        title: 'OEFENING: Rekenen met functies'  
+      - url: /programmeren/oefening-kleuren-met-functies
+        published: 'yes'
+        title: 'OEFENING: Rekenen met functies' 
+      - url: /programmeren/priemgetallen-met-functies
+        published: 'yes'
+        title: 'OEFENING: Rekenen met functies'                          
       - url: /programmeren/php-functies
         published: 'no'
         title: 'Ingebouwde PHP functies'                                    
