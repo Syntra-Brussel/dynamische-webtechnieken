@@ -13,11 +13,11 @@ Een functie heeft, bij voorkeur, een naam die omschrijft wat er binnen de functi
 <pre data-enlighter-theme="beyond" data-enlighter-language="php">
 &lt;p&gt;
   &lt;?php 
-  function functieNaam($parameter1, $parameter2) {
-    // verwerking op basis van de parameter
-    // $resultaat = ...
+  function functieNaam($parameter, ...) {
+    // verwerking op basis van de parameter(s).
+    $resultaat = ...
 
-    // Uitvoer van het resultaat
+    // Uitvoer van het resultaat.
     return $resultaat;
   }
   ?&gt;
