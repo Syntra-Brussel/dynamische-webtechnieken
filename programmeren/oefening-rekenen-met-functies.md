@@ -11,7 +11,7 @@ collection: programmeren
         <li>Herschrijf de PHP code van <a href="/dynamische-webtechnieken/programmeren/oefening-rekenen">deze oefening</a> met functies.</li>
         <li>
             <ul>
-            <li>Schrijf een functie aparte voor elke bewerking</li>
+            <li>Schrijf een functie aparte voor elke bewerking <code>optellen($getal_1, $getal_2)</code>, <code>aftrekken($getal_1, $getal_2)</code>, <code>vermeningvuldigen($getal_1, $getal_2)</code> en <code>delen($getal_1, $getal_2)</code></li>
             <li>breng alle bewerkingen vervolgens samen in één functie <code>rekenen($bewerking, $getal_1, $getal_2)</code></li>
             </ul>
         </li>            
