@@ -8,7 +8,7 @@ collection: programmeren
     <h3>Instructies</h3>
     <ul>
         <li>werk in het script <code>programmeren/rekenen_met_functies.php</code></li>
-        <li>Herschrijf de codes van <a href="/dynamische-webtechnieken/programmeren/oefening-rekenen">deze oefening</a> met functies.</li>
+        <li>Herschrijf de PHP code van <a href="/dynamische-webtechnieken/programmeren/oefening-rekenen">deze oefening</a> met functies.</li>
         <li>
             <ul>
             <li>Schrijf een functie aparte voor elke bewerking</li>
