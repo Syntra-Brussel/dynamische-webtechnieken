@@ -51,8 +51,9 @@ function lettersInRandomKleur($zin, $kleuren_opties) {
 <div class="shadow result">
 <h1 style="color: black">Een zin in kleur.</h1>
 <ul>
-    <li><span style="color: blue">Een zin in kleur</span>.</li>
-    <li><span style="color: blue">Een</span> <span style="color: green">zin</span> <span style="color: blue">in</span> <span style="color: red">kleur.</span></li>
-    <li><span style="color: red">E</span><span style="color: green">e</span><span style="color: blue">n</span> <span style="color: green">z</span><span style="color: red">i</span><span style="color: blue">n</span> <span style="color: blue">i</span><span style="color: red">n</span> <span style="color: blue">k</span><span style="color: red">l</span><span style="color: green">e</span><span style="color: blue">u</span><span style="color: green">r</span><span style="color: blue">.</span></li>
+  <li><span style="color: blue">Een zin in kleur</span>.</li>
+  <li><span style="color: blue">Een</span> <span style="color: green">zin</span> <span style="color: blue">in</span> <span style="color: red">kleur.</span></li>
+  <li><span style="color: red">E</span><span style="color: green">e</span><span style="color: blue">n</span> <span style="color: green">z</span><span style="color: red">i</span><span style="color: blue">n</span> <span style="color: blue">i</span><span style="color: red">n</span> <span style="color: blue">k</span><span style="color: red">l</span><span style="color: green">e</span><span style="color: blue">u</span><span style="color: green">r</span><span style="color: blue">.</span>
+  </li>
 </ul>
 </div>
