@@ -1,7 +1,7 @@
 ---
 layout: template
-title: 'OEFENING: Kleuren'
-url: /programmeren/oefening-kleuren
+title: 'OEFENING: PHP functies'
+url: /programmeren/oefening-php-functies
 collection: programmeren
 ---
 <div class="highlight">
