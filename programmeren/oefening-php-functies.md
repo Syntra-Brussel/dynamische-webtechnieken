@@ -12,14 +12,14 @@ collection: programmeren
     </ul>
 </div>
 
-Je kan kiezen uit rood, blauw, geel, groen en grijs.
+Je kan kiezen uit blau<, groen, en rood.
 
 ### php_functies.php
 <pre data-enlighter-theme="beyond" data-enlighter-language="php">
 &lt;?php
 $zin = "Een zin in kleur.";
 
-$kleuren_opties = ['blue', 'yellow', 'red'];
+$kleuren_opties = ['blue', 'green', 'red'];
 
 function zinInRandomKleur($zin, $kleuren_opties) {
     //...
@@ -47,7 +47,7 @@ function lettersInRandomKleur($zin, $kleuren_opties) {
 <h1>Een zin in kleur.</h1>
 <ul>
     <li><span style="color: blue">Een zin in kleur</span>.</li>
-    <li><span style="color: blue">Een</span> <span style="color: yellow">zin</span> <span style="color: blue">in</span> <span style="color: red">kleur.</span></li>
-    <li><span style="color: red">E</span><span style="color: yellow">e</span><span style="color: blue">n</span> <span style="color: blue">z</span><span style="color: blue">i</span><span style="color: blue">n</span> <span style="color: blue">i</span><span style="color: red">n</span> <span style="color: blue">k</span><span style="color: red">l</span><span style="color: yellow">e</span><span style="color: blue">u</span><span style="color: yellow">r</span><span style="color: blue">.</span></li>
+    <li><span style="color: blue">Een</span> <span style="color: green">zin</span> <span style="color: blue">in</span> <span style="color: red">kleur.</span></li>
+    <li><span style="color: red">E</span><span style="color: green">e</span><span style="color: blue">n</span> <span style="color: blue">z</span><span style="color: blue">i</span><span style="color: blue">n</span> <span style="color: blue">i</span><span style="color: red">n</span> <span style="color: blue">k</span><span style="color: red">l</span><span style="color: green">e</span><span style="color: blue">u</span><span style="color: green">r</span><span style="color: blue">.</span></li>
 </ul>
 </div>
