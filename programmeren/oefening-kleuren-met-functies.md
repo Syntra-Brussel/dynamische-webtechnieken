@@ -17,7 +17,7 @@ Je kan kiezen uit rood, blauw, geel, groen en grijs.
 ### Resultaat voor het versturen van het formulier
 <pre data-enlighter-theme="beyond" data-enlighter-language="php">
 &lt;?php
-$kleuren_ppties = ['blue', 'yellow', 'red'];
+$kleuren_opties = ['blue', 'yellow', 'red'];
 function gekozenKleuren() {
     //...
 }

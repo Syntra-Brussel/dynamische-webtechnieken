@@ -3,6 +3,8 @@ layout: template
 title: Eigen functies
 url: /programmeren/eigen-functies
 collection: programmeren
+liinks:
+  - url: https://www.w3schools.com/php/php_functions.asp
 ---
 
 Een functie wordt gebruikt om een set van PHP insctructies samen uit te voeren om een speciek. Het belangrijste voordeel aan het gebruik van eigen functies is om code beter leesbaar te maken.
