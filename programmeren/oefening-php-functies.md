@@ -7,8 +7,8 @@ collection: programmeren
 <div class="highlight">
     <h3>Instructies</h3>
     <ul>
-        <li>werk in het script <code>programmeren/kleuren_met_functie.php</code></li>
-        <li>Zorg ervoor dat de de array <code>$kleuren_opties</code> kan uitgebreid worden met extra kleuren.</li>
+        <li>werk in het script <code>programmeren/php_functies.php</code></li>
+        <li>Zorg ervoor dat de array <code>$kleuren_opties</code> kan uitgebreid worden met extra kleuren.</li>
     </ul>
     <h3>Tips</h3>
     <ul>
