@@ -8,11 +8,17 @@ collection: programmeren
     <h3>Instructies</h3>
     <ul>
         <li>werk in het script <code>programmeren/kleuren_met_functie.php</code></li>
-        <li>Herschrijf de PHP code van <a href="/dynamische-webtechnieken/programmeren/oefening-kleuren">deze oefening</a> met een functies en lussen.</li>
+        <li>Zorg ervoor dat de de array <code>$kleuren_opties</code> kan uitgebreid worden met extra kleuren.</li>
+    </ul>
+    <h3>Tips</h3>
+    <ul>
+        <li>Gebruik de functie <a target="_blank" href="https://www.php.net/manual/en/function.rand.php"><code>rand($min, $max)</code></a> om een radon getal te bepalen tussen een ondergrens en een bovengrens.</li>
+        <li>Gebruik de functie <a target="_blank" href="https://www.php.net/manual/en/function.explode.php"><code>explode($separator, $string)</code></a> om de woorden van een zin in een aray te plaatsen.</li>
+        <li>Gebruik de functie <a target="_blank" href="https://www.php.net/manual/en/function.str-split.php"><code>str_split($string)</code></a> om elk karakter van een string in een aray te plaatsen.</li>
     </ul>
 </div>
 
-Je kan kiezen uit blau<, groen, en rood.
+Je kan kiezen uit blauw, groen, en rood.
 
 ### php_functies.php
 <pre data-enlighter-theme="beyond" data-enlighter-language="php">
