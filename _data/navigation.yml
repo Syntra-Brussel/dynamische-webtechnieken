@@ -73,8 +73,11 @@ items:
         published: 'yes'
         title: 'OEFENING: priemgetallen met functies'                          
       - url: /programmeren/php-functies
-        published: 'no'
-        title: 'Ingebouwde PHP functies'                                    
+        published: 'yes'
+        title: 'Ingebouwde PHP functies'      
+      - url: /programmeren/oefening-php-functies
+        published: 'yes'
+        title: 'OEFENING: PHP functies'                                            
   - url: /wordpress  
     published: 'yes'
     title: 'Wordpress'
