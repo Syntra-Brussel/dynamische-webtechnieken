@@ -44,7 +44,7 @@ function lettersInRandomKleur($zin, $kleuren_opties) {
 
 ### Een mogelijk resultaat.
 <div class="shadow result">
-<h1>Een zin in kleur.</h1>
+<h1 style="color: black">Een zin in kleur.</h1>
 <ul>
     <li><span style="color: blue">Een zin in kleur</span>.</li>
     <li><span style="color: blue">Een</span> <span style="color: green">zin</span> <span style="color: blue">in</span> <span style="color: red">kleur.</span></li>
