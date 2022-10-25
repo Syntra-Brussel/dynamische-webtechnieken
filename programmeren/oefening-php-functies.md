@@ -13,7 +13,7 @@ collection: programmeren
     <h3>Tips</h3>
     <ul>
         <li>Gebruik de functie <a target="_blank" href="https://www.php.net/manual/en/function.rand.php"><code>rand($min, $max)</code></a> om een radon getal te bepalen tussen een ondergrens en een bovengrens.</li>
-        <li>Gebruik de functie <a target="_blank" href="https://www.php.net/manual/en/function.explode.php"><code>explode($separator, $string)</code></a> om de woorden van een zin in een aray te plaatsen.</li>
+        <li>Gebruik de functie <a target="_blank" href="https://www.php.net/manual/en/function.explode.php"><code>explode($separator, $string)</code></a> om de woorden in een een zin in een aray te plaatsen.</li>
         <li>Gebruik de functie <a target="_blank" href="https://www.php.net/manual/en/function.str-split.php"><code>str_split($string)</code></a> om elk karakter van een string in een aray te plaatsen.</li>
     </ul>
 </div>
