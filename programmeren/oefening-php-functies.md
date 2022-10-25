@@ -24,7 +24,6 @@ Je kan kiezen uit blauw, groen, en rood.
 <pre data-enlighter-theme="beyond" data-enlighter-language="php">
 &lt;?php
 $zin = "Een zin in kleur.";
-
 $kleuren_opties = ['blue', 'green', 'red'];
 
 function zinInRandomKleur($zin, $kleuren_opties) {
