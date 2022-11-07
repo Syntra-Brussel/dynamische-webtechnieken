@@ -25,7 +25,11 @@ Voorbeeld:
 
 <pre>
 SELECT Voornaam, Achternaam FROM Auteurs;
-Voorwaarde
+</pre>
+
+## Voorwaarde
+
+<pre>
 SELECT kolom_naam (,...) FROM tabel WHERE voorwaarde;
 </pre>
 
