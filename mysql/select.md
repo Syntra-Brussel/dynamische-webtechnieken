@@ -15,7 +15,10 @@ Je kan ook de relaties bepalen via de “Structuur” tab en dan de knop “Rela
 ## Simpele SELECT
 Een simpele <strong>SELECT-query</strong> bestaat bijvoorbeeld uit de volgende componenten:
 
+<pre>
 SELECT kolom_naam (,...) FROM tabel_naam;
+</pre>
+
 Eerst specificeer je het SQL-commando SELECT en vervolgens geef je aan op welke <strong>kolommen</strong> en <strong>tabellen</strong> het commando van toepassing is. Een puntkomma sluit het statement af.
 
 Voorbeeld:
@@ -28,9 +31,10 @@ SELECT kolom_naam (,...) FROM tabel WHERE voorwaarde;
 
 De voorwaarde bestaat uit 3 onderdelen:
 
-# de kolom_naam
-# de operator (=, <, >, <=, >=, LIKE)
-# de waarde: tussen ‘-accenten
+* de kolom_naam
+* de operator (=, <, >, <=, >=, LIKE)
+* de waarde: tussen ‘-accenten
+
 Verschillende voorwaardes kunnen met AND en OR zijn.
 
 Voorbeelden:
