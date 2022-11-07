@@ -12,7 +12,7 @@ De indexen definieer je de parameters INDEX, UNIQUE en A_I. Je herkent ze in PHP
 <img src="images/select.png" />
 Je kan ook de relaties bepalen via de “Structuur” tab en dan de knop “Relatieoverzicht”.
 
-## Simpele SELECT
+### Simpele SELECT
 Een simpele <strong>SELECT-query</strong> bestaat bijvoorbeeld uit de volgende componenten:
 
 <pre>
@@ -27,7 +27,7 @@ Voorbeeld:
 SELECT Voornaam, Achternaam FROM Auteurs;
 </pre>
 
-## Voorwaarde
+### Voorwaarde
 
 <pre>
 SELECT kolom_naam (,...) FROM tabel WHERE voorwaarde;
@@ -49,7 +49,7 @@ SELECT Voornaam, Achternaam FROM Auteurs WHERE Geboortejaar >= '1973';
 SELECT Voornaam, Achternaam FROM Auteurs WHERE Geboortejaar >= '1970' AND Geboortejaar <= '1980';
 </pre>
 
-## Sorteren
+### Sorteren
 <pre>
 SELECT kolom_naam (,...) FROM tabel WHERE voorwaarde ORDER BY sorteervolgorde_kolom_naam;
 </pre>
