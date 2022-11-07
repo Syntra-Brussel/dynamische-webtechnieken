@@ -78,6 +78,26 @@ items:
       - url: /programmeren/oefening-php-functies
         published: 'yes'
         title: 'OEFENING: PHP functies'                                            
+  - url: /databank 
+    published: 'yes'
+    collection: databank  
+    title: 'Databank'
+    topics:
+      - url: /databank/tabellen
+        published: 'yes'
+        title: 'Tabellen'
+      - url: /databank/kolommen-en-velden
+        published: 'yes'
+        title: 'Kolommen en velden'
+      - url: /databank/rijen-of-records
+        published: 'yes'
+        title: 'Rijen of records'
+      - url: /databank/primaire-sleutel
+        published: 'yes'
+        title: 'Primaire sleutel'                        
+      - url: /databank/relaties
+        published: 'yes'
+        title: 'Relaties'                        
   - url: /wordpress  
     published: 'yes'
     title: 'Wordpress'
