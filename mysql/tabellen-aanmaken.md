@@ -8,6 +8,7 @@ links:
 
 Om een nieuwe tabel aan te maken, selecteer je de gewenste database en navigeer je via de menubalk naar het tabblad ‘Structure’ (structuur).
 
+<img src="images/tabellen-aanmaken-1.png" />
 
 Je geeft een naam op en het aantal eigenschappen dat je wenst op te slagen (vergeet de primaire sleutel niet).
 
@@ -17,10 +18,13 @@ Als je bijvoorbeeld een database voor gebruikers van je website wilt maken, kun 
 
 Voor je gebruikersdatabase maak je dus een tabel users met zeven kolommen. Je bevestigt de invoer met ‘Go’.
 
+<img src="images/tabellen-aanmaken-2.png" />
 
 Voer een tabelnaam en het gewenste aantal kolommen in
+
 Geef vervolgens alle eigenschappen en hun type.
 
+<img src="images/tabellen-aanmaken-3.png" />
 
 Eerst het aantal opgegeven eigenschappen maar wel “leeg”
 
@@ -37,8 +41,10 @@ Zorg voor een zo correct mogelijk type en de correcte parameters. Je riskeert de
 TIP
 
 Bij het uitvoeren van de actie wordt achterliggend het SQL commando uitgevoerd. Je kan dit zien via de knop “SQL-voorbeeld” of wanneer je op “Opslaan” hebt geklikt.
-Na het aanmaken van een tabel kan je bijvoord ook kolommen toevoegen.
 
+Na het aanmaken van een tabel kan je bijvoord ook kolommen toevoegen.
+<img src="images/tabellen-aanmaken-4.png" />
 
 Je kan ook bestaande kolommen wissen, wijzigen enzovoort via de knoppen achter de veldnamen.
 
+<img src="images/tabellen-aanmaken-5.png" />
