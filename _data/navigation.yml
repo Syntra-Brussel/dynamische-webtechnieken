@@ -97,7 +97,21 @@ items:
         title: 'Primaire sleutel'                        
       - url: /databank/relaties
         published: 'yes'
-        title: 'Relaties'                        
+        title: 'Relaties'    
+  - url: /mysql 
+    published: 'yes'
+    collection: mysql  
+    title: 'MySQL'
+    topics:
+      - url: /mysql/database-aanmaken
+        published: 'yes'
+        title: 'Database aanmaken'
+      - url: /mysql/tabellen-aanmaken
+        published: 'yes'
+        title: 'Database aanmaken'
+      - url: /mysql/crud
+        published: 'yes'
+        title: 'Rijen toevoegen, wijzigen en verwijderen'                                            
   - url: /wordpress  
     published: 'yes'
     title: 'Wordpress'
