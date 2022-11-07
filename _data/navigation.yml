@@ -108,7 +108,7 @@ items:
         title: 'Database aanmaken'
       - url: /mysql/tabellen-aanmaken
         published: 'yes'
-        title: 'Database aanmaken'
+        title: 'Tabellen aanmaken'
       - url: /mysql/crud
         published: 'yes'
         title: 'Rijen toevoegen, wijzigen en verwijderen'                                            
