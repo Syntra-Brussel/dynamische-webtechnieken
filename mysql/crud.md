@@ -5,7 +5,7 @@ url: /mysql/crud
 collection: mysql
 links:
 ---
-##Rijen toevoegen
+## Rijen toevoegen
 Rijen invoegen doe je via de “insert” tab:
 
 <img src="images/crud-1.png" />
@@ -26,12 +26,12 @@ INSERT INTO users (id, forename, surname, email, password,
 
 <img src="images/crud-3.png" />
 
-##Rijen bewerken, verwijderen of dupliceren
+## Rijen bewerken, verwijderen of dupliceren
 Via de “Browse” tab zie je alle rijen van de tabel.
 
 <img src="images/crud-4.png" />
 
 Je kan een rij bewerken of verwijderen via de “Edit” knop vooraan.
 
-##Rijen sorteren
+## Rijen sorteren
 Via de “Browse” tab zie je alle rijen van de tabel. Je kan op een eigenschap klikken om de rijen te sorteren (oplopend of aflopend).
