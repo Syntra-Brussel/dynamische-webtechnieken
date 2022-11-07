@@ -38,7 +38,7 @@ De voorwaarde bestaat uit 3 onderdelen:
 * de kolom_naam
 * de operator (=, <, >, <=, >=, LIKE)
 * de waarde: tussen ‘-accenten
-
+ 
 Verschillende voorwaardes kunnen met AND en OR zijn.
 
 Voorbeelden:
