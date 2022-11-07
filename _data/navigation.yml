@@ -111,7 +111,10 @@ items:
         title: 'Tabellen aanmaken'
       - url: /mysql/crud
         published: 'yes'
-        title: 'Rijen toevoegen, wijzigen en verwijderen'                                            
+        title: 'Rijen toevoegen, wijzigen en verwijderen'        
+      - url: /mysql/select
+        published: 'yes'                                      
+        title: 'Gegevens opvragen met SELECT'
   - url: /wordpress  
     published: 'yes'
     title: 'Wordpress'
