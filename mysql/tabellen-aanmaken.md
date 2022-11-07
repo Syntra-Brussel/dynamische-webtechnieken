@@ -14,7 +14,7 @@ Je geeft een naam op en het aantal eigenschappen dat je wenst op te slagen (verg
 
 Als je bijvoorbeeld een database voor gebruikers van je website wilt maken, kun je de volgende titels voor de kolommen van de tabel gebruiken:
 
-<table><thead><tr><th>Kolom</th><th>Beschrijving</th></tr></thead><tbody><tr><td>id</td><td>Een uniek identificatienummer voor elke gebruiker</td></tr><tr><td>forename</td><td>Voornaam van de gebruiker</td></tr><tr><td>surname</td><td>Achternaam van de gebruiker</td></tr><tr><td>email</td><td>Emailadres van de gebruiker</td></tr><tr><td>password</td><td>Wachtwoord van de gebruiker</td></tr><tr><td>created_at</td><td>Tijdstip waarop de vermelding is aangemaakt</td></tr><tr><td>updated_at</td><td>Tijdstip waarop de vermelding is gewijzigd</td></tr></tbody></table>
+<table class="table"><thead><tr><th>Kolom</th><th>Beschrijving</th></tr></thead><tbody><tr><td>id</td><td>Een uniek identificatienummer voor elke gebruiker</td></tr><tr><td>forename</td><td>Voornaam van de gebruiker</td></tr><tr><td>surname</td><td>Achternaam van de gebruiker</td></tr><tr><td>email</td><td>Emailadres van de gebruiker</td></tr><tr><td>password</td><td>Wachtwoord van de gebruiker</td></tr><tr><td>created_at</td><td>Tijdstip waarop de vermelding is aangemaakt</td></tr><tr><td>updated_at</td><td>Tijdstip waarop de vermelding is gewijzigd</td></tr></tbody></table>
 
 Voor je gebruikersdatabase maak je dus een tabel users met zeven kolommen. Je bevestigt de invoer met ‘Go’.
 
