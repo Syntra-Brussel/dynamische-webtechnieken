@@ -112,12 +112,12 @@ items:
       - url: /mysql/crud
         published: 'yes'
         title: 'Rijen toevoegen, wijzigen en verwijderen'        
-      - url: /mysql/select
-        published: 'yes'                                      
-        title: 'Gegevens opvragen met SELECT'
       - url: /mysql/oefening-bibliotheek
         published: 'yes'                                      
         title: 'OEFENING: Bibliotheek'        
+      - url: /mysql/select
+        published: 'yes'                                      
+        title: 'Gegevens opvragen met SELECT'     
   - url: /wordpress  
     published: 'yes'
     title: 'Wordpress'
