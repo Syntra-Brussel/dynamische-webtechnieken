@@ -2,9 +2,7 @@
 layout: template
 title: 'OEFENING: Bibliotheek selects'
 url: /mysql/oefening-bibliotheek-selects
-collection: programmeren
-links:
-  - url: /dynamische-webtechnieken/databank/tabellen
+collection: mysql
 ---
 <div class="highlight">
     <h3>Instructies</h3>
