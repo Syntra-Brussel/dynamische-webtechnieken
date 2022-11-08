@@ -49,7 +49,7 @@ SELECT Voornaam, Achternaam FROM Auteurs WHERE Geboortejaar >= '1973';
 SELECT Voornaam, Achternaam FROM Auteurs WHERE Geboortejaar >= '1970' AND Geboortejaar <= '1980';
 </pre>
 
-### Een SELECT met sortering
+## Een SELECT met sortering
 <pre>
 SELECT kolom_naam (,...) FROM tabel WHERE voorwaarde ORDER BY sorteervolgorde_kolom_naam;
 </pre>
