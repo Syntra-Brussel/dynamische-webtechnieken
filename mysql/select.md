@@ -54,6 +54,12 @@ SELECT Voornaam, Achternaam FROM Auteurs WHERE Geboortejaar >= '1970' AND Geboor
 SELECT kolom_naam (,...) FROM tabel WHERE voorwaarde ORDER BY sorteervolgorde_kolom_naam;
 </pre>
 
+## klassieke relatie
+
+<pre>
+SELECT tabel_1.kolom_naam (,...) FROM tabel_1, tabel_2 WHERE tabel_1.kolom_primaire_id = tabel_2.kolom_secundaire_id;
+</pre>
+
 ## Inner join
 De tabel “Auteurs” en “Werken” worden gerelateerd via de het index veld auteur_id en de overeenkomstige rijen worden getoond in het resultaat.
 
