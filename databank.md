@@ -13,17 +13,3 @@ Waar worden databanken gebruikt?
 De complexiteit van een databank hangt sterk af van het doel waarvoor die dient.
 
 We focussen in deze cursus op de relationele databank en de SQL query taal.
-
-Herlees ook zeker even frontend vs Backend.
-
-API (Application Programming Interface)
-Een databank bevindt zich aan de backend zijde. De communicatie met een database gebeurt vaak via een API. 
-
-De API is de code die zorgt voor:
-
-* dat de informatie wordt opgehaald 
-* dat informatie wordt gevalideerd en toegevoegd
-* dat informatie wordt gevalideerd en gewijzigd
-* dat informatie wordt gevalideerd en verwijderd
-
-Een term die vaak terug komt is CRUD. Google die gerust eens.
