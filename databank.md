@@ -5,7 +5,7 @@ url: /databank
 collection: databank
 links:
 ---
-Een database of databank is een digitale verzameling van gegevens of data. Het is een soort bestand waarin gegevens geplaatst en met elkaar verbonden worden. 
+Een database of databank is een <strong>digitale verzameling van gegevens</strong> of data. Het is een soort bestand waarin gegevens geplaatst en met elkaar verbonden worden. 
 
 Waar worden databanken gebruikt?
 * Elke applicatie/website die beheerbaar is (informatie, producten, nieuws)
