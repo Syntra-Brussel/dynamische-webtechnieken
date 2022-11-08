@@ -115,6 +115,9 @@ items:
       - url: /mysql/select
         published: 'yes'                                      
         title: 'Gegevens opvragen met SELECT'
+      - url: /mysql/oefening-bibliotheek
+        published: 'yes'                                      
+        title: 'OEFENING: Bibliotheek'        
   - url: /wordpress  
     published: 'yes'
     title: 'Wordpress'
