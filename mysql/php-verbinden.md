@@ -26,7 +26,7 @@ Elke service op een server draait via een bepaalde poort, je kan dat vergelijken
 ## Voorbeeld in PHP
 
 <pre>
-<?php
+&lt;?php
 $servername = "localhost";
 $username = "root";
 $password = "root";
@@ -39,5 +39,5 @@ if ($conn->connect_error) {
   die("Fout bij het verbinden: " . $conn->connect_error);
 } 
 echo "Succesvol verbonden";
-?>
+?&gt;
 </pre>
