@@ -127,12 +127,15 @@ items:
       - url: /mysql/php-select
         published: 'yes'                                      
         title: 'SELECT via PHP'         
-      - url: /mysql/oefening-bibliotheek-php-select                   
+      - url: /mysql/oefening-bibliotheek-overzicht-boeken                 
         published: 'yes'                                      
-        title: 'OEFENING: Bibliotheek PHP select'         
+        title: 'OEFENING: Overzicht boeken'         
       - url: /mysql/php-insert-update-delete
         published: 'yes'                                      
         title: 'INSERT/ UPDATE / DELETE via PHP'                            
+      - url: /mysql/oefening-bibliotheek-nieuw-boek                 
+        published: 'yes'                                      
+        title: 'OEFENING: Nieuw boek'        
   - url: /wordpress  
     published: 'yes'
     title: 'Wordpress'

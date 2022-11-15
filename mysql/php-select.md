@@ -31,7 +31,7 @@ $sql_commando = "SELECT veld_naam_1, veld_naam_2, ... FROM tabel_naam";
 $resultaat = mysqli_query($verbinding, $sql_commando);
 
 if (mysqli_num_rows($resultaat) > 0) {
-  // output data of each row
+  // elke rij verwerken
   while($rij = mysqli_fetch_assoc($resultaat)) {
     echo $rij["veld_naam_1"]. " " . $rij["veld_naam_2"]. "<br>";
   }
