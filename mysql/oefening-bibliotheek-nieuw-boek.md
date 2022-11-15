@@ -9,6 +9,7 @@ collection: mysql
     <h3>Instructies</h3>
     <ul>
         <li>werk in het script <code>mysql/nieuw_boek.php</code></li>
+        <li>Je kan starten vanaf <a target="_blank" href="overzicht_boeken.html">nieuw_boek.html</a>.</li>
     </ul>
 </div>
 
