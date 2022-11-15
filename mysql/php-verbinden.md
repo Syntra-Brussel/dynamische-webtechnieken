@@ -12,7 +12,7 @@ Voor je een database kan bevragen of manipuleren vanuit PHP leg je via een gebru
 ## Gebruikersnaam en wachterwoord
 Wanneer je via een publieke mysql werkt zal je bij het aanmaken van een database ook een gebruikersnaam en wachtwoord moeten bepalen. Zorg dat die complex genoeg is. 
 
-Op onze lokale XAMPP configuratie zijn wij de eigenaar van de server en hebben we dus ook <em>root</em> toegang. Lokaal kunnen we dus de gebruikersnaam <strong>root</strong> en het paswoord <strong>root</strong> gebruiken.
+Op onze lokale XAMPP configuratie zijn wij de eigenaar van de server en hebben we dus ook <em>root</em> toegang. Lokaal kunnen we dus de gebruikersnaam <strong>root</strong> gebruiken <strong>zonder een paswoord</strong>.
 
 ## IP adres en hostname
 
@@ -30,7 +30,7 @@ Elke service op een server draait via een bepaalde poort, je kan dat vergelijken
 &lt;?php
 $servername = "localhost";
 $username = "root";
-$password = "root";
+$password = "";
 
 // Verbinding maken
 $conn = mysqli_connect($servername, $username, $password);
