@@ -33,11 +33,11 @@ $username = "root";
 $password = "root";
 
 // Verbinding maken
-$conn = new mysqli($servername, $username, $password);
+$conn = mysqli_connect($servername, $username, $password);
 
 // Verbinding controleren
-if ($conn->connect_error) {
-  die("Fout bij het verbinden: " . $conn->connect_error);
+if (!$conn) {
+  die("Fout bij het verbinden: " . mysqli_connect_error());
 } 
 echo "Succesvol verbonden";
 ?&gt;
