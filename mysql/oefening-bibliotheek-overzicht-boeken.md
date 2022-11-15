@@ -17,14 +17,14 @@ Bouw een overzicht van de boeken geordend op de jaar van uitgifte (recentste bov
 
 <div class="shadow result">
 <h1 style="color: black">Boeken</h1>
-<table padding="5">
-  <th>
-    <td>Titel</td>
-    <td>Auteur</td>
-    <td>Uitgeverij</td>
-    <td>Genre</td>
-    <td>Aantal pagina's</td>
-  </th>
+<table border="1">
+  <tr>
+    <th>Titel</th>
+    <th>Auteur</th>
+    <th>Uitgeverij</th>
+    <th>Genre</th>
+    <th>Aantal pagina's</th>
+  </tr>
   <tr>
     <td>branden Ijs</td>
     <td>Jeffery Deaver</td>
