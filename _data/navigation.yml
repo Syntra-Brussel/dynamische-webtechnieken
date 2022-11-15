@@ -126,7 +126,10 @@ items:
         title: 'Verbinden via PHP'      
       - url: /mysql/php-select
         published: 'yes'                                      
-        title: 'SELECT via PHP'                          
+        title: 'SELECT via PHP'         
+      - url: /mysql/oefening-bibliotheek-php-select                   
+        published: 'yes'                                      
+        title: 'OEFENING: Bibliotheek PHP select'         
       - url: /mysql/php-insert-update-delete
         published: 'yes'                                      
         title: 'INSERT/ UPDATE / DELETE via PHP'                            
