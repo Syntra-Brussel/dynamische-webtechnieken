@@ -17,7 +17,7 @@ Bouw een overzicht van de boeken geordend op de jaar van uitgifte (recentste bov
 
 <div class="shadow result">
 <h1 style="color: black">Boeken</h1>
-<table>
+<table padding="5">
   <th>
     <td>Titel</td>
     <td>Auteur</td>
