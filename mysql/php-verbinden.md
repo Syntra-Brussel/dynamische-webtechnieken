@@ -28,6 +28,8 @@ Elke service op een server draait via een bepaalde poort, je kan dat vergelijken
 
 Standaard zijn binnen PHP functies voorzien om de verbinding met een mysql server te maken. Dat kan met de <code>mysqli_connect()</code> functie. De parameters voor de functie <em>servernaam</em>, <em>gebruikersnaam</em> en <em>paswoord</em>. Het resultaat van de functie geeft een <code>TRUE</code> of <code>FALSE</code> terug. Zo kan je dus controleren of de verbinding is gelukt.
 
+Via de <code>mysqli_connect_error()</code> functie kan je de (eventuele) fout terug krijgen.
+
 <pre>
 &lt;?php
 $servername = "localhost";
