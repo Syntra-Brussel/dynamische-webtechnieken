@@ -16,7 +16,7 @@ collection: mysql
 Via een formulier kan een boek toegevoegd worden.
 
 <div class="shadow result">
-  <h1>Nieuw boek</h1>
+  <h1 style="color: #000">Nieuw boek</h1>
   <form>
       <table>
           <tr>
