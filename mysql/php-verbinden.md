@@ -24,7 +24,9 @@ Op onze lokale XAMPP configuratie draaien beide wel op dezelfde server en is het
 
 Elke service op een server draait via een bepaalde poort, je kan dat vergelijken met een deur nummer. De poort die standaard voor mysql wordt gebruikt is 3306. Als de service op de standaard poort werkt moet je deze niet specifiek opgeven bij een verbinding.
 
-## Voorbeeld in PHP
+## Verbinden in PHP
+
+Standaard zijn binnen PHP functies voorzien om de verbinding met een mysql server te maken. Dat kan met de <code>mysqli_connect()</code> functie. De parameters voor de functie <em>servernaam</em>, <em>gebruikersnaam</em> en <em>paswoord</em>. Het resultaat van de functie geeft een <code>TRUE</code> of <code>FALSE</code> terug. Zo kan je dus controleren of de verbinding is gelukt.
 
 <pre>
 &lt;?php
