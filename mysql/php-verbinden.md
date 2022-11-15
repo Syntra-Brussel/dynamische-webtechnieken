@@ -32,7 +32,7 @@ Via de <code>mysqli_connect_error()</code> functie kan je de (eventuele) fout te
 
 <pre>
 &lt;?php
-$servernaam = "localhost";
+$servernaam = "...";
 $gebruikersnaam = "...";
 $paswoord = "...";
 $databasenaam = "...";

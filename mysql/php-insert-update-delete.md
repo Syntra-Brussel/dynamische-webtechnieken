@@ -13,9 +13,9 @@ Wanneer je een verbinding hebt gemaakt met een MySQL server kan je informatie ga
 
 <pre>
 &lt;?php
-$servernaam = "localhost";
-$gebruikersnaam = "root";
-$paswoord = "";
+$servernaam = "...";
+$gebruikersnaam = "...";
+$paswoord = "...";
 $databasenaam = "...";
 
 // Verbinding maken
