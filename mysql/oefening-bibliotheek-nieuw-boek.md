@@ -22,31 +22,31 @@ Via een formulier kan een boek toegevoegd worden.
       <table>
           <tr>
               <td>Titel *</td>
-              <td><input required type="text" name="titel" /></td>
+              <td><input required type="text" name="titel" value="Het ABC van het DEF" /></td>
           </tr>
           <tr>
               <td>Auteur *</td>
-              <td><input required type="text" name="auteur" /></td>
+              <td><input required type="text" name="auteur" value="Bert Jansen" /></td>
           </tr>
           <tr>
               <td>Uitgeverij *</td>
-              <td><input required type="text" name="uitgeverij" /></td>
+              <td><input required type="text" name="uitgeverij" value="Syntra Brussel" /></td>
           </tr>                
           <tr>
               <td>Genre * </td>
-              <td><input required type="text" name="genre" /></td>
+              <td><input required type="text" name="genre" value="Absurd" /></td>
           </tr>    
           <tr>
               <td>Aantal pagina's *</td>
-              <td><input required type="number" name="aantal_paginas" /></td>
+              <td><input required type="number" name="aantal_paginas" value="101" /></td>
           </tr>         
           <tr>
               <td>Jaar van uitgave *</td>
-              <td><input required type="number" name="jaar_van_uitgave" /></td>
+              <td><input required type="number" name="jaar_van_uitgave" value="2022" /></td>
           </tr>                                              
           <tr>
               <td>Korte inhoud</td>
-              <td><textarea name="korte_inhoud"></textarea></td>
+              <td><textarea name="korte_inhoud">Een boek die u weg wijs maakt in het het ABC van de DEF.</textarea></td>
           </tr>                                                                                          
       </table>
       <input type="submit" value="Toevoegen" />
