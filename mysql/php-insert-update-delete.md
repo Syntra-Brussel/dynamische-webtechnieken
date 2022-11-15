@@ -11,6 +11,38 @@ links:
 
 Wanneer je een verbinding hebt gemaakt met een MySQL server kan je informatie gaan manipuleren. Je doet dat door het versturen van SQL commando's via de <code>mysqli_query()</code> functie. Je geeft als eerste parameter de variabele mee die van de <code>mysqli_connect()</code> komt. Als twee parameter het <strong>SQL commando</strong> als een <em>string</em>.
 
+## SQL commando
+
+### INSERT
+
+Voor het toevoegen van een rij in een tabel.
+
+<pre>
+INSERT INTO tabel_naam (kolom_naam_1, kolom_naam_2, kolom_naam_3, ...)
+VALUES ('waarde_1', 'waarde_2', 'waarde_3', ...)
+</pre>
+
+### UPDATE
+
+Voor het wijzigen van een rij in een tabel.
+
+<pre>
+UPDATE tabel_naam
+SET kolom_naam_1='waarde', kolom_naam_2='value2', ...
+WHERE kolom_naam='waarde' 
+</pre>
+
+### DELETE
+
+Voor het verwijderen van en rij in een tabel.
+
+<pre>
+DELETE FROM tabel_naam
+WHERE kolom_naam = 'waarde'
+</pre>
+
+## INSERT / UPDATE / DELETE in PHP
+
 <pre>
 &lt;?php
 $servernaam = "...";
@@ -35,31 +67,4 @@ if (mysqli_query($verbinding, $sql_commando)) {
 
 mysqli_close($conn);
 ?&gt;
-</pre>
-## INSERT
-
-Voor het toevoegen van een rij in een tabel.
-
-<pre>
-INSERT INTO tabel_naam (kolom_naam_1, kolom_naam_2, kolom_naam_3, ...)
-VALUES ('waarde_1', 'waarde_2', 'waarde_3', ...)
-</pre>
-
-## UPDATE
-
-Voor het wijzigen van een rij in een tabel.
-
-<pre>
-UPDATE tabel_naam
-SET kolom_naam_1='waarde', kolom_naam_2='value2', ...
-WHERE kolom_naam='waarde' 
-</pre>
-
-## DELETE
-
-Voor het verwijderen van en rij in een tabel.
-
-<pre>
-DELETE FROM tabel_naam
-WHERE kolom_naam = 'waarde'
 </pre>
