@@ -31,10 +31,10 @@ $servername = "localhost";
 $username = "root";
 $password = "root";
 
-// Create connection
+// Verbinding maken
 $conn = new mysqli($servername, $username, $password);
 
-// Check connection
+// Verbinding controleren
 if ($conn->connect_error) {
   die("Fout bij het verbinden: " . $conn->connect_error);
 } 
