@@ -16,7 +16,7 @@ collection: mysql
 Bouw een overzicht van de boeken geordend op de jaar van uitgifte (recentste bovenaan).
 
 <div class="shadow result">
-<h1 style="color: black">Boeken</h1>
+<h1 style="color: black">Overzicht boeken</h1>
 <table border="1">
   <tr>
     <th>Titel</th>
