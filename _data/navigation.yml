@@ -123,7 +123,13 @@ items:
         title: 'OEFENING: Bibliotheek selects'       
       - url: /mysql/php-verbinden
         published: 'yes'                                      
-        title: 'Verbinden via PHP'                  
+        title: 'Verbinden via PHP'      
+      - url: /mysql/php-select
+        published: 'yes'                                      
+        title: 'SELECT via PHP'                          
+      - url: /mysql/php-insert-update-delete
+        published: 'yes'                                      
+        title: 'INSERT/ UPDATE / DELETE via PHP'                            
   - url: /wordpress  
     published: 'yes'
     title: 'Wordpress'
