@@ -4,6 +4,7 @@ title: Verbinden via PHP
 url: /mysql/php-verbinden
 collection: mysql
 links:
+  - url: https://www.w3schools.com/php/php_mysql_connect.asp
 ---
 
 Voor je een database kan bevragen of manipuleren vanuit PHP leg je via een gebruikersnaam en een paswoord een verbinding met de server, je opent als het ware een deur bij de server met een correcte sleutel.
