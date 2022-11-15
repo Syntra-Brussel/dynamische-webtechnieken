@@ -15,7 +15,7 @@ collection: mysql
 
 Via een formulier kan een boek toegevoegd worden.
 
-Zonder voer:
+### Bij de start:
 <div class="shadow result">
   <h1 style="color: #000">Nieuw boek</h1>
   <form>
@@ -53,7 +53,7 @@ Zonder voer:
   </form> 
 </div>
 
-Na het invoeren:
+### Na het invoeren:
 <div class="shadow result">
   <h1 style="color: #000">Nieuw boek</h1>
 
