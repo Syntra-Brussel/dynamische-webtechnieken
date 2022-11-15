@@ -15,33 +15,34 @@ collection: mysql
 
 Via een formulier kan een boek toegevoegd worden.
 
+Zonder voer:
 <div class="shadow result">
   <h1 style="color: #000">Nieuw boek</h1>
   <form>
       <table>
           <tr>
-              <td>Titel</td>
-              <td><input type="text" name="titel" /></td>
+              <td>Titel *</td>
+              <td><input required type="text" name="titel" /></td>
           </tr>
           <tr>
-              <td>Auteur</td>
-              <td><input type="text" name="auteur" /></td>
+              <td>Auteur *</td>
+              <td><input required type="text" name="auteur" /></td>
           </tr>
           <tr>
-              <td>Uitgeverij</td>
-              <td><input type="text" name="uitgeverij" /></td>
+              <td>Uitgeverij *</td>
+              <td><input required type="text" name="uitgeverij" /></td>
           </tr>                
           <tr>
-              <td>Genre</td>
-              <td><input type="text" name="genre" /></td>
+              <td>Genre * </td>
+              <td><input required type="text" name="genre" /></td>
           </tr>    
           <tr>
-              <td>Aantal pagina's</td>
-              <td><input type="number" name="aantal_paginas" /></td>
+              <td>Aantal pagina's *</td>
+              <td><input required type="number" name="aantal_paginas" /></td>
           </tr>         
           <tr>
-              <td>Jaar van uitgave</td>
-              <td><input type="number" name="jaar_van_uitgave" /></td>
+              <td>Jaar van uitgave *</td>
+              <td><input required type="number" name="jaar_van_uitgave" /></td>
           </tr>                                              
           <tr>
               <td>Korte inhoud</td>
@@ -50,4 +51,12 @@ Via een formulier kan een boek toegevoegd worden.
       </table>
       <input type="submit" value="Toevoegen" />
   </form> 
+</div>
+
+Na het invoeren:
+<div class="shadow result">
+  <h1 style="color: #000">Nieuw boek</h1>
+
+  <p>Boek <strong>'Het ABC van het DEF'</strong> van <strong>Bert Jansen</strong> werd toegevoegd.</p>
+ 
 </div>
