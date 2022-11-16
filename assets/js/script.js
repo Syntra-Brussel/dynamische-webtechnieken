@@ -12,4 +12,9 @@ $(document).ready(function() {
     if (all == 1) {
         $(".published-no").css("display", "block");
     }
+
+    $('.show-hide .toggle').on('click', function(e) {
+        e.preventDefault();
+        $(this).parent().find('.show-hide-content').toggle();
+    })
 });
