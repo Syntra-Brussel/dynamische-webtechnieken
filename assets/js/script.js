@@ -16,7 +16,7 @@ $(document).ready(function() {
     $('.show-hide .toggle').on('click', function(e) {
         e.preventDefault();
         $(this).parent().find('.show-hide-content').toggle();
-        if ($(this).html() = "Toon") {
+        if ($(this).html() == "Toon") {
             $(this).html("Verberg");
         }
         else {
