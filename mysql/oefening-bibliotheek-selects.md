@@ -11,7 +11,7 @@ collection: mysql
     </ul>
 </div>
 
-1. Maak een selectie van boeken in het genre ‘Thriller’ (enkel de titel en de auteur).
+1) Maak een selectie van boeken in het genre ‘Thriller’ (enkel de titel en de auteur).
 
 <div class="shadow result show-hide">
 <a href="#">Toon</a>
@@ -20,7 +20,7 @@ SELECT `titel`, `auteur` FROM `boeken` WHERE `genre` = 'Thriller';
 </pre>
 </div>
 
-2. Maak een selectie van de leden die later zijn geboren dan 1/1/1980.
+2) Maak een selectie van de leden die later zijn geboren dan 1/1/1980.
 
 <div class="shadow result show-hide">
 <a href="#">Toon</a>
@@ -29,7 +29,7 @@ SELECT * FROM `leden` WHERE geboortedatum>'1986-01-01';
 </pre>
 </div>
 
-3. Geef een overzicht van de uitleningen (met leden en boek informatie)
+3) Geef een overzicht van de uitleningen (met leden en boek informatie)
 
 
 <div class="shadow result show-hide">
@@ -39,7 +39,7 @@ SELECT uitleningen.uitleendatum, leden.voornaam, leden.familienaam, boeken.titel
 </pre>
 </div>
 
-4. Geef een overzicht van de uitleningen (met leden en boek informatie) uit het verleden.
+4) Geef een overzicht van de uitleningen (met leden en boek informatie) uit het verleden.
 
 
 <div class="shadow result show-hide">
