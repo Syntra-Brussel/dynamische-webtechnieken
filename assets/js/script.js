@@ -13,9 +13,9 @@ $(document).ready(function() {
         $(".published-no").css("display", "block");
     }
 
-    $('.show-hide .toggle').on('click', function(e) {
+    $('.show-hide .toggle a').on('click', function(e) {
         e.preventDefault();
-        $(this).parent().find('.show-hide-content').toggle();
+        $(this).parent().parent().find('.show-hide-content').toggle();
         if ($(this).html() == "Toon") {
             $(this).html("Verberg");
         }
