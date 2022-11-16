@@ -45,6 +45,8 @@ mysqli_close($conn);
 
 ## Een concreet voorbeeld
 
+Een overzicht van de uitleningen (met leden en boek informatie) van voor 15/11/2022.
+
 <pre>
 SELECT uitleningen.uitleendatum, uitleningen.inleverdatum, leden.voornaam, leden.familienaam, boeken.titel, boeken.auteur FROM `uitleningen`, leden, boeken WHERE uitleningen.ledennummer=leden.ledennummer AND uitleningen.boeknummer=boeken.boeknummer AND uitleningen.inleverdatum < '2022-11-15';
 </pre>

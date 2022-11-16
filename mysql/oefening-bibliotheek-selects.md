@@ -45,7 +45,7 @@ SELECT uitleningen.uitleendatum, leden.voornaam, leden.familienaam, boeken.titel
 </div>
 </div>
 
-4) Geef een overzicht van de uitleningen (met leden en boek informatie) uit het verleden.
+4) Geef een overzicht van de uitleningen (met leden en boek informatie) van voor 15/11/20222.
 
 
 <div class="shadow result show-hide">
