@@ -22,7 +22,7 @@ SELECT `titel`, `auteur` FROM `boeken` WHERE `genre` = 'Thriller';
 </div>
 </div>
 
-2) Maak een selectie van de leden die later zijn geboren dan 1/1/1980.
+2) Maak een selectie van de leden die later zijn geboren dan 1/1/1986.
 
 <div class="shadow result show-hide">
 <div class="toggle"><a href="#">Toon</a></div>
