@@ -42,3 +42,53 @@ if (mysqli_num_rows($resultaat) > 0) {
 mysqli_close($conn);
 ?&gt;
 </pre>
+
+## Een concreet voorbeeld
+
+<pre>
+SELECT uitleningen.uitleendatum, uitleningen.inleverdatum, leden.voornaam, leden.familienaam, boeken.titel, boeken.auteur FROM `uitleningen`, leden, boeken WHERE uitleningen.ledennummer=leden.ledennummer AND uitleningen.boeknummer=boeken.boeknummer AND uitleningen.inleverdatum < '2022-11-15';
+</pre>
+
+<pre>
+&lt;?php
+$servernaam = "localhost";
+$gebruikersnaam = "root";
+$paswoord = "";
+$databasenaam = "bibliotheek";
+// Verbinding maken
+$verbinding = mysqli_connect($servernaam, $gebruikersnaam, $paswoord, $databasenaam);
+
+// Verbinding controleren
+if ($verbinding) {
+  $sql_commando = "SELECT uitleningen.uitleendatum, uitleningen.inleverdatum, leden.voornaam, leden.familienaam, boeken.titel, boeken.auteur FROM `uitleningen`, leden, boeken WHERE uitleningen.ledennummer=leden.ledennummer AND uitleningen.boeknummer=boeken.boeknummer AND uitleningen.inleverdatum < '2022-11-15';";
+
+  // Voer het SQL commando uit in de achterground.
+  $resultaat = mysqli_query($verbinding, $sql_commando);
+
+  // Toon het aantal rijen.
+  echo '<p>Aantal rijen: ' . mysqli_num_rows($resultaat) . '</p>';
+
+  // Zolang er een rij beschikbaar is in $resultaat, haal $rij op als assoc array.
+  while ($rij = mysqli_fetch_assoc($resultaat)) {
+    /*
+    // Toon de inhoud van de array $rij.
+    echo "<pre>";
+    print_r($rij);
+    echo "</pre>";
+    */
+    ?&gt;
+    <ul>
+      <li>uitleendatum: <?php echo $rij['uitleendatum']; ?></li>
+      <li>Voornaam: <?php echo $rij['voornaam']; ?></li>
+      <li>Familienaam: <?php echo $rij['familienaam']; ?></li>
+      <li>Titel: <?php echo $rij['titel']; ?></li>
+      <li>Auteur: <?php echo $rij['auteur']; ?></li>
+    </ul>
+    &lt;?php
+  }
+}
+else {
+  die("Fout bij het verbinden: " . mysqli_connect_error());
+}
+?&gt;
+</pre>
