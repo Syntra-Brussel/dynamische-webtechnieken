@@ -48,7 +48,9 @@ mysqli_close($conn);
 Een overzicht van de uitleningen (met leden en boek informatie) van voor 15/11/2022.
 
 <pre>
-SELECT uitleningen.uitleendatum, uitleningen.inleverdatum, leden.voornaam, leden.familienaam, boeken.titel, boeken.auteur FROM `uitleningen`, leden, boeken WHERE uitleningen.ledennummer=leden.ledennummer AND uitleningen.boeknummer=boeken.boeknummer AND uitleningen.inleverdatum < '2022-11-15';
+SELECT uitleningen.uitleendatum, uitleningen.inleverdatum, leden.voornaam, leden.familienaam, boeken.titel, boeken.auteur 
+FROM `uitleningen`, leden, boeken 
+WHERE uitleningen.ledennummer=leden.ledennummer AND uitleningen.boeknummer=boeken.boeknummer AND uitleningen.inleverdatum < '2022-11-15';
 </pre>
 
 <pre>
@@ -62,7 +64,9 @@ $verbinding = mysqli_connect($servernaam, $gebruikersnaam, $paswoord, $databasen
 
 // Verbinding controleren
 if ($verbinding) {
-  $sql_commando = "SELECT uitleningen.uitleendatum, uitleningen.inleverdatum, leden.voornaam, leden.familienaam, boeken.titel, boeken.auteur FROM `uitleningen`, leden, boeken WHERE uitleningen.ledennummer=leden.ledennummer AND uitleningen.boeknummer=boeken.boeknummer AND uitleningen.inleverdatum < '2022-11-15';";
+  $sql_commando = "SELECT uitleningen.uitleendatum, uitleningen.inleverdatum, leden.voornaam, leden.familienaam, boeken.titel, boeken.auteur 
+                   FROM `uitleningen`, leden, boeken 
+                   WHERE uitleningen.ledennummer=leden.ledennummer AND uitleningen.boeknummer=boeken.boeknummer AND uitleningen.inleverdatum < '2022-11-15';";
 
   // Voer het SQL commando uit in de achterground.
   $resultaat = mysqli_query($verbinding, $sql_commando);
