@@ -39,7 +39,7 @@ if (mysqli_num_rows($resultaat) > 0) {
   echo "Geen resultaten.";
 }
 
-mysqli_close($conn);
+mysqli_close($verbinding);
 ?&gt;
 </pre>
 
@@ -84,11 +84,11 @@ if ($verbinding) {
     */
     ?&gt;
     <ul>
-      <li>uitleendatum: <?php echo $rij['uitleendatum']; ?></li>
-      <li>Voornaam: <?php echo $rij['voornaam']; ?></li>
-      <li>Familienaam: <?php echo $rij['familienaam']; ?></li>
-      <li>Titel: <?php echo $rij['titel']; ?></li>
-      <li>Auteur: <?php echo $rij['auteur']; ?></li>
+      <li>uitleendatum: &lt;?php echo $rij['uitleendatum']; ?&gt;</li>
+      <li>Voornaam: &lt;?php echo $rij['voornaam']; ?&gt;</li>
+      <li>Familienaam: &lt;?php echo $rij['familienaam']; ?&gt;</li>
+      <li>Titel: &lt;?php echo $rij['titel']; ?&gt;</li>
+      <li>Auteur: &lt;?php echo $rij['auteur']; ?&gt;</li>
     </ul>
     &lt;?php
   }
@@ -96,5 +96,7 @@ if ($verbinding) {
 else {
   die("Fout bij het verbinden: " . mysqli_connect_error());
 }
+
+mysqli_close($verbinding);
 ?&gt;
 </pre>
