@@ -18,14 +18,14 @@ Als je Wordpress op de correcte wijze gaat gebruiken heb je naast een <strong>mo
 
 ## Wordpress en PHP
 
-Het Wordpress CMS systeem is geschreven in PHP en heeft heelwat functie <em>out-of-the-box</em> aanwezig. Het is niet te bedoeling dat je aan de Wordpress code zélf iets gaat wijzigen. Door aanpassingen aan de code te doen kan je een Wordpress website niet meer upgraden en dat is wel echt belangrijk.
+Het Wordpress CMS systeem is geschreven in PHP en heeft heelwat functie <em>out-of-the-box</em> aanwezig. Het is <strong>niet<strong> te bedoeling dat je aan de Wordpress code<strong>zélf iets</strong> gaat <strong>wijzigen</strong>. Door aanpassingen aan de code te doen kan je een Wordpress website niet meer upgraden en dat is wel echt belangrijk.
 
 ### Plugins
 
-Naast de functies die het Wordpress pakket zelf bevat kan je via <emPlugins</em> de functies van een website gaan uitbreiden. Plugins zijn eenvoudig te downloaden vanuit de Wordpress interface. Het is ook hier niet de bedoeling dat je de code van een gedownloadde plugin gaat wijzigen. Het is namelijk ook voor plugins belangrijk dat je ze up-to-date houdt en dat kan niet (meer) als je de code gaat wijzigen.
+Naast de functies die het Wordpress pakket zelf bevat kan je via <emPlugins</em> de functies van een website gaan uitbreiden. Plugins zijn eenvoudig te downloaden vanuit de Wordpress interface. Het is ook hier <strong>niet de bedoeling</strong> dat je de code van een gedownloadde plugin <strong>gaat wijzigen</strong>. Het is namelijk ook voor plugins belangrijk dat je ze up-to-date houdt en dat kan niet (meer) als je de code gaat wijzigen.
 
 ### Themas
-Naast de ruggengraat van Wordpress wordt een installatie uitgebreid met gratis of betalend thema (een visuele toolset) waarop je een website kan baseren. Ook aan zo'n thema pas je best niets aan. Als je een website wil bouwen op een bestaand of aangekocht thema zoek je best een thema dat al in een goede richting gaat van wat je wenst en werk je zelf in een child theme.
+Naast de ruggengraat van Wordpress wordt een installatie uitgebreid met gratis of betalend thema (een visuele toolset) waarop je een website kan baseren. <strong>Ook aan zo'n thema pas je best niets aan</strong>. Als je een website wil bouwen op een bestaand of aangekocht thema zoek je best een thema dat al in een goede richting gaat van wat je wenst en werk je zelf in een child theme.
 
 ### Childthemas
 Omdat een thema nooit helemaal is gebouwd zoals jij (of de klant) het wenst gaan wij gebruik maken <em>child themes</em>. Een child thema gebruikt standaard de mogelijkheden van een ander thema en laat aanpassingen aan HTML, CSS, ... toe in template bestanden. Die template bestanden worden geschreven  in het PHP formaat. <strong>Hier zal je PHP kennis dus wél van pas komen.</strong>
