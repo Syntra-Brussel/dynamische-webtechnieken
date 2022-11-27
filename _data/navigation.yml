@@ -144,6 +144,12 @@ items:
       - url: /wordpress/introductie
         published: 'yes'
         title: 'Introductie'
+      - url: /wordpress/installeren
+        published: 'yes'
+        title: 'Installeren'
+      - url: /wordpress/out-of-the-box
+        published: 'yes'
+        title: 'Out-of-the-box'                
   - url: /seo  
     published: 'yes'
     title: 'SEO'

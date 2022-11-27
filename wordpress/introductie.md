@@ -32,5 +32,4 @@ Als je een website wil bouwen op een bestaand of aangekocht thema zoek je best e
 ### Childthemas
 Omdat een thema nooit helemaal is gebouwd zoals jij (of de klant) het wenst gaan wij gebruik maken <em>child themes</em>. Een child thema gebruikt standaard de mogelijkheden van een ander thema en laat aanpassingen aan HTML, CSS, ... toe in template bestanden. Die template bestanden worden geschreven in het PHP formaat. 
 
-<strong>Hier zal je PHP kennis dus wél van pas komen.</strong>
-
+<strong>Hier zal je HTML, CSS en PHP kennis dus wél van pas komen.</strong>
