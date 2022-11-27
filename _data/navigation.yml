@@ -141,15 +141,15 @@ items:
     title: 'Wordpress'
     collection: wordpress
     topics:
-      - url: /wordpress/introductie
-        published: 'yes'
-        title: 'Introductie'
       - url: /wordpress/installeren
         published: 'yes'
-        title: 'Installeren'
-      - url: /wordpress/out-of-the-box
+        title: 'Installeren'    
+      - url: /wordpress/core-theme-plugins
         published: 'yes'
-        title: 'Out-of-the-box'                
+        title: 'Core - theme - plugins'
+      - url: /wordpress/belangrijkste-begrippen
+        published: 'yes'
+        title: 'Belangrijkste begrippen'                
   - url: /seo  
     published: 'yes'
     title: 'SEO'

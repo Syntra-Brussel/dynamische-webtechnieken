@@ -1,7 +1,7 @@
 ---
 layout: template
-title: Introductie
-url: /wordpress/introductie
+title: Core - theme - plugins
+url: /wordpress/core-theme-plugins
 collection: wordpress
 links:
   - url: https://nl-be.wordpress.org
@@ -16,13 +16,17 @@ Wordpress is een toolset, een framework dat je toe laat om snel(ler) van start t
 
 Als je Wordpress op de correcte wijze gaat gebruiken heb je naast een <strong>mooie (...)</strong> website ook en vooral een website die <strong>technisch geoptimaliseerd is voor SEO</strong> én een website die iemand <strong>zonder Wordpress kennis toch eenvoudig kan aanpassen</strong>. Daar boek je het meeste voordeel mee.
 
-## Wordpress ruggengraat
+### Wordpress core
 
-Het Wordpress CMS systeem is <strong>geschreven in PHP</strong> en heeft heel wat functies <em>out-of-the-box</em> aanwezig. De PHP code zorgt voor het bewaren en ophalen van gegevens (in de database) en voor de backend die in staat voor het beheer van de informatie. Het is niet de bedoeling de PHP code van de Wordpress ruggengraat ta gaan wijzigen. Door aanpassingen aan de code te doen kan je een Wordpress website niet meer upgraden en dat is wel echt belangrijk.
+Het Wordpress CMS systeem is <strong>geschreven in PHP</strong> en heeft heel wat functies <em>out-of-the-box</em> aanwezig. De PHP code zorgt voor het bewaren en ophalen van gegevens (in de database) en voor de backend die in staat voor het beheer van de informatie. 
+
+De Wordpress core zorgt er ook voor dat de mogelijkheden uitgebreid kunnen worden via <strong>plugins</strong> en </strong>themes</strong>.
+
+Het is niet de bedoeling de PHP code van de Wordpress ruggengraat ta gaan wijzigen. Door aanpassingen aan de code te doen kan je een Wordpress website niet meer upgraden en dat is wel echt belangrijk.
 
 ### Plugins
 
-Naast de functies die het Wordpress pakket zelf bevat kan je via <em>Plugins</em> de functies van een website gaan uitbreiden. Plugins zijn extra stukjes programme die eenvoudig te downloaden zijn vanuit de Wordpress interface. Het is ook hier <strong>niet de bedoeling</strong> dat je de code van een gedownloadde plugin <strong>gaat wijzigen</strong>. Het is namelijk ook voor plugins belangrijk dat je ze up-to-date houdt en dat kan niet (meer) als je de code gaat wijzigen.
+Naast de functies die Wordpress <em>out-of-the-box</em> bevat kan je via <em>Plugins</em> de functies van een website gaan uitbreiden. Plugins zijn extra stukjes programme die eenvoudig te downloaden zijn vanuit de Wordpress interface. Het is ook hier <strong>niet de bedoeling</strong> dat je de code van een gedownloadde plugin <strong>gaat wijzigen</strong>. Het is namelijk ook voor plugins belangrijk dat je ze up-to-date houdt en dat kan niet (meer) als je de code gaat wijzigen.
 
 ### Themas
 Het tonen van de website komende vanuit de database) gebeurt via een thema (en set van templates en JS/CSS). Wordpress heeft <em>out-of-the-box</em> al enkele themas voorzien om snel van start te gaan maar je kan ook extra thema's aankopen met meer mogelijkheden of een specifieke opmaak. Ook aan zo'n thema pas je best niets aan</strong>. 
