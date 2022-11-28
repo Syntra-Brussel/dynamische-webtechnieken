@@ -6,16 +6,6 @@ collection: wordpress
 links:
   - url: https://nl-be.wordpress.org
 ---
-<quote>
-Wordpress is een open-source software waarmee je prachtige websites, blogs of apps kan maken.
-</quote>
-
-In één zin wordt heel hier veel gezegd. Dat je prachtige websites kan maken is om te beginnen best persoonlijk maar het lijkt ook allemaal super eenvoudig te gaan en het zal blijken dat dat toch wel een heel rooskleurig voorstelling is van de feiten.
-
-Wordpress is een toolset, een framework dat je toe laat om snel(ler) van start te gaan met een website dan dat je een website volledig van 0 moet ontwerpen en ontwikkelen. 
-
-Als je Wordpress op de correcte wijze gaat gebruiken heb je naast een <strong>mooie (...)</strong> website ook en vooral een website die <strong>technisch geoptimaliseerd is voor SEO</strong> én een website die iemand <strong>zonder Wordpress kennis toch eenvoudig kan aanpassen</strong>. Daar boek je het meeste voordeel mee.
-
 ### Wordpress core
 
 Het Wordpress CMS systeem is <strong>geschreven in PHP</strong> en heeft heel wat functies <em>out-of-the-box</em> aanwezig. De PHP code zorgt voor het bewaren en ophalen van gegevens (in de database) en voor de backend die in staat voor het beheer van de informatie. 
