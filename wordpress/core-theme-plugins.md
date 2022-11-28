@@ -34,14 +34,14 @@ Zaken die door de Wordpress core worden voorzien;
 * Toelaten dat gebruikers kunnen antwoorden op posts
 * ...
 
-### Themas
+### Themes
 Het weergeven van de website gebeurt via een thema. <strong>Een thema is een set templates in combinatie met JS en CSS.</strong> Wordpress heeft <em>out-of-the-box</em> al enkele themas aan boord om snel van start te gaan. Zeker als je een (eenvoudige) blog wil opstarten. 
 
 Je kan ook extra thema's aankopen met meer mogelijkheden of een specifieke opmaak.
 
 Aan de code van een thema pas je best ook niets aan. Als je een website wil bouwen op een bestaand of aangekocht thema zoek je dus best een thema dat al in een goede richting gaat van wat je wenst en werk je zelf in een child theme.
 
-### Childthemas
+### Child themes
 Omdat een thema nooit helemaal is gebouwd zoals jij (of de klant) het wenst maak je gebruik maken <em>child themes</em>. Een child thema gebruikt standaard de mogelijkheden van een ander thema en laat toe templates te overschrijven met een eigen, nieuwe versie. Een child thema laat ook het toevoegen van CSS toe. 
 
 De template bestanden worden geschreven in het PHP formaat. <strong>Hier zal je HTML, CSS en PHP kennis dus wél van pas komen.</strong>
