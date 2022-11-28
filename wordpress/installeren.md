@@ -10,4 +10,4 @@ Om Wordpress te gaan gebruiken heb je toegang nodig tot:
 * een <strong>webserver die PHP ondersteund</strong> 
 * een <strong>database</strong>
 
-Zo'n webserver kan dus online draaien (via een hosting firma) of lokaal via bv. XAMPP.
+Zo'n webserver kan dus op het internet draaien of lokaal via bv. <strong>XAMPP</strong>.
