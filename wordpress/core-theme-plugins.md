@@ -10,10 +10,6 @@ links:
 
 Het Wordpress CMS systeem is <strong>geschreven in PHP</strong> en heeft heel wat functies <em>out-of-the-box</em> aanwezig. De PHP code zorgt voor het bewaren en ophalen van gegevens (in de database) en voor de backend die in staat voor het beheer van de informatie. 
 
-De Wordpress core zorgt er ook voor dat de mogelijkheden uitgebreid kunnen worden via <strong>plugins</strong> en </strong>themes</strong>.
-
-Het is niet de bedoeling de PHP code van de Wordpress ruggengraat ta gaan wijzigen. Door aanpassingen aan de code te doen kan je een Wordpress website niet meer upgraden en dat is wel echt belangrijk.
-
 Zaken die door de Wordpress core worden voorzien;
 * toegang tot de Wordpress admin
 * toevoegen wijzigen en verwijderen van posts en pagina's
@@ -22,7 +18,10 @@ Zaken die door de Wordpress core worden voorzien;
 * tags en categorieën beheren
 * Video's verwerken in een tekst
 * Toelaten dat gebruikers kunnen antwoorden op posts
+* Installeren van extra thema's en plugins
 * ...
+
+Het is niet de bedoeling de PHP code van de Wordpress ruggengraat ta gaan wijzigen. Door aanpassingen aan de code te doen kan je een Wordpress website niet meer upgraden en dat is wel echt belangrijk.
 
 ### Themes
 Het weergeven van de website gebeurt via een thema. <strong>Een thema is een set templates in combinatie met JS en CSS.</strong> Wordpress heeft <em>out-of-the-box</em> al enkele themas aan boord om snel van start te gaan. Zeker als je een (eenvoudige) blog wil opstarten. 
