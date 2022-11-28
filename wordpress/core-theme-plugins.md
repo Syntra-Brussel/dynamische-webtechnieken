@@ -24,6 +24,16 @@ De Wordpress core zorgt er ook voor dat de mogelijkheden uitgebreid kunnen worde
 
 Het is niet de bedoeling de PHP code van de Wordpress ruggengraat ta gaan wijzigen. Door aanpassingen aan de code te doen kan je een Wordpress website niet meer upgraden en dat is wel echt belangrijk.
 
+Zaken die door de Wordpress core worden voorzien;
+* toegang tot de Wordpress admin
+* toevoegen wijzigen en verwijderen van posts en pagina's
+* beheer van gebruiker
+* uploaden van beelden
+* tags en categorieën beheren
+* Video's verwerken in een tekst
+* Toelaten dat gebruikers kunnen antwoorden op posts
+* ...
+
 ### Plugins
 
 Naast de functies die Wordpress <em>out-of-the-box</em> bevat kan je via <em>Plugins</em> de functies van een website gaan uitbreiden. Plugins zijn extra stukjes programme die eenvoudig te downloaden zijn vanuit de Wordpress interface. Het is ook hier <strong>niet de bedoeling</strong> dat je de code van een gedownloadde plugin <strong>gaat wijzigen</strong>. Het is namelijk ook voor plugins belangrijk dat je ze up-to-date houdt en dat kan niet (meer) als je de code gaat wijzigen.
