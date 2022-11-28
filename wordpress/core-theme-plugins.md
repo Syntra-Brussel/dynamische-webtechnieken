@@ -34,16 +34,18 @@ Zaken die door de Wordpress core worden voorzien;
 * Toelaten dat gebruikers kunnen antwoorden op posts
 * ...
 
+### Themas
+Het weergeven van de website gebeurt via een thema. <strong>Een thema is een set templates in combinatie met JS en CSS.</strong> Wordpress heeft <em>out-of-the-box</em> al enkele themas aan boord om snel van start te gaan. Zeker als je een (eenvoudige) blog wil opstarten. 
+
+Je kan ook extra thema's aankopen met meer mogelijkheden of een specifieke opmaak.
+
+Aan de code van een thema pas je best ook niets aan. Als je een website wil bouwen op een bestaand of aangekocht thema zoek je dus best een thema dat al in een goede richting gaat van wat je wenst en werk je zelf in een child theme.
+
+### Childthemas
+Omdat een thema nooit helemaal is gebouwd zoals jij (of de klant) het wenst maak je gebruik maken <em>child themes</em>. Een child thema gebruikt standaard de mogelijkheden van een ander thema en laat toe templates te overschrijven met een eigen, nieuwe versie. Een child thema laat ook het toevoegen van CSS toe. 
+
+De template bestanden worden geschreven in het PHP formaat. <strong>Hier zal je HTML, CSS en PHP kennis dus wél van pas komen.</strong>
+
 ### Plugins
 
 Naast de functies die Wordpress <em>out-of-the-box</em> bevat kan je via <em>Plugins</em> de functies van een website gaan uitbreiden. Plugins zijn extra stukjes programme die eenvoudig te downloaden zijn vanuit de Wordpress interface. Het is ook hier <strong>niet de bedoeling</strong> dat je de code van een gedownloadde plugin <strong>gaat wijzigen</strong>. Het is namelijk ook voor plugins belangrijk dat je ze up-to-date houdt en dat kan niet (meer) als je de code gaat wijzigen.
-
-### Themas
-Het tonen van de website komende vanuit de database) gebeurt via een thema (en set van templates en JS/CSS). Wordpress heeft <em>out-of-the-box</em> al enkele themas voorzien om snel van start te gaan maar je kan ook extra thema's aankopen met meer mogelijkheden of een specifieke opmaak. Ook aan zo'n thema pas je best niets aan</strong>. 
-
-Als je een website wil bouwen op een bestaand of aangekocht thema zoek je best een thema dat al in een goede richting gaat van wat je wenst en werk je zelf in een child theme.
-
-### Childthemas
-Omdat een thema nooit helemaal is gebouwd zoals jij (of de klant) het wenst gaan wij gebruik maken <em>child themes</em>. Een child thema gebruikt standaard de mogelijkheden van een ander thema en laat aanpassingen aan HTML, CSS, ... toe in template bestanden. Die template bestanden worden geschreven in het PHP formaat. 
-
-<strong>Hier zal je HTML, CSS en PHP kennis dus wél van pas komen.</strong>
