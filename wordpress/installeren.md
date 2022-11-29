@@ -13,7 +13,7 @@ Om Wordpress te gaan gebruiken heb je toegang nodig tot:
 Zo'n webserver kan dus op het internet draaien of lokaal via bv. <strong>XAMPP</strong>.
 
 ### Database "speeltuin" aanmaken
-Surf naar phpMyAdmin (via http://localhost/dashboard/) en maak een database "speeltuin" aan.
+Surf naar phpMyAdmin (via http://localhost/dashboard/) en maak een database "speeltuin" aan. Tabellen toevoegen hoeft niet.
 <img src="images/installeren_nieuwe_database.jpg" />
 
 ### Folder <code>speeltuin</code> aanmaken in <code>htdocs</code> folder
@@ -31,3 +31,7 @@ Open de ZIP die werd gedownload en kopieer de inhoud uit de <code>wordpress</cod
 ### Klik op "Laten we starten"
 Vul de database gegevens in (database "speeltuin", gebruikersnaam "root" en geen paswoord)
 <img src="images/installeren_database.jpg" />
+
+### Maak wp-config.php aan
+Maak het bestand <code>wp-config.php</code> met de inhoud die je in dit scherm kan kopieëren.
+<img src="images/installeren_config.jpg" />
