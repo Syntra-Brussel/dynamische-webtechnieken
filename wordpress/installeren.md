@@ -23,7 +23,7 @@ In de speeltuin gaan we een Wordpress opzetten waarin je naar hartelust kan expe
 Download Wordpress op https://nl-be.wordpress.org/download/, de ZIP bevat de <em>Drupal core</em>
 
 ### Inhoud van ZIP naar <code>speeltuin</code> folder
-Open de ZIP die werd gedownload en kopieer de inhoud uit de "wordpress" folder naar een nieuwe folder <strong>"speeltuin"</strong> in de "htdocs" folder.
+Open de ZIP die werd gedownload en kopieer de inhoud uit de <code>wordpress</code> folder naar een nieuwe folder <code>speeltuin</code> in de <code>htdocs</code> folder.
 
 ### Surf naar http://localhost/speeltuin/
 <img src="images/installeren_start.jpg" />
