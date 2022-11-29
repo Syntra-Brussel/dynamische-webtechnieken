@@ -19,6 +19,8 @@ Surf naar phpMyAdmin (via http://localhost/dashboard/) en maak een database "spe
 ### Folder <code>speeltuin</code> aanmaken in <code>htdocs</code> folder
 In de speeltuin gaan we een Wordpress opzetten waarin je naar hartelust kan experimenteren.
 
+### Folder <code>speeltuin</code> openen in Visual Studio code
+
 ### Download Wordpress
 Download Wordpress op https://nl-be.wordpress.org/download/, de ZIP bevat de <em>Drupal core</em>
 
@@ -35,3 +37,12 @@ Vul de database gegevens in (database "speeltuin", gebruikersnaam "root" en geen
 ### Maak wp-config.php aan
 Maak het bestand <code>wp-config.php</code> met de inhoud die je in dit scherm kan kopieëren.
 <img src="images/installeren_config.jpg" />
+<img src="images/installeren_config_2.jpg" />
+<img src="images/installeren_config_3.jpg" />
+
+### Installatie uitvoeren
+Vervolg met de knop "Installatie uitvoeren"
+
+### Website informatie
+Geef een website naam en bepaal een gebruikersnaam waarmee je de website gaat beheren.
+<img src="images/installeren_website_informatie.jpg" />
