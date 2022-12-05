@@ -49,9 +49,9 @@ Omdat een thema nooit helemaal is gebouwd zoals jij (of de klant) het wenst maak
 * templates te overschrijven met een eigen, nieuwe, versie. 
 * Eigen CSS toe te voegen
 
-De template bestanden worden geschreven in het PHP formaat. <strong>Hier zal je HTML, CSS en PHP kennis dus wél van pas komen.</strong>
-
 Een child themes zal zijn eigen folder hebben komt in de <code>/wp-content/themes</code> folder. Deze bestanden mag je uiteraard <strong>wel</strong> aanpassen.
+
+De template bestanden worden geschreven in het PHP formaat. <strong>Hier zal je HTML, CSS en PHP kennis dus wél van pas komen.</strong>
 
 ### Plugins
 
