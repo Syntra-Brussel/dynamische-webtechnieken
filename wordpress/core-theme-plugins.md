@@ -24,11 +24,11 @@ Zaken die door de Wordpress core worden voorzien;
 Het is niet de bedoeling de PHP code van de Wordpress ruggengraat ta gaan wijzigen. Door aanpassingen aan de code te doen kan je een Wordpress website niet meer upgraden en dat is wel echt belangrijk.
 
 Je past dus <strong>geen</strong> code aan in deze folders:
-* /wp-admin
-* /wp-includes
+* <code>/wp-admin</code>
+* <code>/wp-includes</code>
 
 In de root map je énkel aanpassingen maken aan dit bestand:
-* wp-config.php
+* <code>wp-config.php</code>
 
 ### Themes
 Het weergeven van de website gebeurt via een thema. <strong>Een thema is een set templates in combinatie met JS en CSS.</strong> Wordpress heeft <em>out-of-the-box</em> al enkele themas aan boord om snel van start te gaan. Zeker als je een (eenvoudige) blog wil opstarten. 
