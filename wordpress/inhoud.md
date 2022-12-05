@@ -31,3 +31,12 @@ Al heel lang werkt Wordpress dat imago van enkel een blog platform te zijn weg. 
 * Een portfolia heeft projecten
 
 Daarvoor heeft Worpdress de <strong>bericht types op maat</strong> (Custom Post Types) geïntroduceerd en <strong>uitgebreide velden op maat</strong> (Advanced Custom Fields. Toch zijn voor die mogelijkheid nog steeds aparte plugins nodig.
+
+## Gebruikers (user)
+
+De belangrijkste gebruiker van een Wordpress website is uiteraard de <strong>bezoeker</strong>. Om de website te bezoeken is geen gebruikersaccount nodig.
+
+Een gebruikersaccount is nodig voor:
+* personen die <strong>reageren</strong> op berichten. Die krijgt de <strong>abonnee</strong>.
+* personen die de inhoud van de website beheren krijgen de <strong>auteur</strong> of <strong>redacteur</strong> rol.
+* de persoon die website bouwt en onderhoudt krijgt de <strong>beheerder</strong>. Hij heeft het meeste rechten.

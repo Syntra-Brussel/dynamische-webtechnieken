@@ -49,7 +49,7 @@ Je past dus <strong>geen</strong> code aan in deze folders:
 * Gedownloade thema's in <code>/wp-content/themes</code> folder
 
 ### Kind thema (child theme)
-Omdat een thema nooit helemaal is gebouwd zoals jij (of de klant) het wenst maak je gebruik van een <strong>kind theme</strong> (child theme). Het gebruikt standaard de mogelijkheden van een moeder thema (parent theme) en laat toe:
+Omdat een thema nooit helemaal is gebouwd zoals jij (of de klant) het wenst kan je gebruik maken van een <strong>kind theme</strong> (child theme). Het gebruikt standaard de mogelijkheden van een moeder thema (parent theme) en laat toe:
 * templates toe te voegen
 * templates te overschrijven met een eigen, nieuwe, versie. 
 * Eigen CSS toe te voegen
