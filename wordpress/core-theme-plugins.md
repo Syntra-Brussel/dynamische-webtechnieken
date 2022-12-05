@@ -37,13 +37,26 @@ Je kan ook extra thema's aankopen met meer mogelijkheden of een specifieke opmaa
 
 Aan de code van een thema pas je best ook niets aan. Als je een website wil bouwen op een bestaand of aangekocht thema zoek je dus best een thema dat al in een goede richting gaat van wat je wenst en werk je zelf in een child theme.
 
+Je past dus <strong>geen</strong> code aan in deze folders:
+
+* /wp-content/themes/twentytwentyone (thema voorzien door Wordpress)
+* /wp-content/themes/twentytwentytwo (thema voorzien door Wordpress)
+* /wp-content/themes/twentytwentythree (thema voorzien door Wordpress)
+
 ### Child themes
 Omdat een thema nooit helemaal is gebouwd zoals jij (of de klant) het wenst maak je gebruik maken <em>child themes</em>. Een child thema gebruikt standaard de mogelijkheden van een ander thema en laat toe templates te overschrijven met een eigen, nieuwe versie. Een child thema laat ook het toevoegen van CSS toe. 
 
 De template bestanden worden geschreven in het PHP formaat. <strong>Hier zal je HTML, CSS en PHP kennis dus wél van pas komen.</strong>
+
+De child themes komen ook in de /wp-content/themes folder. Deze bestanden mag je <strong>wel</strong> aanpassen.
 
 ### Plugins
 
 Naast de functies die Wordpress <em>out-of-the-box</em> bevat kan je via <em>Plugins</em> de functies van een website gaan uitbreiden. Plugins zijn extra stukjes programme die eenvoudig te downloaden zijn vanuit de Wordpress interface. Het is ook hier <strong>niet de bedoeling</strong> dat je de code van een gedownloadde plugin <strong>gaat wijzigen</strong>. Het is namelijk ook voor plugins belangrijk dat je ze up-to-date houdt en dat kan niet (meer) als je de code gaat wijzigen.
 
 Vele plugins hebben naast een gratis versie met basis opties ook een betalende versie met meer uitgebreide mogelijkheid. In onze cursus werken we uitsluitend met de gratis versies van plugin.
+
+Je past dus <strong>geen</strong> code aan in deze folders:
+
+* /wp-content/languages (bevat vertaling informatie door core / themes / plugins toegevoegd) 
+* /wp-content/plugins (bevat gedownloade plugin)
