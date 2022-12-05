@@ -37,8 +37,8 @@ Via "Instellingen" > "Discussie" kan je instellingen mee geven betreffende dat r
 Binnen het thema is één zijbalk voorzien met de naam "Footer". Deze bevindt zich onder de inhoud.
 
 De footer bevat in dit thema standaard:
-* een zoekknop, 
-* recente berichten, 
-* recente reacties, 
+* een zoekknop
+* recente berichten
+* recente reacties
 * archieven (overzicht van berichten gegroepeerd per maand)
 * categorieën (overzicht van berichten gegroepeerd per categorie)

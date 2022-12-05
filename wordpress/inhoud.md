@@ -16,7 +16,7 @@ Omdat Wordpress als basis vooral een blog platform is wordt er gesproken over <s
 ### De inhoud staat centraal
 Een bericht heeft:
 * een <strong>titel</strong> (title) 
-* de <strong>inhoud</strong> (content).
+* de <strong>inhoud</strong> (content)
 
 ### Extra informatie in de zijbalk
 In de zijbalk kan je volgende extra zaken beheren:
