@@ -1,7 +1,7 @@
 ---
 layout: template
 title: De inhoud
-url: /wordpress/blog
+url: /wordpress/inhoud
 collection: wordpress
 ---
 

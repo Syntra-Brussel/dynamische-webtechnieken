@@ -150,9 +150,9 @@ items:
       - url: /wordpress/inhoud
         published: 'yes'
         title: 'Inhoud'            
-      - url: /wordpress/belangrijkste-begrippen
+      - url: /wordpress/pagina
         published: 'yes'
-        title: 'Belangrijkste begrippen'                
+        title: 'Pagina'                
   - url: /seo  
     published: 'yes'
     title: 'SEO'
