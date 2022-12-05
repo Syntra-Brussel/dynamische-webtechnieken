@@ -147,6 +147,9 @@ items:
       - url: /wordpress/core-theme-plugins
         published: 'yes'
         title: 'Core - theme - plugins'
+      - url: /wordpress/inhoud
+        published: 'yes'
+        title: 'Inhoud'            
       - url: /wordpress/belangrijkste-begrippen
         published: 'yes'
         title: 'Belangrijkste begrippen'                

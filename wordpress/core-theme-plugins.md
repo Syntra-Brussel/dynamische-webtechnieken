@@ -23,6 +23,13 @@ Zaken die door de Wordpress core worden voorzien;
 
 Het is niet de bedoeling de PHP code van de Wordpress ruggengraat ta gaan wijzigen. Door aanpassingen aan de code te doen kan je een Wordpress website niet meer upgraden en dat is wel echt belangrijk.
 
+Je past dus <strong>geen</strong> code aan in deze folders:
+* /wp-admin
+* /wp-includes
+
+In de root map je énkel aanpassingen maken aan dit bestand:
+* wp-config.php
+
 ### Themes
 Het weergeven van de website gebeurt via een thema. <strong>Een thema is een set templates in combinatie met JS en CSS.</strong> Wordpress heeft <em>out-of-the-box</em> al enkele themas aan boord om snel van start te gaan. Zeker als je een (eenvoudige) blog wil opstarten. 
 
@@ -38,3 +45,5 @@ De template bestanden worden geschreven in het PHP formaat. <strong>Hier zal je 
 ### Plugins
 
 Naast de functies die Wordpress <em>out-of-the-box</em> bevat kan je via <em>Plugins</em> de functies van een website gaan uitbreiden. Plugins zijn extra stukjes programme die eenvoudig te downloaden zijn vanuit de Wordpress interface. Het is ook hier <strong>niet de bedoeling</strong> dat je de code van een gedownloadde plugin <strong>gaat wijzigen</strong>. Het is namelijk ook voor plugins belangrijk dat je ze up-to-date houdt en dat kan niet (meer) als je de code gaat wijzigen.
+
+Vele plugins hebben naast een gratis versie met basis opties ook een betalende versie met meer uitgebreide mogelijkheid. In onze cursus werken we uitsluitend met de gratis versies van plugin.

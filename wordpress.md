@@ -13,3 +13,6 @@ In één zin wordt heel hier veel gezegd. Dat je prachtige websites kan maken is
 Wordpress is een toolset, een framework dat je toe laat om snel(ler) van start te gaan met een website dan dat je een website volledig van 0 moet ontwerpen en ontwikkelen. 
 
 Als je Wordpress op de correcte wijze gaat gebruiken heb je naast een <strong>mooie (...)</strong> website ook en vooral een website die <strong>technisch geoptimaliseerd is voor SEO</strong> én een website die iemand <strong>zonder Wordpress kennis toch eenvoudig kan aanpassen</strong>. Daar boek je het meeste voordeel mee.
+
+
+
