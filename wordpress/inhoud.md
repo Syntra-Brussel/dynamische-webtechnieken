@@ -40,11 +40,14 @@ Een pagina heeft, net zoals een bericht:
 * een titel
 * een inhoud
 
+
 ### Extra informatie in de zijbalk
 
 Een pagina heeft wat minder extra zaken te beheren. Het belangrijkste hier is het (eventuele) uitgelicht beeld.
 
 Je kan er een pagina publiceren, privé plaatsen of toegankelijk maken met een paswoord.
+
+Het uitgelicht beeld wordt prominent bovenaan getoond en wordt ook gebruikt op de archief pagina.
 
 ## Media
 Voor het beheer van alle beelden heeft Wordpress al heel lang een heel goede <strong>media bibliotheek</strong> aan boord.
