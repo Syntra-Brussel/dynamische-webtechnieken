@@ -30,11 +30,12 @@ Je past dus <strong>geen</strong> code aan in deze folders:
 In de root map je énkel aanpassingen maken aan dit bestand:
 * <code>wp-config.php</code>
 
-## Themes
+## Themas
+
+Het weergeven van de website gebeurt via een thema. <strong>Een thema is een set templates in combinatie met JS en CSS.</strong>
+Wordpress heeft <em>out-of-the-box</em> al enkele themas aan boord om snel van start te gaan. Zeker als je een (eenvoudige) blog wil opstarten. 
 
 ### Gedownloade themas
-
-Het weergeven van de website gebeurt via een thema. <strong>Een thema is een set templates in combinatie met JS en CSS.</strong> Wordpress heeft <em>out-of-the-box</em> al enkele themas aan boord om snel van start te gaan. Zeker als je een (eenvoudige) blog wil opstarten. 
 
 Je kan ook extra thema's aankopen met meer mogelijkheden of een specifieke opmaak.
 
@@ -45,6 +46,7 @@ Je past dus <strong>geen</strong> code aan in deze folders:
 * <code>/wp-content/themes/twentytwentyone</code> (thema voorzien door Wordpress)
 * <code>/wp-content/themes/twentytwentytwo</code> (thema voorzien door Wordpress)
 * <code>/wp-content/themes/twentytwentythree</code> (thema voorzien door Wordpress)
+* Gedownloade thema's in <code>/wp-content/themes</code> folder
 
 ### Kind thema (child theme)
 Omdat een thema nooit helemaal is gebouwd zoals jij (of de klant) het wenst maak je gebruik van een <strong>kind theme</strong> (child theme). Het gebruikt standaard de mogelijkheden van een moeder thema (parent theme) en laat toe:
