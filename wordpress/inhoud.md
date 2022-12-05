@@ -19,7 +19,7 @@ Een bericht heeft:
 * de <strong>inhoud</strong> (content).
 
 ### Extra informatie in de zijbalk
-In de <strong>zijbalk</stron> kan je volgende extra zaken beheren:
+In de zijbalk kan je volgende extra zaken beheren:
 * het uitgelicht beeld bij het bericht (featured image)
 * de categorie
 * de trefwoorden (tags)
