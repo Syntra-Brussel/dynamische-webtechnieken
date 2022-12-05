@@ -152,7 +152,7 @@ items:
         title: 'Inhoud'            
       - url: /wordpress/pagina
         published: 'yes'
-        title: 'Pagina'                
+        title: 'Pagina onderdelen'                
   - url: /seo  
     published: 'yes'
     title: 'SEO'

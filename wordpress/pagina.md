@@ -1,6 +1,6 @@
 ---
 layout: template
-title: De pagina
+title: Pagina onderdelen
 url: /wordpress/pagina
 collection: wordpress
 ---
@@ -11,9 +11,7 @@ Hieronder worden de meest courante opbouw van een webpagina besproken. We vertre
 Uiteraard kan in een eigen <em>child theme</em> de volledige opbouw aangepast en uitgebreid worden.
 </div>
 
-## Onderdelen
-
-### Menu's
+## Menu('s)
 
 Een menu is een collectie van links naar onderliggende pagina's. In het standaard thema (2021) heb je twee menu's beschikbaar:
 * primaire menu: komt bovenaan rechts
@@ -21,7 +19,7 @@ Een menu is een collectie van links naar onderliggende pagina's. In het standaar
 
 De menu komt op elk type pagina voor.
 
-### Inhoud
+## Inhoud
 
 Het belangrijkste onderdeel van de pagina, bevat de inhoud van de pagina.
 
@@ -34,7 +32,7 @@ Via "Instellingen" > "Lezen" kan je eender welke pagina instellen als startpagin
 * bericht (single post): pagina met bericht details (combinatie van inhoud, uitgelicht beeld, auteur, datum en mogelijkheid tot reageren). 
 Via "Instellingen" > "Discussie" kan je instellingen mee geven betreffende dat regeageren.
 
-### Zijbalken
+## Zijbalken
 
 Binnen het thema is één zijbalk voorzien met de naam "Footer". Deze bevindt zich onder de inhoud.
 
