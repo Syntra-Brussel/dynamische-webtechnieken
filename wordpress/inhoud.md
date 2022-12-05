@@ -5,11 +5,11 @@ url: /wordpress/inhoud
 collection: wordpress
 ---
 
-## Berichten of posts
-
 <div class="highlight">
 Historisch gezien is Wordpress een blog platform. Een platform dus om een website mee te bouwen om berichten te delen waarop kan gereageerd worden.
 </div>
+
+## Berichten (posts)
 
 Daarom wordt in Wordpress gesproken over <strong>berichten</strong> (posts). Een bericht (single post) kan behoren tot een <strong>categorie</strong> (category) en kan <strong>trefwoorden</strong> (tags) bevatten om op te filteren. Een overzichtpagina van berichten wordt in Wordpress een <strong>archief<strong> (archive) pagina genoemd.
 
