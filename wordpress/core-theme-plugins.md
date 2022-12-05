@@ -43,7 +43,7 @@ Je past dus <strong>geen</strong> code aan in deze folders:
 * /wp-content/themes/twentytwentytwo (thema voorzien door Wordpress)
 * /wp-content/themes/twentytwentythree (thema voorzien door Wordpress)
 
-### Child themes
+#### Child themes
 Omdat een thema nooit helemaal is gebouwd zoals jij (of de klant) het wenst maak je gebruik maken <em>child themes</em>. Een child thema gebruikt standaard de mogelijkheden van een ander thema en laat toe templates te overschrijven met een eigen, nieuwe versie. Een child thema laat ook het toevoegen van CSS toe. 
 
 De template bestanden worden geschreven in het PHP formaat. <strong>Hier zal je HTML, CSS en PHP kennis dus wél van pas komen.</strong>
