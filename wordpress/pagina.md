@@ -6,7 +6,7 @@ collection: wordpress
 ---
 
 <div class="highlight">
-Hieronder worden de meest courante opbouw van een webpagina besproken. We vertrekken vanuit de opbouw van het thema "2021" (twentytwentyone). Je zal merken dat dit nog heel hard is opgebouwd zoals een blog.
+Hieronder worden de meest courante opbouw van een webpagina besproken. We vertrekken vanuit de opbouw van het thema "2021" (twentytwentyone). Je zal merken dat dit heel hard is opgebouwd voor een blog website.
 
 Uiteraard kan in een eigen <em>child theme</em> de volledige opbouw aangepast en uitgebreid worden.
 </div>
