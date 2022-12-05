@@ -39,16 +39,19 @@ Aan de code van een thema pas je best ook niets aan. Als je een website wil bouw
 
 Je past dus <strong>geen</strong> code aan in deze folders:
 
-* /wp-content/themes/twentytwentyone (thema voorzien door Wordpress)
-* /wp-content/themes/twentytwentytwo (thema voorzien door Wordpress)
-* /wp-content/themes/twentytwentythree (thema voorzien door Wordpress)
+* <code>/wp-content/themes/twentytwentyone</code> (thema voorzien door Wordpress)
+* <code>/wp-content/themes/twentytwentytwo</code> (thema voorzien door Wordpress)
+* <code>/wp-content/themes/twentytwentythree</code> (thema voorzien door Wordpress)
 
-#### Child themes
-Omdat een thema nooit helemaal is gebouwd zoals jij (of de klant) het wenst maak je gebruik maken <em>child themes</em>. Een child thema gebruikt standaard de mogelijkheden van een ander thema en laat toe templates te overschrijven met een eigen, nieuwe versie. Een child thema laat ook het toevoegen van CSS toe. 
+#### Kind thema (child theme)
+Omdat een thema nooit helemaal is gebouwd zoals jij (of de klant) het wenst maak je gebruik van een <strong>kind theme</strong> (child theme). Het gebruikt standaard de mogelijkheden van een moeder thema (parent theme) en laat toe:
+* templates toe te voegen
+* templates te overschrijven met een eigen, nieuwe, versie. 
+* Eigen CSS toe te voegen
 
 De template bestanden worden geschreven in het PHP formaat. <strong>Hier zal je HTML, CSS en PHP kennis dus wél van pas komen.</strong>
 
-De child themes komen ook in de /wp-content/themes folder. Deze bestanden mag je <strong>wel</strong> aanpassen.
+Een child themes zal zijn eigen folder hebben komt in de <code>/wp-content/themes</code> folder. Deze bestanden mag je uiteraard <strong>wel</strong> aanpassen.
 
 ### Plugins
 
@@ -58,5 +61,9 @@ Vele plugins hebben naast een gratis versie met basis opties ook een betalende v
 
 Je past dus <strong>geen</strong> code aan in deze folders:
 
-* /wp-content/languages (bevat vertaling informatie door core / themes / plugins toegevoegd) 
-* /wp-content/plugins (bevat gedownloade plugin)
+* <code>/wp-content/languages</code> (bevat vertaling informatie door core / themes / plugins toegevoegd) 
+* <code>/wp-content/plugins</code> (bevat gedownloade plugin)
+
+#### Eigen plugins (custom plugin)
+
+Je kan ook eigen plugins bouwen. Een eigen plugin zal zijn eigen folder hebben komt in de <code>/wp-content/plugins</code> folder. Deze bestanden mag je uiteraard <strong>wel</strong> aanpassen.
