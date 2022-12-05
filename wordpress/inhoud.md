@@ -11,7 +11,7 @@ Historisch gezien is Wordpress een blog platform. Een platform dus om een websit
 
 ## Berichten (posts)
 
-Daarom wordt in Wordpress gesproken over <strong>berichten</strong> (posts). Een bericht (single post) kan behoren tot een <strong>categorie</strong> (category) en kan <strong>trefwoorden</strong> (tags) bevatten om op te filteren. Een overzichtpagina van berichten wordt in Wordpress een <strong>archief<strong> (archive) pagina genoemd.
+Omdat Wordpress als basis vooral een blog platform is wordt er gesproken over <strong>berichten</strong> (posts). Een bericht (single post) kan behoren tot een <strong>categorie</strong> (category) en kan <strong>trefwoorden</strong> (tags) bevatten om op te filteren. Een overzichtpagina van berichten wordt in Wordpress een <strong>archief<strong> (archive) pagina genoemd.
 
 Een bericht heeft naast een <strong>titel</strong> (title) ook de inhoud (content).
 Een bericht zonder beeld zegt weinig. Dus heeft elk bericht een <strong>uitgelicht beeld</strong> (featured image). 
