@@ -6,7 +6,7 @@ collection: wordpress
 links:
   - url: https://nl-be.wordpress.org
 ---
-### Wordpress core
+## Wordpress core
 
 Het Wordpress CMS systeem is <strong>geschreven in PHP</strong> en heeft heel wat functies <em>out-of-the-box</em> aanwezig. De PHP code zorgt voor het bewaren en ophalen van gegevens (in de database) en voor de backend die in staat voor het beheer van de informatie. 
 
@@ -30,7 +30,10 @@ Je past dus <strong>geen</strong> code aan in deze folders:
 In de root map je énkel aanpassingen maken aan dit bestand:
 * <code>wp-config.php</code>
 
-### Themes
+## Themes
+
+### Gedownloade themas
+
 Het weergeven van de website gebeurt via een thema. <strong>Een thema is een set templates in combinatie met JS en CSS.</strong> Wordpress heeft <em>out-of-the-box</em> al enkele themas aan boord om snel van start te gaan. Zeker als je een (eenvoudige) blog wil opstarten. 
 
 Je kan ook extra thema's aankopen met meer mogelijkheden of een specifieke opmaak.
@@ -43,7 +46,7 @@ Je past dus <strong>geen</strong> code aan in deze folders:
 * <code>/wp-content/themes/twentytwentytwo</code> (thema voorzien door Wordpress)
 * <code>/wp-content/themes/twentytwentythree</code> (thema voorzien door Wordpress)
 
-#### Kind thema (child theme)
+### Kind thema (child theme)
 Omdat een thema nooit helemaal is gebouwd zoals jij (of de klant) het wenst maak je gebruik van een <strong>kind theme</strong> (child theme). Het gebruikt standaard de mogelijkheden van een moeder thema (parent theme) en laat toe:
 * templates toe te voegen
 * templates te overschrijven met een eigen, nieuwe, versie. 
@@ -53,7 +56,9 @@ Een child themes zal zijn eigen folder hebben komt in de <code>/wp-content/theme
 
 De template bestanden worden geschreven in het PHP formaat. <strong>Hier zal je HTML, CSS en PHP kennis dus wél van pas komen.</strong>
 
-### Plugins
+## Plugins
+
+### Gedownloade plugins
 
 Naast de functies die Wordpress <em>out-of-the-box</em> bevat kan je via <em>Plugins</em> de functies van een website gaan uitbreiden. Plugins zijn extra stukjes programme die eenvoudig te downloaden zijn vanuit de Wordpress interface. Het is ook hier <strong>niet de bedoeling</strong> dat je de code van een gedownloadde plugin <strong>gaat wijzigen</strong>. Het is namelijk ook voor plugins belangrijk dat je ze up-to-date houdt en dat kan niet (meer) als je de code gaat wijzigen.
 
@@ -64,6 +69,6 @@ Je past dus <strong>geen</strong> code aan in deze folders:
 * <code>/wp-content/languages</code> (bevat vertaling informatie door core / themes / plugins toegevoegd) 
 * <code>/wp-content/plugins</code> (bevat gedownloade plugin)
 
-#### Eigen plugins (custom plugin)
+### Eigen plugins (custom plugin)
 
 Je kan ook eigen plugins bouwen. Een eigen plugin zal zijn eigen folder hebben komt in de <code>/wp-content/plugins</code> folder. Deze bestanden mag je uiteraard <strong>wel</strong> aanpassen.
