@@ -49,9 +49,9 @@ Geef een website naam en bepaal een gebruikersnaam waarmee je de website gaat be
 
 ### Klaar
 
-<img src="images/installeren_website_bijna_klaar.jpg" />
+<img src="images/installeren_bijna_klaar.jpg" />
 
 Je kan jezelf na aanmelden met je "admin" gebruikersnaam of de website als gewone bezoeker bekijken via de link "Ga naar speeltuin" of via http://localhost/speeltuin/.
-<img src="images/installeren_website_aanmelden.jpg" />
-<img src="images/installeren_website_niet_aangemeld.jpg" />
-<img src="images/installeren_website_aangemeld.jpg" />
+<img src="images/installeren_aanmelden.jpg" />
+<img src="images/installeren_niet_aangemeld.jpg" />
+<img src="images/installeren_aangemeld.jpg" />
