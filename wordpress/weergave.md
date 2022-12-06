@@ -1,12 +1,12 @@
 ---
 layout: template
 title: Pagina onderdelen
-url: /wordpress/pagina
+url: /wordpress/weergave
 collection: wordpress
 ---
 
 <div class="highlight">
-Hieronder worden de meest courante opbouw van een webpagina besproken. We vertrekken vanuit de opbouw van het thema "2021" (twentytwentyone). Je zal merken dat dit heel hard is opgebouwd voor een blog website.
+Hieronder worden de meest weergave van een webpagina besproken. We vertrekken vanuit het thema <strong>"2021" (twentytwentyone)</strong>. Je zal merken dat dit heel hard is opgebouwd voor een blog website.
 <br><br>
 Uiteraard kan in een eigen <em>child theme</em> de volledige opbouw aangepast en uitgebreid worden.
 </div>
@@ -32,7 +32,7 @@ Via "Instellingen" > "Lezen" kan je eender welke pagina instellen als startpagin
 * bericht (single post): pagina met bericht details (combinatie van inhoud, uitgelicht beeld, auteur, datum en mogelijkheid tot reageren). 
 Via "Instellingen" > "Discussie" kan je instellingen mee geven betreffende dat regeageren.
 
-## Zijbalken
+## Zijbalken (voor widgets)
 
 Binnen het thema is één zijbalk voorzien met de naam "Footer". Deze bevindt zich onder de inhoud.
 
