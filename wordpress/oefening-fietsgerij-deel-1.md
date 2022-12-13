@@ -6,7 +6,7 @@ collection: wordpress
 ---
 ## Voorbereiding: wordpress website "Fietsgerij" opzetten
 1. Maak deze folder aan: <code>/htdocs/dynamische-webtechnieken-av-nj-2022/wordpress/fietsgerij</code>. Zo komt de folder uiteindelijk ook in GIT terecht (en dus bij mij).
-2. Kopieer de inhoud uit de <code>wordpress</code> folder (in je downloads folder) naar de folder die je hebt aangemaakt in stap 1.
+2. Kopieer de inhoud uit de <code>wordpress</code> folder (in je downloads folder) naar de folder die je hebt aangemaakt in stap 1. Vind je de wordpress folder niet meer in je downloads folder dan download je die opnieuw via de wordpress website.
 3. Maak een lege database "fietsgerij" uit via PHPMyAdmin (bereikbaar via het dashboard van XAMPP).
 4. download <a href="fietsgerij/database.sql">deze mysql database</a>
 5. importeer de database in de aangemaakte datebase in stap 3 via PHPMyAdmin > "Importeren" knop bovenaan. 
