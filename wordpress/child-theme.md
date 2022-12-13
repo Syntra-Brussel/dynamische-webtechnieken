@@ -37,9 +37,7 @@ Version:      1.0.0
 </pre>
 
 Hierboven hebben we de minimale instellingen gezet die het thema nodig heeft om binnen Wordpress geregistreerd te geraken. 
-
-De <code>template</code> installing geeft het moeder thema aan.
-De <code>text domain</code> instelling geeft de interne thema naam aan. Goed is om daar bv. dezelfde naam als de folder naam te namen van het <em>child theme</em>. 
+De <code>template</code> installing verwijst naar het moeder thema.
 
 Het theme verschijnt nu alvast op de thema pagina. Je kan het zelfs als al activeren. Je zal zien dat het 100% werkt zoals het <em>moeder thema</em>. Het thema waarop dit thema is gebouwd.
 
@@ -51,7 +49,7 @@ Zoals gezegd dient het <code>functions.php</code> bestand om de aanpassingen aan
 
 ### Eigen CSS inladen
 
-Belangrijk voor nu is dat we naast de CSS van het moeder thema ook onze eigen CSS gaan inladen. Dat doen we door een functie toe te voegen aan onze <code>functions.php</code>.
+Belangrijk voor nu is dat we naast de CSS van het moeder thema ook onze eigen CSS gaan inladen. Dat doen we door een <strong>functie toe te voegen</strong> aan onze <code>functions.php</code>.
 
 <pre>
 &lt;?php
