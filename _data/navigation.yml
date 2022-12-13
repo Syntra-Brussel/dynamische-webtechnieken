@@ -152,7 +152,10 @@ items:
         title: 'Inhoud'            
       - url: /wordpress/weergave
         published: 'no'
-        title: 'Weergave'                
+        title: 'Weergave'     
+      - url: /wordpress/child-theme
+        published: 'no'
+        title: 'Child theme'                        
   - url: /seo  
     published: 'yes'
     title: 'SEO'
