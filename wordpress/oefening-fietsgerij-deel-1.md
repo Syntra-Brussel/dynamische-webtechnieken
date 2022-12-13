@@ -25,7 +25,8 @@ collection: wordpress
 <h3>TIPS</h3>
 <ul>
 <li>Gebruik de inspectietool, bekijk de huidige CSS en pas die aan via de eigen style.css</li>
-<li>De menu items hebbend deze kleur: #66522B. De footer area heeft de achtergrond kleur #333 en voorgrond kleur #CCC.
+<li>De menu items hebbend deze kleur: #66522B. De footer area heeft de achtergrond kleur #333 en voorgrond kleur #CCC.</li>
+</ul>
 </div>
 
 ## Het resultaat
