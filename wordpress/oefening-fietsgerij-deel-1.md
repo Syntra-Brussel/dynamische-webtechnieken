@@ -14,7 +14,7 @@ collection: wordpress
 7. Open de zip en <strong>plaats het bestand <code>wp-config.php</code> in de folder</strong> gemaakt in stap 1.
 8. <strong>download</strong> <a href="fietsgerij/uploads.zip?v=1">uploads.zip</a>.
 9. Open de zip en <strong>plaats de inhoud in de folder <code>/htdocs/dynamische-webtechnieken-av-nj-2022/wordpress/fietsgerij/wp-content/uploads</code></strong>.
-10. <strong>surf</strong> nu naar http://localhost/dynamische-webtechnieken-av-nj-2022/wordpress/fietsgerij of http://127.0.01/dynamische-webtechnieken-av-nj-2022/wordpress/fietsgerij en de website zou moeten openen.
+10. <strong>surf</strong> nu naar http://localhost/dynamische-webtechnieken-av-nj-2022/wordpress/fietsgerij en de website zou moeten openen.
 
 Aanmelden in deze site kan via http://localhost/dynamische-webtechnieken-av-nj-2022/wordpress/fietsgerij/wp-login.php.
 Je gebruikt <strong>gebruikersnaam "admin" en paswoord "Test123!"</strong>.
