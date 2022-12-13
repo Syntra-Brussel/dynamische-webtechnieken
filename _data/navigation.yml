@@ -151,13 +151,13 @@ items:
         published: 'yes'
         title: 'Inhoud'            
       - url: /wordpress/weergave
-        published: 'no'
+        published: 'yes'
         title: 'Weergave'     
       - url: /wordpress/child-theme
-        published: 'no'
+        published: 'yes'
         title: 'Child theme'  
       - url: /wordpress/oefening-fietsgerij-deel-1
-        published: 'no'
+        published: 'yes'
         title: 'OEFENING: Fietsgerij (1)'                                
   - url: /seo  
     published: 'yes'
