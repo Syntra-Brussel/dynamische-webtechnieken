@@ -27,9 +27,9 @@ collection: wordpress
 ## Het resultaat
 
 ### Voor
-<img class="shadow" src="/oefening_fietsgerij_deel_1_voor_1.jpg" />
-<img class="shadow" src="/oefening_fietsgerij_deel_1_voor_2.jpg" />
+<img class="shadow" src="images/oefening_fietsgerij_deel_1_voor_1.jpg" />
+<img class="shadow" src="images/oefening_fietsgerij_deel_1_voor_2.jpg" />
 
 ### Na
-<img class="shadow" src="/oefening_fietsgerij_deel_1_na_1.jpg" />
-<img class="shadow" src="/oefening_fietsgerij_deel_1_na_2.jpg" />
+<img class="shadow" src="images/oefening_fietsgerij_deel_1_na_1.jpg" />
+<img class="shadow" src="images/oefening_fietsgerij_deel_1_na_2.jpg" />
