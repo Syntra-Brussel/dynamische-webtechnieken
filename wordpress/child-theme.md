@@ -5,6 +5,8 @@ url: /wordpress/child-theme
 collection: wordpress
 links:
   - url: https://developer.wordpress.org/themes/basics/main-stylesheet-style-css/
+  - url: https://developer.wordpress.org/reference/functions/wp_enqueue_style/
+  - url: https://developer.wordpress.org/reference/functions/add_action/
 ---
 Child theme zijn dé manier om een nieuw thema te bouwen dat toch al alle mogelijkheden van het moeder thema (parent theme) over neemt. Je kan dan naar hartelust CSS en templates gaan aanpassen zonder dus van nul te moeten starten.
 
@@ -59,12 +61,19 @@ function twentytwenty_child_enqueue_styles() {
     wp_enqueue_style( 'parent-style', get_template_directory_uri() . '/style.css' );
 
     // Laad de child theme CSS.
-    wp_enqueue_style( 'child-style', get_stylesheet_directory_uri() . '/style.css' ); 
+    wp_enqueue_style( 'child-style', get_stylesheet_directory_uri() . '/style.css', array('parent-style') ); 
 }
 
 // Voer de functie twentytwenty_child_enqueue_styles uit.
-add_action( 'wp_enqueue_scripts', 'twentytwenty_child_enqueue_styles' );
+add_action( 'wp_enqueue_scripts', 'twentytwenty_child_enqueue_styles', PHP_INT_MAX );
 ?&gt;
 </pre>
 
 <img src="images/child_theme_css_geladen.jpg" />
+
+De derde paramter bij de <code>wp_enqueue_style</code> is een afhankelijkheid instellen. Zo zorg je ervoor dat de style van het moeder thema geladen wordt voor die van het kind thema.
+
+De derde paramter bij de <code>add_action</code> is een prioriteit van uitvoeren. Door een heel hoog getal te namen (PHP_INT_MAX is de hoogst mogelijk <em>int</em> waarde) zorg je ervoor dat de CSS als laatste wordt toegevoegd waardoor eigen CSS als prioriteit heeft op eerdere ingeladen CSS.
+
+Documentatie over de <code>wp_enqueue_style</code> en <code>add_action</code> vind je via links hieronder.
+
