@@ -18,10 +18,7 @@ Binnen onze speeltuin Wordpress website maken we in de <code>wp-content/themes</
 ### style.css
 Binnen die child theme folder voorzie je een een bestand <code>style.css</code>. Dit bestand zal naast eigen CSS ook en vooral belangrijke informatie bevatten over het child theme.
 
-### functions.php
-Binnen die child theme folder voorzie je ook een een bestand <code>functions.php</code>. Dit bestand zal ervoor zorgen dat het child theme gaat werken en de functies kunnen worden uitgebreid
-
-## style.css
+## style.css: meer dan eigen CSS
 Zoals gezegd bevast de style.css naast de eigen CSS code ook een stukje commentaar bovenaan dat wat instellingen van het thema bepaalt. Het is belangrijk dat dit stukje correct geschreven is. Dus in het formaat zoals hieronder aangegeven.
 
 <pre>
@@ -43,7 +40,10 @@ Het theme verschijnt nu alvast op de thema pagina. Je kan het zelfs als al activ
 
 <img src="images/child_theme_ready.jpg" />
 
-## functions.php
+### functions.php
+Binnen die child theme folder voorzie je ook een een bestand <code>functions.php</code>. Dit bestand zal ervoor zorgen dat het child theme gaat werken en de functies kunnen worden uitgebreid
+
+## De aanpassingen doen werken
 
 Zoals gezegd dient het <code>functions.php</code> bestand om de aanpassingen aan het thema ook effectief te doen werken.
 
