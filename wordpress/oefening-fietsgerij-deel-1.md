@@ -16,7 +16,8 @@ collection: wordpress
 9. Open de zip en <strong>plaats de inhoud in de folder <code>/htdocs/dynamische-webtechnieken-av-nj-2022/wordpress/fietsgerij/wp-content/uploads</code></strong>.
 10. <strong>surf</strong> nu naar http://localhost/dynamische-webtechnieken-av-nj-2022/wordpress/fietsgerij of http://127.0.01/dynamische-webtechnieken-av-nj-2022/wordpress/fietsgerij en de website zou moeten openen.
 
-Aanmelden in deze site kan via <strong>gebruikersnaam "admin" en paswoord "Test123!"</strong>.
+Aanmelden in deze site kan via http://localhost/dynamische-webtechnieken-av-nj-2022/wordpress/fietsgerij/wp-login.php.
+Je gebruikt <strong>gebruikersnaam "admin" en paswoord "Test123!"</strong>.
 
 ## Instructies
 1. Maak een correct <em>child theme</em> met de naam "twentytwenty_child" gebaseerd op het <code>twentytwentyone</code> thema.
