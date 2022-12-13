@@ -155,7 +155,10 @@ items:
         title: 'Weergave'     
       - url: /wordpress/child-theme
         published: 'no'
-        title: 'Child theme'                        
+        title: 'Child theme'  
+      - url: /wordpress/oefening-fietsgerij-deel-1
+        published: 'no'
+        title: 'OEFENING: Fietsgerij (1)'                                
   - url: /seo  
     published: 'yes'
     title: 'SEO'
