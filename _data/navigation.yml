@@ -158,7 +158,10 @@ items:
         title: 'Child theme'  
       - url: /wordpress/oefening-fietsgerij-deel-1
         published: 'yes'
-        title: 'OEFENING: Fietsgerij (1)'                                
+        title: 'OEFENING: Fietsgerij (1)'    
+      - url: /wordpress/eigen-widget-zone
+        published: 'yes'
+        title: 'Eigen widget zone'                                        
   - url: /seo  
     published: 'yes'
     title: 'SEO'
