@@ -162,7 +162,7 @@ items:
       - url: /wordpress/eigen-widget-zone
         published: 'yes'
         title: 'Eigen widget zone'   
-       - url: /wordpress/oefening-fietsgerij-deel-2
+      - url: /wordpress/oefening-fietsgerij-deel-2
         published: 'yes'
         title: 'OEFENING: Fietsgerij (2)'                                           
   - url: /seo  
