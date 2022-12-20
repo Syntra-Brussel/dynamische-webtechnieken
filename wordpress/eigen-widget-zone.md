@@ -23,7 +23,7 @@ function top_sidebar_init() {
         'name' => 'Top',
         'id' => 'top-sidebar',
         'description' => 'Top sidebar verschijnt bovenaan, onder de header.',
-        'before_widget' => '<div id="%1$s" class="xxx site-top %2$s"><div class="site-top-content">',
+        'before_widget' => '<div id="%1$s" class="site-top %2$s"><div class="site-top-content">',
         'after_widget' => '</div></div>',
     ) );
  } 
