@@ -17,4 +17,4 @@ De widget is nu geregistreerd en wordt getoond in de pagina net onder de hoofdin
 
 ## Opdracht
 1. Voorzie de inhoud voor de widget zone via de Wordpress (via de Gutenberg editor). <img src="images/oefening_fietsgerij_deel_2_1.jpg" />
-2. Voorzie de CSS zodat het resultaat er uit ziet zoals hieronder. <img src="images/oefening_fietsgerij_deel_2_2.jpg" />
+2. Voorzie de CSS zodat het resultaat er uit ziet zoals hieronder. <img src="images/oefening_fietsgerij_deel_2_voor.jpg" /> <img src="images/oefening_fietsgerij_deel_2_na.jpg" />
