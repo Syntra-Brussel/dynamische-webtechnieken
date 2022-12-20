@@ -7,8 +7,8 @@ collection: wordpress
 
 ## Voorbereiding
 1. Registreer een "top widget" binnen Wordpress.
-2. <strong>download</strong> <a href="fietsgerij/templates.zip">de zip</a>
-3. plaats het bestand <code>index.php</code> en de <code>template-parts</code> in de <code>twentytwenty_child</code> folder
+2. <strong>Download</strong> <a href="fietsgerij/templates.zip">de zip</a>.
+3. Plaats het bestand <code>index.php</code> en de <code>template-parts</code> folder in de <code>twentytwenty_child</code> folder.
 
 De widget is nu geregistreerd en wordt getoond in de pagina net onder de hoofding.
 
