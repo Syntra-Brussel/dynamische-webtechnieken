@@ -32,7 +32,7 @@ add_action( 'widgets_init', 'top_sidebar_init' );
 &gt;
 </pre>
 
-De functie <code>register_sidebar()</code> is de functie om een eigen sidebar toe te voegen binnen Wordpress. Ze wordt via beschikbaar via de "Weergave" > "Widgets".
+De functie <code>register_sidebar(<em>parameters-array</em>)</code> is de functie om een eigen sidebar toe te voegen binnen Wordpress. Ze wordt via beschikbaar via de "Weergave" > "Widgets".
 
 De parameters via de functie spreken wel voor zich:
 * <code>name</code>: De naam van de widget in de Wordpress admin
