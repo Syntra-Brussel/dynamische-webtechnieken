@@ -1,7 +1,7 @@
 ---
 layout: template
-title: 'OEFENING: Fietsgerij (2)'
-url: /wordpress/oefening-fietsgerij-deel-2
+title: 'OEFENING: Fietsgerij (3)'
+url: /wordpress/oefening-fietsgerij-deel-3
 collection: wordpress
 ---
 
