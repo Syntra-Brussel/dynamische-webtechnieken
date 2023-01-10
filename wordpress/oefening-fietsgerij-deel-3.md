@@ -50,22 +50,22 @@ $args = array('post_type' => 'dienst');
 // Execute query
 $cpt_query = new WP_Query($args);
 
-// Create cpt loop, with a have_posts() check!
+// Wanneer een posts van een type 'dienst' zijn.
 if ($cpt_query->have_posts()) {
 
-    // Load posts loop.
+    // Loop over de verschillende posts.
     while ( $cpt_query->have_posts() ) {
         $cpt_query->the_post();
 
         get_template_part( 'template-parts/content/content', get_theme_mod( 'display_excerpt_or_full_post', 'excerpt' ) );
     }
 
-    // Previous/next page navigation.
+    // Toon vorige/volgend pagina navigatie.
     twenty_twenty_one_the_posts_navigation();
 
 } else {
 
-    // If no content, include the "No posts found" template.
+    // Wanneer geen posts toon de "Geen posts gevonden" template.
     get_template_part( 'template-parts/content/content-none' );
 
 }
