@@ -5,7 +5,6 @@ url: /wordpress/acg
 collection: wordpress
 links:
   - url: https://wordpress.org/plugins/advanced-custom-fields/
-  - url: https://wordpress.org/plugins/classic-editor/
 ---
 
 Out-of-the-box is Wordpress een Blog platform. Dat wil zeggen dat je van blog bericten volgende zaken kan beheren.
@@ -28,9 +27,7 @@ Bijvoorbeeld:
 
 We zouden alle informatie kunnen onderbrengen in de omschrijving maar dan kunnen we het niet tonen in het overzicht bijvoorbeeld en op de detailpagina kunnen we er moeilijk specifieke opmaak aan geven via HTML en CSS.
 
-Omdat op te lossen heeft Wordpress het <strong>Advanced Custom Fields</strong> in het leven geroepen. Uitgebreidde op maat velden zeg maar.
+Omdat op te lossen heeft Wordpress het <strong>Custom Fields</strong> in het leven geroepen. Uitgebreidde op maat velden zeg maar.
 
-Daarvoor is een plugin nodig. Er zijn verschillende plugin beschikbaar om Custom Post Types te gaan definiëren maar wij gaan gebruik maken van de plugin "Custom Post Type UI".
-
-Om onze eigen velden gebruiksvriendelijker te beheren is de plugin "Klassieke editor" nodig.
+Daarvoor is een plugin nodig. Er zijn verschillende plugin beschikbaar om Custom Post Types te gaan definiëren maar wij gaan gebruik maken van de plugin "Advanced Custom Fields".
 
