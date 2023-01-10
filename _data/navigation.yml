@@ -168,12 +168,12 @@ items:
       - url: /wordpress/cpt
         published: 'yes'
         title: 'Custom Post Types'  
-      - url: /wordpress/acf
-        published: 'yes'
-        title: 'Advanced Custom Fields'  
       - url: /wordpress/oefening-fietsgerij-deel-3
         published: 'yes'
-        title: 'OEFENING: Fietsgerij (3)'          
+        title: 'OEFENING: Fietsgerij (3)'        
+      - url: /wordpress/acf
+        published: 'no'
+        title: 'Advanced Custom Fields'         
   - url: /seo  
     published: 'yes'
     title: 'SEO'

@@ -13,9 +13,7 @@ collection: wordpress
 2. Ga naar PHPmyAdmin en klik in de <code>speeltuin</code> database door naar de <code>wp_posts</code> tabel.
 3. Filter de velden met het <code>post_type</code> "post".
 4. Wijzig het <code>post_type</code> van "post" naar "dienst".
-5. In het bestand index.php (in de child theme folder) wijzig je volgende code.
-
-### Van
+5. In het bestand <code>index.php</code> (in de child theme folder) wijzig je volgende code:
 
 <pre>
 &lt;?php
@@ -40,7 +38,7 @@ if ( have_posts() ) {
 ?&gt;
 </pre>  
 
-### Naar
+Naar:
 
 <pre>
 &lt;?php
