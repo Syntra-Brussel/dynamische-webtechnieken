@@ -1,0 +1,68 @@
+---
+layout: template
+title: 'OEFENING: Fietsgerij (2)'
+url: /wordpress/oefening-fietsgerij-deel-2
+collection: wordpress
+---
+
+## Voorbereiding
+1. Installeer de "Custom Post Type UI" plugin.
+
+## Instructies
+1. Maak een "dienst" Custom Post Type. 
+2. Ga naar PHPmyAdmin en klik in de <code>speeltuin</code> database door naar de <code>wp_posts</code> tabel.
+3. Filter de velden met het <code>post_type</code> "post".
+4. Wijzig het <code>post_type</code> van "post" naar "dienst".
+5. In het bestand index.php (in de child theme folder) wijzig je volgende code:
+
+<pre>
+<?php
+if ( have_posts() ) {
+
+    // Load posts loop.
+    while ( have_posts() ) {
+        the_post();
+
+        get_template_part( 'template-parts/content/content', get_theme_mod( 'display_excerpt_or_full_post', 'excerpt' ) );
+    }
+
+    // Previous/next page navigation.
+    twenty_twenty_one_the_posts_navigation();
+
+} else {
+
+    // If no content, include the "No posts found" template.
+    get_template_part( 'template-parts/content/content-none' );
+
+}
+?>
+</pre>    
+<pre>
+&lt;?php
+// Define args
+$args = array('post_type' => 'dienst');
+
+// Execute query
+$cpt_query = new WP_Query($args);
+
+// Create cpt loop, with a have_posts() check!
+if ($cpt_query->have_posts()) {
+
+    // Load posts loop.
+    while ( $cpt_query->have_posts() ) {
+        $cpt_query->the_post();
+
+        get_template_part( 'template-parts/content/content', get_theme_mod( 'display_excerpt_or_full_post', 'excerpt' ) );
+    }
+
+    // Previous/next page navigation.
+    twenty_twenty_one_the_posts_navigation();
+
+} else {
+
+    // If no content, include the "No posts found" template.
+    get_template_part( 'template-parts/content/content-none' );
+
+}
+?&gt;
+</pre>    
