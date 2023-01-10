@@ -164,7 +164,13 @@ items:
         title: 'Eigen widget zone'   
       - url: /wordpress/oefening-fietsgerij-deel-2
         published: 'yes'
-        title: 'OEFENING: Fietsgerij (2)'                                           
+        title: 'OEFENING: Fietsgerij (2)'  
+      - url: /wordpress/cpt
+        published: 'yes'
+        title: 'Custom Post Types'  
+      - url: /wordpress/acf
+        published: 'yes'
+        title: 'Advanced Custom Fields'  
   - url: /seo  
     published: 'yes'
     title: 'SEO'
