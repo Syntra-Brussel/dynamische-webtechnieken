@@ -171,6 +171,9 @@ items:
       - url: /wordpress/acf
         published: 'yes'
         title: 'Advanced Custom Fields'  
+      - url: /wordpress/oefening-fietsgerij-deel-3
+        published: 'yes'
+        title: 'OEFENING: Fietsgerij (3)'          
   - url: /seo  
     published: 'yes'
     title: 'SEO'
