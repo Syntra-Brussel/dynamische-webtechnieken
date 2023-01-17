@@ -29,7 +29,7 @@ Wordpress heeft een heel systeem om te bepalen welke pagina template voor een be
 Wanneer geen specifieke template wordt gevonden wordt <code>index.php</code> gebruikt. Dit is dus de enige <strong>verplichte pagina template</strong>.
 
 <a href="https://developer.wordpress.org/files/2014/10/Screenshot-2019-01-23-00.20.04.png" target="_blank"><img src="images/pagina_template_hierarchie.png" /></a>
-(klik om te openen een nieuw venster)
+(klik om te openen in een nieuw venster)
 
 ### Nog specifieker
 
