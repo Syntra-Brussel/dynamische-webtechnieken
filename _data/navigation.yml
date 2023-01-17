@@ -171,6 +171,9 @@ items:
       - url: /wordpress/oefening-fietsgerij-deel-3
         published: 'yes'
         title: 'OEFENING: Fietsgerij (3)'        
+      - url: /wordpress/templates
+        published: 'yes'
+        title: 'Templates'  
       - url: /wordpress/acf
         published: 'no'
         title: 'Advanced Custom Fields'         
