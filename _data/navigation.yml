@@ -173,7 +173,10 @@ items:
         title: 'OEFENING: Fietsgerij (3)'        
       - url: /wordpress/templates
         published: 'yes'
-        title: 'Templates'  
+        title: 'Templates' 
+      - url: /wordpress/oefening-fietsgerij-deel-4
+        published: 'yes'
+        title: 'OEFENING: Fietsgerij (4)'           
       - url: /wordpress/acf
         published: 'no'
         title: 'Advanced Custom Fields'         
