@@ -22,7 +22,7 @@ We onderscheiden verschillende pagina types. Ze hebben elk hun overeenkomstige t
 * zoek pagina -> <code>search.php</code>
 * 404 pagina -> <code>404.php</code>
 
-## pagina hierachie
+## pagina hiërarchie
 
 Wordpress heeft een heel systeem om te bepalen welke pagina template voor een bepaald pagina type het meest geschikt is.
 
@@ -31,21 +31,19 @@ Wanneer geen specifieke template wordt gevonden wordt <code>index.php</code> geb
 <a href="https://developer.wordpress.org/files/2014/10/Screenshot-2019-01-23-00.20.04.png" target="_blank"><img src="images/pagina_template_hierarchie.png" /></a>
 (klik om te openen in een nieuw venster)
 
-### Nog specifieker
+### Nog specifiekere pagina hiërarchie
 
 <strong>per ID</strong>
 
-De <code>page.php</code>, <code>single.php</code>, <code>category.php</code>, <code>tag.php</code> kunnen nog uitgebreid worden met de slug of de id om zo per pagina, bericht, categorie of tag een specifieke pagina template te voorzien.
+De <code>page.php</code>, <code>category.php</code>, <code>tag.php</code> kunnen nog uitgebreid worden met de slug of de id om zo per pagina, bericht, categorie of tag een specifieke pagina template te voorzien.
 
-Voor het bericht met ID 5 kan je dus een specifieke pagina template voorzien met de naam <code>single-5.php</code>.
-
-Voor het pagina met ID 4 kan je dus een specifieke pagina template voorzien met de naam <code>page-4.php</code>.
+Een pagina template specifiek voor de pagina met ID 4 kan je een pagina template voorzien met de naam <code>page-4.php</code>.
 
 <strong>per bericht type</strong>
 
 Stel dat je een <strong>custom post type 'dienst'</strong> hebt kan je voor het overzicht van de diensten een specifieke archief pagina voorzien met de template <code>archive-dienst.php</code>.
 
-Een template specifiek voor een pagina die over een detail pagina van een dienst voorzie je via de template <code>single-dienst.php</code>.
+Een pagina template specifiek voor een dienst detail pagina kan je voorzien met de naam <code>single-dienst.php</code>.
 
 ## header & footer
 In de thema folder vinden we ook volgende templates terug:
