@@ -6,10 +6,16 @@ collection: wordpress
 links:
  - url: https://developer.wordpress.org/themes/basics/template-hierarchy/
 ---
-We onderzoeken de templates die aan de opbouw van ons twentytwentyone thema.
+Een Wordpress website pagina is een combinatie verschillende templates in mekaar.
+
+Dat heeft als voordeel dat de website eenvoudiger te onderhouden en beter leesbaar is.
 
 ## pagina templates
-We onderscheiden verschillende pagina types. Ze hebben ook elk hun overeenkomstige template in de thema folder.
+
+De "buitenste" template noemen we de pagina template.
+
+We onderscheiden verschillende pagina types. Ze hebben elk hun overeenkomstige template in de thema folder.
+
 * pagina -> <code>page.php</code>
 * bericht details -> <code>single.php</code>
 * overzicht van berichten -> <code>archive.php</code>
@@ -18,9 +24,9 @@ We onderscheiden verschillende pagina types. Ze hebben ook elk hun overeenkomsti
 
 ## pagina hierachie
 
-Wordpress heeft een heel systeem om te bepalen welke pagina template voor een bepaald type pagina het meest geschikt is.
+Wordpress heeft een heel systeem om te bepalen welke pagina template voor een bepaald pagina type het meest geschikt is.
 
-Wanneer geen specifieke(re) template wordt gevonden wordt <code>index.php</code> gebruikt. Dit is dus de enige verplichte pagina template.
+Wanneer geen specifieke template wordt gevonden wordt <code>index.php</code> gebruikt. Dit is dus de enige <strong>verplichte pagina template</strong>.
 
 <a href="https://developer.wordpress.org/files/2014/10/Screenshot-2019-01-23-00.20.04.png" target="_blank"><img src="images/pagina_template_hierarchie.png" /></a>
 (klik om te openen een nieuw venster)
@@ -29,11 +35,11 @@ Wanneer geen specifieke(re) template wordt gevonden wordt <code>index.php</code>
 
 <strong>per ID</strong>
 
-De <code>page.php</code>, <code>single.php</code>, <code>category.php</code>, <code>tag.php</code> kunnen nog uitgebreid met de slug of de id om per pagina, bericht, categorie of tag een specifieke pagina template te voorzien.
+De <code>page.php</code>, <code>single.php</code>, <code>category.php</code>, <code>tag.php</code> kunnen nog uitgebreid worden met de slug of de id om zo per pagina, bericht, categorie of tag een specifieke pagina template te voorzien.
 
-Voor het bericht met id 5 kan je dus een specifieke pagina template voorzien met de naam <code>single-5.php</code>.
+Voor het bericht met ID 5 kan je dus een specifieke pagina template voorzien met de naam <code>single-5.php</code>.
 
-Voor het pagina met id 4 kan je dus een specifieke pagina template voorzien met de naam <code>page-4.php</code>.
+Voor het pagina met ID 4 kan je dus een specifieke pagina template voorzien met de naam <code>page-4.php</code>.
 
 <strong>per bericht type</strong>
 
@@ -49,5 +55,8 @@ In de thema folder vinden we ook volgende templates terug:
 Via de <code>get_header()</code> en <code>get_footer()</code> functies worden de <code>header.php</code> en <code>footer.php</code> ingeladen.
 
 ## template parts
-Afhankelijk van de type pagina worden specifieke template deeltjes apart ingeladen.
-Dat gebeurt via de <code>get_template_part()</code> functie.
+Afhankelijk van het pagina type worden specifieke template deeltjes apart ingeladen die zich bevinden in de <code>template-parts</code> folder.
+
+Dat gebeurt via de <code>get_template_part()</code> functie. 
+
+In de pagina template <code>single.php</code> kom je op regel 18 <code>get_template_part( 'template-parts/content/content-single' );</code> tegen. Dat wil dus zeggen dat de template <code>content-single.php</code> in de folder <code>template-parts/content</code> wordt ingeladen.
