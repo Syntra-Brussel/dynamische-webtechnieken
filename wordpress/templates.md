@@ -22,7 +22,8 @@ Wordpress heeft een heel systeem om te bepalen welke pagina template voor een be
 
 Wanneer geen specifieke(re) template wordt gevonden wordt <code>index.php</code> gebruikt. Dit is dus de enige verplichte pagina template.
 
-<img src="images/pagina_template_hierarchie.png" />
+<a href="https://developer.wordpress.org/files/2014/10/Screenshot-2019-01-23-00.20.04.png" target="_blank"><img src="images/pagina_template_hierarchie.png" /></a>
+(klik om te openen een nieuw venster)
 
 ### Nog specifieker
 
@@ -32,9 +33,11 @@ De <code>page.php</code>, <code>single.php</code>, <code>category.php</code>, <c
 
 Voor het bericht met id 5 kan je dus een specifieke pagina template voorzien met de naam <code>single-5.php</code>.
 
+Voor het pagina met id 4 kan je dus een specifieke pagina template voorzien met de naam <code>page-4.php</code>.
+
 <strong>per bericht type</strong>
 
-Stel dat je een custom post type 'dienst' hebt kan je voor het overzicht van de diensten een specifieke archief pagina voorzien met de template <code>archive-dienst.php</code>.
+Stel dat je een <strong>custom post type 'dienst'</strong> hebt kan je voor het overzicht van de diensten een specifieke archief pagina voorzien met de template <code>archive-dienst.php</code>.
 
 Een template specifiek voor een pagina die over een detail pagina van een dienst voorzie je via de template <code>single-dienst.php</code>.
 
