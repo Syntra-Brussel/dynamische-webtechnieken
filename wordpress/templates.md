@@ -34,7 +34,9 @@ Voor het bericht met id 5 kan je dus een specifieke pagina template voorzien met
 
 <strong>per bericht type</strong>
 
-Stel dat je een custom post type 'dienst' hebt kan je voor het overzicht van de diensten een specifieke archief pagina voorzien met de naar <code>archive-dienst.php</code>.
+Stel dat je een custom post type 'dienst' hebt kan je voor het overzicht van de diensten een specifieke archief pagina voorzien met de template <code>archive-dienst.php</code>.
+
+Een template specifiek voor een pagina die over een detail pagina van een dienst voorzie je via de template <code>single-dienst.php</code>.
 
 ## header & footer
 In de thema folder vinden we ook volgende templates terug:
