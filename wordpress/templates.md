@@ -16,13 +16,25 @@ We onderscheiden verschillende pagina types. Ze hebben ook elk hun overeenkomsti
 * zoek pagina -> <code>search.php</code>
 * 404 pagina -> <code>404.php</code>
 
-Wanneer geen specifiekere template wordt gevonden wordt <code>index.php</code> gebruikt.
-
 ## pagina hierachie
 
 Wordpress heeft een heel systeem om te bepalen welke pagina template voor een bepaald type pagina het meest geschikt is.
 
+Wanneer geen specifieke(re) template wordt gevonden wordt <code>index.php</code> gebruikt. Dit is dus de enige verplichte pagina template.
+
 <img src="images/pagina_template_hierarchie.png" />
+
+### Nog specifieker
+
+<strong>per ID</strong>
+
+De <code>page.php</code>, <code>single.php</code>, <code>category.php</code>, <code>tag.php</code> kunnen nog uitgebreid met de slug of de id om per pagina, bericht, categorie of tag een specifieke pagina template te voorzien.
+
+Voor het bericht met id 5 kan je dus een specifieke pagina template voorzien met de naam <code>single-5.php</code>.
+
+<strong>per bericht type</strong>
+
+Stel dat je een custom post type 'dienst' hebt kan je voor het overzicht van de diensten een specifieke archief pagina voorzien met de naar <code>archive-dienst.php</code>.
 
 ## header & footer
 In de thema folder vinden we ook volgende templates terug:
