@@ -185,11 +185,11 @@ get_template_part( 'template-parts/header/site-header' );
 &lt;/header&gt;
 </pre>
 
-<code>has_custom_logo()</code>: Wordpress functie om te controleren of er website logo is opgeladen.
+<code>has_custom_logo()</code>: Wordpress functie om te controleren of er website logo is opgeladen. Het is resultaat is TRUE of FALSE.
 
 <code>the_custom_logo()</code>: Wordpress functie om te het website logo te tonen.
 
-<code>has_nav_menu()</code>: Wordpress functie om te controleren of er een navigatie is gedefinieerd.
+<code>has_nav_menu()</code>: Wordpress functie om te controleren of er een navigatie is gedefinieerd. Het is resultaat is TRUE of FALSE.
 
 <code>wp_nav_menu()</code>: Wordpress functie om de navitie te tonen (standaard: 'primary', in een <code>&lt;ul&gt;&lt;li&gt;</code>-structuur)
 
