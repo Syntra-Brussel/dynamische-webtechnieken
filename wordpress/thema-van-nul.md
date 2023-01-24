@@ -118,6 +118,7 @@ Belangrijk hier zijn de <code>get_header()</code> an <code>get_footer()</code> f
 
 Vervolgens bouw je de HTML op volgens de wensen en noden.
 
+<pre>
 &lt;?php
 get_header();
 ?&gt;
@@ -129,6 +130,7 @@ get_header();
 &lt;?php
 get_footer();
 ?&gt;
+</pre>
 
 ## header.php
 
