@@ -141,7 +141,7 @@ get_footer();
 get_header();
 ?&gt;
 <div class="site-main-content">
-    <?php get_template_part( 'template-parts/content/content-<em>post_type</em>' ); ?>
+    &lt;?php get_template_part( 'template-parts/content/content-<em>post_type</em>' ); ?&gt;
 </div>
 &lt;?php
 get_footer();
@@ -181,7 +181,7 @@ get_template_part( 'template-parts/header/site-header' );
 <pre>
 &lt;header class="site-header-content">
 	&lt;?php if ( has_custom_logo() ) : ?&gt;
-		&lt;div class="site-logo">
+		&lt;div class="site-logo"&gt;
 			&lt;?php the_custom_logo(); ?&gt;
 		&lt;/div>
 	&lt;?php endif; ?&gt;
@@ -224,7 +224,7 @@ the_content();
 
 <code>the_content()</code>: de Wordpress functie om de post inhoud te tonen.
 
-## <code>template-parts/content/content-&lt;em&gt;post_type&lt;/em&gt;</code>
+## <code>template-parts/content/content-<em>post_type</em></code>
 
 <pre>
 &lt;?php
