@@ -31,8 +31,8 @@ Version:      1.0.0
 ## <code>functions.php</code>
 
 De <code>functions.php</code> wordt gebruikt voor:
-* het inladen van de stylesheet (zie eerdere hoofdstukken)
 * het creëren van sidesbar(s) (zie eerdere hoofdstukken)
+* het inladen van de stylesheet
 * het registeren van de menu
 
 <pre>
