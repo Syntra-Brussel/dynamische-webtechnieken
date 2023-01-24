@@ -238,7 +238,7 @@ the_content();
 
 <code>the_content()</code>: de Wordpress functie om de post inhoud te tonen.
 
-## <code>template-parts/content/content-<em>post_type</em></code>
+## <code>template-parts/content/archive-<em>post_type</em></code>
 
 <pre>
 &lt;?php
@@ -249,7 +249,7 @@ $cpt_query = new WP_Query($args);
 // Wanneer de query post(s) oplevert.
 if ($cpt_query-&gt;have_posts()) {
     ?&gt;
-    &lt;div class="diensten"&gt;
+    &lt;div class="archive-posts"&gt;
     &lt;?php
     // Loop over de verschillende posts.
     while ( $cpt_query-&gt;have_posts() ) {
