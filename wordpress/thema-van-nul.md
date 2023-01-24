@@ -141,7 +141,7 @@ get_footer();
 get_header();
 ?&gt;
 <div class="site-main-content">
-    &lt;?php get_template_part( 'template-parts/content/content-<em>post_type</em>' ); ?&gt;
+    &lt;?php get_template_part( 'template-parts/content/content-post_type' ); ?&gt;
 </div>
 &lt;?php
 get_footer();
