@@ -179,7 +179,10 @@ items:
         title: 'OEFENING: Fietsgerij (4)'    
       - url: /wordpress/thema-van-nul
         published: 'yes'
-        title: 'Thema van nul'                    
+        title: 'Thema van nul' 
+      - url: /wordpress/oefening-fietsgerij-deel-5
+        published: 'yes'
+        title: 'OEFENING: Fietsgerij (5)'                            
       - url: /wordpress/acf
         published: 'no'
         title: 'Advanced Custom Fields'         
