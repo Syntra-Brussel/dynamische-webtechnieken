@@ -4,7 +4,15 @@ title: Thema van nul
 url: /wordpress/thema-van-nul
 collection: wordpress
 links:
- - url: https://developer.wordpress.org/themes/basics/template-hierarchy/
+ - url: https://developer.wordpress.org/reference/functions/get_header/
+ - url: https://developer.wordpress.org/reference/functions/get_footer/
+ - url: https://developer.wordpress.org/reference/functions/wp_head/
+ - url: https://developer.wordpress.org/reference/functions/wp_body_open/
+ - url: https://developer.wordpress.org/reference/functions/wp_footer/
+ - url: https://developer.wordpress.org/reference/functions/has_post_thumbnail/
+ - url: https://developer.wordpress.org/reference/functions/the_post_thumbnail/
+ - url: https://developer.wordpress.org/reference/functions/the_permalink/
+ - url: https://developer.wordpress.org/reference/functions/get_template_part/
 ---
 Het voordeel van een thema gebaseerd op een ander thema is dat je opbouw en CSS van het parent theme gaat overnemen. Je start niet van nul. Je kan CSS en templates overnemen in je child theme om ze wat zaken specifiek te wijzigen.
 
