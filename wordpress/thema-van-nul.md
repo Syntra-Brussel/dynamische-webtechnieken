@@ -224,7 +224,7 @@ the_content();
 
 <code>the_content()</code>: de Wordpress functie om de post inhoud te tonen.
 
-## <code>template-parts/content/content-<em>post_type</em></code>
+## <code>template-parts/content/content-&lt;em&gt;post_type&lt;/em&gt;</code>
 
 <pre>
 &lt;?php
