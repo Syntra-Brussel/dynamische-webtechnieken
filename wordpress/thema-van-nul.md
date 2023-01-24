@@ -24,6 +24,8 @@ Theme Name:   Uw thema naam hier
 Description:  Het thema voor 'uw site naam hier'
 Version:      1.0.0
 */
+
+...
 </pre>
 
 ## <code>functions.php</code>
