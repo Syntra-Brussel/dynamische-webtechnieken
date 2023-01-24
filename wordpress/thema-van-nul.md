@@ -74,22 +74,7 @@ Een toepassing van deze functie zie je verder op.
 
 <pre>
 &lt;?php
-function uw_thema_naam_post_thumbnail($post_link = TRUE) {
-    if ( ! has_post_thumbnail() ) {
-        return;
-    } 
 
-    if ($post_link == TRUE) { 
-        ?&gt;
-        &lt;a href="<?php the_permalink(); ?&gt;"&gt;
-        &lt;?php the_post_thumbnail(); ?&gt;
-        &lt;/a&gt;
-        &lt;?php
-    } 
-    else {
-        the_post_thumbnail(); 
-    }
-}
 ?&gt;
 </pre>
 
