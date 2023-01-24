@@ -13,6 +13,7 @@ links:
  - url: https://developer.wordpress.org/reference/functions/the_post_thumbnail/
  - url: https://developer.wordpress.org/reference/functions/the_permalink/
  - url: https://developer.wordpress.org/reference/functions/get_template_part/
+ - url: https://developer.wordpress.org/reference/functions/the_excerpt/
 ---
 Het voordeel van een thema gebaseerd op een ander thema is dat je opbouw en CSS van het parent theme gaat overnemen. Je start niet van nul. Je kan CSS en templates overnemen in je child theme om ze wat zaken specifiek te wijzigen.
 
@@ -180,6 +181,12 @@ get_template_part( 'template-parts/header/site-header' );
 ?&gt;
 </pre>
 
+<code>wp_head()</code>: Laadt de code in de template die binnen de <code><head></code> hoort, zoals de stylesheets and javascripts. Deze functie zorgt er ook voor dat de Wordpress admin rondom de website wordt getoond.
+
+<code>wp_body_open()</code>: Laadt (eventuele) code in de template die specifiek bij de start van de <code><body></code> hoort.
+
+<code>body_class()</code>: Deze functie geeft een aantal nuttige <em>classes</em> voor CSS doeleinden.
+
 ## <code>footer.php</code>
 <pre>
 	&lt;footer class="site-footer"&gt;
@@ -189,6 +196,9 @@ get_template_part( 'template-parts/header/site-header' );
 &lt;/body&gt;
 &lt;/html&gt;
 </pre>
+
+<code>wp_footer()</code>: Laadt de code in de template die specifiek op het eiden van de <code><body></code> hoort.
+
 
 ## <code>template-parts/header/site-header.php</code>
  
