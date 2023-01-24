@@ -253,6 +253,7 @@ if ($cpt_query-&gt;have_posts()) {
     &lt;?php
     // Loop over de verschillende posts.
     while ( $cpt_query-&gt;have_posts() ) {
+        // Laad de post in, op de achtergrond.
         $cpt_query-&gt;the_post();
         ?&gt;
         &lt;article&gt;
