@@ -93,7 +93,7 @@ function uw_thema_naam_post_thumbnail($post_link = TRUE) {
 ?&gt;
 </pre>
 
-De functi <code>has_post_thumbnail()</code> zal TRUE geven wanneer een post een beeld heeft, FALSE wanneer dat niet zo is.
+De functie <code>has_post_thumbnail()</code> zal TRUE geven wanneer een post een beeld heeft, FALSE wanneer dat niet zo is.
 
 De functie <code>the_post_thumbnail()</code> toont van een post het beeld.
 
@@ -114,11 +114,21 @@ In dit voorbeeld wordt het script <code>template-parts/header/site-header.php</c
 
 ## De pagina template <code>index.php</code>, <code>home.php</code>, <code>single.php</code>, ...
 
-In eerdere hoofstukken hebben hier al aandacht aan besteed.
-
 Belangrijk hier zijn de <code>get_header()</code> an <code>get_footer()</code> functies. Ze laden het script <code>header.php</code> en <code>footer.php</code> in.
 
 Vervolgens bouw je de HTML op volgens de wensen en noden.
+
+&lt;?php
+get_header();
+?&gt;
+&lt;div class="site-main-content"&gt;
+    &lt;?php
+    get_template_part( 'template-parts/content/content' );
+    ?&gt;
+&lt;/div&gt;
+&lt;?php
+get_footer();
+?&gt;
 
 ## header.php
 
