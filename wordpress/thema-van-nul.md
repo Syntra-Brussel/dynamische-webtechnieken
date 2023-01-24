@@ -198,7 +198,7 @@ get_template_part( 'template-parts/header/site-header' );
 &lt;?php 
 the_title( '&lt;h1&gt;', '&lt;/h1&gt;' ); 
 
-fietsgerij_post_thumbnail(FALSE); 
+uw_thema_naam_post_thumbnail(FALSE); 
 
 the_content();
 ?&gt;
@@ -206,6 +206,6 @@ the_content();
 
 <code>the_title()</code>: de Wordpress functie om de post titel te tonen.
 
-<code>fietsgerij_post_thumbnail()</code>: de eigen functie om het beeld van een post te tonen (als dat er is).
+<code>uw_thema_naam_post_thumbnail()</code>: de eigen functie om het beeld van een post te tonen (als dat er is).
 
 <code>the_content()</code>: de Wordpress functie om de post inhoud te tonen.
