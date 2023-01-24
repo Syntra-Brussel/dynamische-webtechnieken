@@ -149,12 +149,10 @@ get_footer();
 wp_body_open();
 get_template_part( 'template-parts/header/site-header' ); 
 ?&gt;
-    &lt;div class="content"&gt;
 </pre>
 
 ## footer.php
 <pre>
-    &lt;/div>
 	&lt;footer class="site-footer"&gt;
 	&lt;?php get_template_part( 'template-parts/footer/footer-sidebar' ); ?&gt;
 	&lt;/footer&gt;
