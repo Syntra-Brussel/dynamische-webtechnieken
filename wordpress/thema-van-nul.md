@@ -53,6 +53,17 @@ function uw_thema_naam_enqueue_styles() {
 // Voer de functie uw_thema_naam_enqueue_styles uit.
 add_action( 'wp_enqueue_scripts', 'uw_thema_naam_enqueue_styles');
 
+function uw_thema_naam_sidebar_init() {
+    register_sidebar( array(
+        'name' => 'Footer',
+        'id' => 'footer-sidebar',
+        'description' =>  'De footer sidebar verschijnt onderaan.',
+    ) );
+}  
+
+// Voer de functie uw_thema_naam_sidebar_init() uit.
+add_action( 'widgets_init', 'uw_thema_naam_sidebar_init' );
+
 function uw_thema_naam_primary_nav_init() {
     register_nav_menus(
         array('primary' => 'Primary menu')
