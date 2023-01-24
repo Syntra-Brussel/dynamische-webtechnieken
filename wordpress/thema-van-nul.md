@@ -78,9 +78,7 @@ function uw_theme_naam_post_thumbnail($post_link = TRUE) {
     &lt;?php
     } 
     else {
-        ?&gt;
-        &lt;?php the_post_thumbnail(); ?&gt;
-        &lt;?php
+        the_post_thumbnail(); 
     }
 }
 ?&gt;
