@@ -37,12 +37,21 @@ De <code>functions.php</code> wordt gebruikt voor:
 
 <pre>
 &lt;?php
+function enqueue_styles() {
+    // Laad de child theme CSS.
+    wp_enqueue_style( 'theme-style', get_stylesheet_directory_uri() . '/style.css', array(), wp_get_theme()->get( 'Version' ) );
+}
+
+// Voer de functie enqueue_styles uit.
+add_action( 'wp_enqueue_scripts', 'enqueue_styles');
+
 function primary_nav_init() {
     register_nav_menus(
         array('primary' => 'Primary menu')
     );
 }
 
+// Voer de functie primary_nav_init uit.
 add_action( 'init', 'primary_nav_init' );
 &gt;>
 </pre>
