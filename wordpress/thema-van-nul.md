@@ -16,7 +16,17 @@ Met onze kennis van HTML/CSS, PHP en de Wordpress template structuur gaan we van
 
 Hieronder geef ik wat belangrijke PHP functies die specifiek in de Wordpress core zitten om de Wordpress inhoud te verwerken in je templates.
 
-## <code>functions.php</code> om de stylesheet in te laden
+## <code>style.css</code>
+
+<pre>
+/*
+Theme Name:   Uw thema naam hier
+Description:  Het thema voor 'uw site naam hier'
+Version:      1.0.0
+*/
+</pre>
+
+## <code>functions.php</code>
 
 De <code>functions.php</code> wordt gebruikt voor:
 * het inladen van de stylesheet (zie eerdere hoofdstukken)
