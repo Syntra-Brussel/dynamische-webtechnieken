@@ -101,35 +101,35 @@ Vervolgens bouw je de HTML op volgens de wensen en noden.
 ## header.php
 
 <pre>
-<!doctype html>
-<html &lt;?php language_attributes(); ?&gt;>
-<head>
-	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
+&lt;!doctype html&gt;
+&lt;html &lt;?php language_attributes(); ?&gt;&gt;
+&lt;head&gt;
+	&lt;meta charset="UTF-8" /&gt;
+	&lt;meta name="viewport" content="width=device-width, initial-scale=1" /&gt;
 	&lt;?php wp_head(); ?&gt;
-</head>
+&lt;/head&gt;
 
-<body &lt;?php body_class(); ?&gt;>
-<div class="site">
+&lt;body &lt;?php body_class(); ?&gt;>
+&lt;div class="site"&gt;
 &lt;?php 
 wp_body_open();
 get_template_part( 'template-parts/header/site-header' ); 
 ?&gt;
-    <div class="content">
+    &lt;div class="content"&gt;
 </pre>
 
 ## footer.php
 <pre>
-    </div>
-	<footer class="site-footer">
+    &lt;/div>
+	&lt;footer class="site-footer"&gt;
 	&lt;?php 
 	get_template_part( 'template-parts/footer/footer-sidebar' );
 	?&gt;
-	</footer>
-</div>
-<?php wp_footer(); ?>
-</body>
-</html>
+	&lt;/footer&gt;
+&lt;/div&gt;
+&lt;?php wp_footer(); ?&gt;
+&lt;/body&gt;
+&lt;/html&gt;
 </pre>
 
 ## Inladen van <em>template parts</em>.
