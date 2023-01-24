@@ -37,22 +37,22 @@ De <code>functions.php</code> wordt gebruikt voor:
 
 <pre>
 &lt;?php
-function enqueue_styles() {
+function uw_thema_naam_enqueue_styles() {
     // Laad de child theme CSS.
     wp_enqueue_style( 'theme-style', get_stylesheet_directory_uri() . '/style.css', array(), wp_get_theme()->get( 'Version' ) );
 }
 
-// Voer de functie enqueue_styles uit.
-add_action( 'wp_enqueue_scripts', 'enqueue_styles');
+// Voer de functie uw_thema_naam_enqueue_styles uit.
+add_action( 'wp_enqueue_scripts', 'uw_thema_naam_enqueue_styles');
 
-function primary_nav_init() {
+function uw_thema_naam_primary_nav_init() {
     register_nav_menus(
         array('primary' => 'Primary menu')
     );
 }
 
-// Voer de functie primary_nav_init uit.
-add_action( 'init', 'primary_nav_init' );
+// Voer de functie uw_thema_naam_primary_nav_init uit.
+add_action( 'init', 'uw_thema_naam_primary_nav_init' );
 ?&gt;
 </pre>
 
@@ -66,7 +66,7 @@ Een toepassing van deze functie zie je verder op.
 
 <pre>
 &lt;?php
-function uw_theme_naam_post_thumbnail($post_link = TRUE) {
+function uw_thema_naam_post_thumbnail($post_link = TRUE) {
     if ( ! has_post_thumbnail() ) {
         return;
     } 
