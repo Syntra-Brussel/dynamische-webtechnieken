@@ -109,7 +109,9 @@ Dit is interessant:
 
 Stel dat je een fragment inhoud bijvoorbeeld nodig hebt op zowel de <code>home.php</code> template als een <code>archive.php</code> template dan kan je dit afzonderen en hergebruiken.
 
+Voorbeeld:
 <code>get_template_part( 'template-parts/header/site-header' );</code>
+
 In dit voorbeeld wordt het script <code>template-parts/header/site-header.php</code> ingeladen.
 
 ## De pagina template <code>index.php</code>, <code>home.php</code>, <code>single.php</code>, ...
@@ -132,7 +134,7 @@ get_footer();
 ?&gt;
 </pre>
 
-## header.php
+## <code>header.php</code>
 
 <pre>
 &lt;!doctype html&gt;
@@ -150,7 +152,7 @@ get_template_part( 'template-parts/header/site-header' );
 ?&gt;
 </pre>
 
-## footer.php
+## <code>footer.php</code>
 <pre>
 	&lt;footer class="site-footer"&gt;
 	&lt;?php get_template_part( 'template-parts/footer/footer-sidebar' ); ?&gt;
@@ -160,3 +162,37 @@ get_template_part( 'template-parts/header/site-header' );
 &lt;/html&gt;
 </pre>
 
+## <code>template-parts/header/site-header.php</code>
+
+<pre>
+&lt;header class="site-header-content">
+	&lt;?php if ( has_custom_logo() ) : ?&gt;
+		&lt;div class="site-logo">
+			&lt;?php the_custom_logo(); ?&gt;
+		&lt;/div>
+	&lt;?php endif; ?&gt;
+
+	&lt;?php
+	if ( has_nav_menu( 'primary' ) ) : ?&gt;
+		&lt;nav class="primary-navigation"&gt;
+			&lt;?php
+			wp_nav_menu();
+			?&gt;
+		&lt;/nav&gt;
+	&lt;?php
+	endif;
+	?&gt;
+&lt;/header&gt;
+</pre>
+
+
+## <code>template-parts/content/content.php</code>
+<pre>
+&lt;?php 
+the_title( '&lt;h1&gt;', '&lt;/h1&gt;' ); 
+
+fietsgerij_post_thumbnail(FALSE); 
+
+the_content();
+?&gt;
+</pre>
