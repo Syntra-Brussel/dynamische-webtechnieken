@@ -1,6 +1,6 @@
 ---
 layout: template
-title: Templates
+title: Thema van nul
 url: /wordpress/thema-van-nul
 collection: wordpress
 links:
@@ -16,7 +16,7 @@ Met onze kennis van HTML/CSS, PHP en de Wordpress template structuur gaan we van
 
 Hieronder geef ik wat belangrijke PHP functies die specifiek in de Wordpress core zitten om de Wordpress inhoud te verwerken in je templates.
 
-## code>functions.php</code> om de stylesheet in te laden
+## <code>functions.php</code> om de stylesheet in te laden
 
 De <code>functions.php</code> wordt gebruikt voor:
 * het inladen van de stylesheet (zie eerdere hoofdstukken)
