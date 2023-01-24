@@ -123,9 +123,7 @@ get_template_part( 'template-parts/header/site-header' );
 <pre>
     &lt;/div>
 	&lt;footer class="site-footer"&gt;
-	&lt;?php 
-	get_template_part( 'template-parts/footer/footer-sidebar' );
-	?&gt;
+	&lt;?php get_template_part( 'template-parts/footer/footer-sidebar' ); ?&gt;
 	&lt;/footer&gt;
 &lt;/div&gt;
 &lt;?php wp_footer(); ?&gt;
