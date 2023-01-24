@@ -185,7 +185,7 @@ get_template_part( 'template-parts/header/site-header' );
 
 <code>wp_body_open()</code>: Laadt (eventuele) code in de template die specifiek bij de start van de <code><body></code> hoort.
 
-<code>body_class()</code>: Deze functie geeft een aantal nuttige <em>classes</em> voor CSS doeleinden.
+<code>body_class()</code>: Deze functie geeft een aantal nuttige <em>classes</em> voor CSS doeleinden. Bijvoorbeeld krijg je een class terug met de post type, maar ook een class met post type en ID.
 
 ## <code>footer.php</code>
 <pre>
