@@ -278,3 +278,5 @@ if ($cpt_query-&gt;have_posts()) {
 }
 ?&gt;
 </pre>
+
+<code>the_excerpt()</code>: Toon de samenvatting van de post.
