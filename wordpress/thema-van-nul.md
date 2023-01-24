@@ -98,6 +98,40 @@ Belangrijk hier zijn de <code>get_header()</code> an <code>get_footer()</code> f
 
 Vervolgens bouw je de HTML op volgens de wensen en noden.
 
+## header.php
+
+<pre>
+<!doctype html>
+<html &lt;?php language_attributes(); ?&gt;>
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	&lt;?php wp_head(); ?&gt;
+</head>
+
+<body &lt;?php body_class(); ?&gt;>
+<div class="site">
+&lt;?php 
+wp_body_open();
+get_template_part( 'template-parts/header/site-header' ); 
+?&gt;
+    <div class="content">
+</pre>
+
+## footer.php
+<pre>
+    </div>
+	<footer class="site-footer">
+	&lt;?php 
+	get_template_part( 'template-parts/footer/footer-sidebar' );
+	?&gt;
+	</footer>
+</div>
+<?php wp_footer(); ?>
+</body>
+</html>
+</pre>
+
 ## Inladen van <em>template parts</em>.
 
 In elke pagina template kan je delen van een template afzonden naar de <code>template-parts</code> folder. Dit is interessant:
