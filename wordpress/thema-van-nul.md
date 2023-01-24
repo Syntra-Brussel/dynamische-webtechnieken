@@ -163,7 +163,7 @@ get_template_part( 'template-parts/header/site-header' );
 </pre>
 
 ## <code>template-parts/header/site-header.php</code>
-
+ 
 <pre>
 &lt;header class="site-header-content">
 	&lt;?php if ( has_custom_logo() ) : ?&gt;
@@ -185,6 +185,10 @@ get_template_part( 'template-parts/header/site-header' );
 &lt;/header&gt;
 </pre>
 
+<code>has_custom_logo()</code>: Wordpress functie om te controleren of er website logo is opgeladen.
+<code>the_custom_logo()</code>: Wordpress functie om te het website logo te tonen.
+<code>has_nav_menu()</code>: Wordpress functie om te controleren of er een navigatie is gedefinieerd.
+<code>wp_nav_menu()</code>: Wordpress functie om de navitie te tonen (standaard: 'primary', in een <code>&lt;ul&gt;&lt;li&gt;</code>-structuur)
 
 ## <code>template-parts/content/content.php</code>
 <pre>
@@ -196,3 +200,7 @@ fietsgerij_post_thumbnail(FALSE);
 the_content();
 ?&gt;
 </pre>
+
+<code>the_title()</code>: de Wordpress functie om de post titel te tonen.
+<code>fietsgerij_post_thumbnail()</code>: de eigen functie om het beeld van een post te tonen (als dat er is).
+<code>the_content()</code>: de Wordpress functie om de post inhoud te tonen.
