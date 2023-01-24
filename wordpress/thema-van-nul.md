@@ -59,12 +59,12 @@ add_action( 'wp_enqueue_scripts', 'uw_thema_naam_enqueue_styles');
 ### Custom logo optie activeren in thema
 <pre>
 &lt;?php
-function speeltuin_custom_logo_setup() {
+function uw_thema_naam_custom_logo_setup() {
 	add_theme_support( 'custom-logo', [] );
 }
 
-// Voer de functie speeltuin_custom_logo_setup uit.
-add_action( 'after_setup_theme', 'speeltuin_custom_logo_setup' );
+// Voer de functie uw_thema_naam_custom_logo_setup uit.
+add_action( 'after_setup_theme', 'uw_thema_naam_custom_logo_setup' );
 ?&gt;
 </pre>
 
