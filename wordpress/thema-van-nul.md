@@ -98,7 +98,9 @@ add_action( 'widgets_init', 'uw_thema_naam_sidebar_init' );
 ?&gt;
 </pre>
 
-* functies op maat die je in je templates kan gaan (her)gebruiken. Een eigen functie naam start je best met bijvoorbeeld de thema naam. Zo weet je in je code dat het om een eigen functie gaat en niet om een functie uit de Wordpress core.
+### Functies op maat die je in je templates kan gaan (her)gebruiken. 
+
+Een eigen functie naam start je best met bijvoorbeeld de thema naam. Zo weet je in je code dat het om een eigen functie gaat en niet om een functie uit de Wordpress core.
 
 Onderstaande functie toon het beeld bij een post wanneer dat er is. Omdat het een eigen functie is kunnen we bijvoorbeeld ook een link plaatsen rond het beeld. Op die manier kan je deze functie gebruiken in een post overzicht (mét link) of op een post pagina (zónder link). 
 
