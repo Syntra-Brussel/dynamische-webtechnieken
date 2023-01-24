@@ -44,16 +44,47 @@ De <code>functions.php</code> wordt gebruikt voor:
 * het creëren van sidesbar(s) binnen Wordpress
 * het creëren van menu(s) binnen Wordpress
 
+### Stylesheet inladen
 <pre>
 &lt;?php
 function uw_thema_naam_enqueue_styles() {
-    // Laad de child theme CSS.
     wp_enqueue_style( 'theme-style', get_stylesheet_directory_uri() . '/style.css', array(), wp_get_theme()->get( 'Version' ) );
 }
 
 // Voer de functie uw_thema_naam_enqueue_styles uit.
 add_action( 'wp_enqueue_scripts', 'uw_thema_naam_enqueue_styles');
+?&gt;
+</pre>
 
+### Custom logo optie activeren in thema
+<pre>
+&lt;?php
+function speeltuin_custom_logo_setup() {
+	add_theme_support( 'custom-logo', [] );
+}
+
+// Voer de functie speeltuin_custom_logo_setup uit.
+add_action( 'after_setup_theme', 'speeltuin_custom_logo_setup' );
+?&gt;
+</pre>
+
+### Primaire navigatie registreren in thema
+<pre>
+&lt;?php
+function uw_thema_naam_primary_nav_init() {
+    register_nav_menus(
+        array('primary' => 'Primary menu')
+    );
+}
+
+// Voer de functie uw_thema_naam_primary_nav_init uit.
+add_action( 'init', 'uw_thema_naam_primary_nav_init' );
+?&gt;
+</pre>
+
+### Sidebar registeren in Wordpress
+<pre>
+&lt;?php
 function uw_thema_naam_sidebar_init() {
     register_sidebar( array(
         'name' => 'Footer',
@@ -64,15 +95,6 @@ function uw_thema_naam_sidebar_init() {
 
 // Voer de functie uw_thema_naam_sidebar_init() uit.
 add_action( 'widgets_init', 'uw_thema_naam_sidebar_init' );
-
-function uw_thema_naam_primary_nav_init() {
-    register_nav_menus(
-        array('primary' => 'Primary menu')
-    );
-}
-
-// Voer de functie uw_thema_naam_primary_nav_init uit.
-add_action( 'init', 'uw_thema_naam_primary_nav_init' );
 ?&gt;
 </pre>
 
