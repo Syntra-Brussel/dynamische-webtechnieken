@@ -122,7 +122,7 @@ Vervolgens bouw je de HTML op volgens de wensen en noden.
 &lt;?php
 get_header();
 ?&gt;
-&lt;div class="site-main-content"&gt;
+&lt;div class="site-content"&gt;
     &lt;?php
     get_template_part( 'template-parts/content/content' );
     ?&gt;
