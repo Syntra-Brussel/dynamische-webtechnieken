@@ -71,11 +71,12 @@ function uw_thema_naam_post_thumbnail($post_link = TRUE) {
         return;
     } 
 
-    if ($post_link == TRUE) { ?&gt;
+    if ($post_link == TRUE) { 
+        ?&gt;
         &lt;a href="<?php the_permalink(); ?&gt;"&gt;
         &lt;?php the_post_thumbnail(); ?&gt;
         &lt;/a&gt;
-    &lt;?php
+        &lt;?php
     } 
     else {
         the_post_thumbnail(); 
