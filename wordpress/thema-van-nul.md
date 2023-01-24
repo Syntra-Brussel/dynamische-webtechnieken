@@ -134,6 +134,20 @@ get_footer();
 ?&gt;
 </pre>
 
+## <code>archive-<em>post_type</em>.php</code>
+
+<pre>
+&lt;?php
+get_header();
+?&gt;
+<div class="site-main-content">
+    <?php get_template_part( 'template-parts/content/content-<em>post_type</em>' ); ?>
+</div>
+&lt;?php
+get_footer();
+?&gt;
+</pre>
+
 ## <code>header.php</code>
 
 <pre>
@@ -209,3 +223,43 @@ the_content();
 <code>uw_thema_naam_post_thumbnail()</code>: de eigen functie om het beeld van een post te tonen (als dat er is).
 
 <code>the_content()</code>: de Wordpress functie om de post inhoud te tonen.
+
+## <code>template-parts/content/content-<em>post_type</em></code>
+
+<pre>
+&lt;?php
+// Parameters voor de Post query.
+$args = array('post_type' =&gt; 'dienst');
+// Execute query
+$cpt_query = new WP_Query($args);
+// Wanneer de query post(s) oplevert.
+if ($cpt_query-&gt;have_posts()) {
+    ?&gt;
+    &lt;div class="diensten"&gt;
+    &lt;?php
+    // Loop over de verschillende posts.
+    while ( $cpt_query-&gt;have_posts() ) {
+        $cpt_query-&gt;the_post();
+        ?&gt;
+        &lt;article&gt;
+            &lt;header&gt;
+
+                &lt;a href="&lt;?php the_permalink(); ?&gt;"&gt;&lt;h2&gt;&lt;?php the_title(); ?&gt;&lt;/h2&gt;&lt;/a&gt;
+            
+                &lt;?php fietsgerij_post_thumbnail( TRUE ); ?&gt;				
+            
+            &lt;/header&gt;
+
+            &lt;?php the_excerpt(); ?&gt;
+
+            &lt;a href="<?php the_permalink(); ?&gt;"&gt;Verder lezen&lt;/a&gt;
+
+        &lt;/article&gt;
+        &lt;?php
+    }
+    ?&gt;
+    &lt;/div&gt;
+    &lt;?php
+}
+?&gt;
+</pre>
