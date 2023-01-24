@@ -91,6 +91,19 @@ De functie <code>the_post_thumbnail()</code> toont van een post het beeld.
 
 De functie <code>the_permalink()</code> is de Wordpress core functie die van een post de link toont van de detail pagina.
 
+## Inladen van <em>template parts</em>.
+
+In elke pagina template kan je delen van een template afzonden naar de <code>template-parts</code> folder. 
+
+Dit is interessant:
+* bij hergebruik van bepaalde onderdelen
+* om de templates beter leesbaar te houden
+
+Stel dat je een fragment inhoud bijvoorbeeld nodig hebt op zowel de <code>home.php</code> template als een <code>archive.php</code> template dan kan je dit afzonderen en hergebruiken.
+
+<code>get_template_part( 'template-parts/header/site-header' );</code>
+In dit voorbeeld wordt het script <code>template-parts/header/site-header.php</code> ingeladen.
+
 ## De pagina template <code>index.php</code>, <code>home.php</code>, <code>single.php</code>, ...
 
 In eerdere hoofstukken hebben hier al aandacht aan besteed.
@@ -130,12 +143,4 @@ get_template_part( 'template-parts/header/site-header' );
 &lt;/body&gt;
 &lt;/html&gt;
 </pre>
-
-## Inladen van <em>template parts</em>.
-
-In elke pagina template kan je delen van een template afzonden naar de <code>template-parts</code> folder. Dit is interessant:
-* bij hergebruik van bepaalde onderdelen
-* om de templates beter leesbaar te houden
-
-Stel dat je een fragment inhoud bijvoorbeeld nodig hebt op zowel de <code>home.php</code> template als een <code>archive.php</code> template dan kan je dit afzonderen en hergebruiken.
 
