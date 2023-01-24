@@ -53,7 +53,7 @@ function primary_nav_init() {
 
 // Voer de functie primary_nav_init uit.
 add_action( 'init', 'primary_nav_init' );
-&gt;>
+?&gt;
 </pre>
 
 * functies op maat die je in je templates kan gaan (her)gebruiken. Een eigen functie naam start je best met bijvoorbeeld de thema naam. Zo weet je in je code dat dat het om eigen functie gaat en geen functie uit de Wordpress core.
