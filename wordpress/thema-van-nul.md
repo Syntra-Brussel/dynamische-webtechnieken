@@ -144,7 +144,6 @@ get_footer();
 &lt;/head&gt;
 
 &lt;body &lt;?php body_class(); ?&gt;>
-&lt;div class="site"&gt;
 &lt;?php 
 wp_body_open();
 get_template_part( 'template-parts/header/site-header' ); 
@@ -156,7 +155,6 @@ get_template_part( 'template-parts/header/site-header' );
 	&lt;footer class="site-footer"&gt;
 	&lt;?php get_template_part( 'template-parts/footer/footer-sidebar' ); ?&gt;
 	&lt;/footer&gt;
-&lt;/div&gt;
 &lt;?php wp_footer(); ?&gt;
 &lt;/body&gt;
 &lt;/html&gt;
