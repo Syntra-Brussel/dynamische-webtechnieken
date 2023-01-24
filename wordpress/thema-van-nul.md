@@ -231,6 +231,16 @@ get_template_part( 'template-parts/header/site-header' );
 
 <code>wp_nav_menu()</code>: Wordpress functie om de navitie te tonen (standaard: 'primary', in een <code>&lt;ul&gt;&lt;li&gt;</code>-structuur)
 
+## <code>template-parts/footer/footer-sidebar.php</code>
+
+<pre>
+&lt;?php
+if ( is_active_sidebar( 'footer-sidebar' ) ) :
+    dynamic_sidebar( 'footer-sidebar' );
+endif;
+?&gt;
+</pre>
+
 ## <code>template-parts/content/content.php</code>
 <pre>
 &lt;?php 
