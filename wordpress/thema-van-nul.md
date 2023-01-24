@@ -101,7 +101,7 @@ De functie <code>the_permalink()</code> is de Wordpress core functie die van een
 
 ## Inladen van <em>template parts</em>.
 
-In elke pagina template kan je delen van een template afzonden naar de <code>template-parts</code> folder. 
+In elke pagina template kan je delen van een template afzonderen naar de <code>template-parts</code> folder. 
 
 Dit is interessant:
 * bij hergebruik van bepaalde onderdelen
