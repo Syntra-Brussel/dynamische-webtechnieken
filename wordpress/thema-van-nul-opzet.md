@@ -96,4 +96,4 @@ add_action( 'widgets_init', 'uw_thema_naam_sidebar_init' );
 ?&gt;
 </pre>
 
-Een sidebar wordt beschikbaar via "Customizer" > "Widgets". Je kan de inhoud gaan bepalen via de Gutenberg editor. 
+Een sidebar wordt beschikbaar via "Customizer" > "Widgets". Je kan de inhoud gaan toevoegen via de Gutenberg editor. 

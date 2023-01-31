@@ -80,7 +80,9 @@ wp_body_open();
 ### <code>footer.php</code>
 <pre>
 	&lt;footer class="site-footer"&gt;
-	&lt;?php // Footer inhoud komt hier. ?&gt;
+	&lt;?php 
+    // Footer inhoud komt hier. 
+    ?&gt;
 	&lt;/footer&gt;
 &lt;?php wp_footer(); ?&gt;
 &lt;/body&gt;
@@ -170,6 +172,10 @@ endif;
 ?&gt;
 </pre>
 
+<code>is_active_sidebar()</code>: controleer of een sidebar is geregistreerd
+
+<code>dynamic_sidebar()</code>: toon de inhoud van een sidebar
+
 ### <code>template-parts/content/content.php</code>
 <pre>
 &lt;?php 
@@ -183,9 +189,9 @@ the_content();
 
 <code>the_title()</code>: de Wordpress functie om de post titel te tonen.
 
-<code>the_content()</code>: de Wordpress functie om de post inhoud te tonen.
+<code>uw_thema_naam_post_thumbnail()</code>: Een 'eigen' functie om het <em>featured image</em> te tonen. Zie verder door.
 
-<code>uw_thema_naam_post_thumbnail(): Een 'eigen' functie om het <em>featured image</em> te tonen. Zie verder door.
+<code>the_content()</code>: de Wordpress functie om de post inhoud te tonen.
 
 ### <code>template-parts/content/archive-<em>post_type</em></code>
 
@@ -229,7 +235,7 @@ if ($cpt_query-&gt;have_posts()) {
 </pre>
 
 <code>the_excerpt()</code>: Toon de samenvatting van de post.
-<code>uw_thema_naam_post_thumbnail(): Een 'eigen' functie om het <em>featured image</em> te tonen. Zie verder door.
+<code>uw_thema_naam_post_thumbnail()</code>: Een 'eigen' functie om het <em>featured image</em> te tonen. Zie verder door.
 
 ## Functies op maat die je in je templates kan gaan (her)gebruiken. 
 
