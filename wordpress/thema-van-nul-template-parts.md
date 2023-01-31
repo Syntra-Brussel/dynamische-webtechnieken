@@ -10,10 +10,6 @@ links:
  - url: https://developer.wordpress.org/reference/functions/wp_body_open/
  - url: https://developer.wordpress.org/reference/functions/wp_footer/
  - url: https://developer.wordpress.org/reference/functions/has_post_thumbnail/
- - url: https://developer.wordpress.org/reference/functions/the_post_thumbnail/
- - url: https://developer.wordpress.org/reference/functions/the_permalink/
- - url: https://developer.wordpress.org/reference/functions/get_template_part/
- - url: https://developer.wordpress.org/reference/functions/the_excerpt/
 ---
 
 ## Inladen van <em>template parts</em>.

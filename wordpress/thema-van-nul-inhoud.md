@@ -4,16 +4,12 @@ title: 'Thema van nul: inhoud'
 url: /wordpress/thema-van-nul
 collection: wordpress
 links:
- - url: https://developer.wordpress.org/reference/functions/get_header/
- - url: https://developer.wordpress.org/reference/functions/get_footer/
- - url: https://developer.wordpress.org/reference/functions/wp_head/
- - url: https://developer.wordpress.org/reference/functions/wp_body_open/
- - url: https://developer.wordpress.org/reference/functions/wp_footer/
- - url: https://developer.wordpress.org/reference/functions/has_post_thumbnail/
+ - url: https://developer.wordpress.org/reference/functions/the_title/
+ - url: https://developer.wordpress.org/reference/functions/the_excerpt/
+ - url: https://developer.wordpress.org/reference/functions/the_content/
  - url: https://developer.wordpress.org/reference/functions/the_post_thumbnail/
  - url: https://developer.wordpress.org/reference/functions/the_permalink/
- - url: https://developer.wordpress.org/reference/functions/get_template_part/
- - url: https://developer.wordpress.org/reference/functions/the_excerpt/
+
 ---
 
 De inhoud van een pagina, post of custom post heeft als belangrijkste inhoud:
