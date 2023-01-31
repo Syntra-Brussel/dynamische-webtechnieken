@@ -239,7 +239,7 @@ if ($cpt_query-&gt;have_posts()) {
 
 ## Functies op maat die je in je templates kan gaan (her)gebruiken. 
 
-Je kan stukjes code die op verschillende plaatsen worden gebruikt onder brengen in een aparte functie. Die kan je plaatsen in de <code>functions.php</code>.
+Je kan stukjes code, die op verschillende plaatsen worden gebruikt, onder brengen in een aparte functie. Die kan je plaatsen in de <code>functions.php</code>.
 
 Een eigen functie naam start je best met bijvoorbeeld de thema naam. Zo weet je in je code dat het om een eigen functie gaat en niet om een functie uit de Wordpress core.
 
