@@ -1,6 +1,6 @@
 ---
 layout: template
-title: 'Thema van nul: templates'
+title: 'Thema van nul: template parts en eigen functies'
 url: /wordpress/thema-van-nul
 collection: wordpress
 links:
@@ -162,7 +162,7 @@ if ($cpt_query-&gt;have_posts()) {
 <code>the_excerpt()</code>: Toon de samenvatting van de post.
 <code>uw_thema_naam_post_thumbnail()</code>: Een 'eigen' functie om het <em>featured image</em> te tonen. Zie verder door.
 
-## Functies op maat die je in je templates kan gaan (her)gebruiken. 
+## Eigen functies je in je templates kan gaan (her)gebruiken. 
 
 Je kan stukjes code, die op verschillende plaatsen worden gebruikt, onder brengen in een aparte functie. Die kan je plaatsen in de <code>functions.php</code>.
 

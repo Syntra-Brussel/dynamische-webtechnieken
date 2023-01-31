@@ -1,6 +1,6 @@
 ---
 layout: template
-title: 'Thema van nul: templates'
+title: 'Thema van nul: pagina templates'
 url: /wordpress/thema-van-nul
 collection: wordpress
 links:
