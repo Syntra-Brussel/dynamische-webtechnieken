@@ -32,13 +32,24 @@ We voorzien volgende code in <code>index.php</code>:
 get_header();
 ?&gt;
 &lt;div class="site-content"&gt;
+
+    &lt;p&gt;&lt;u&gt;De titel van pagina of bericht:&lt;/u&gt;&lt;/p&gt;
+
     &lt;h1&gt;&lt;?php the_title(); ?&gt;&lt;/h1&gt;
+
+    &lt;p&gt;&lt;u&gt;Het hoofd beeld van pagina of bericht:&lt;/u&gt;&lt;/p&gt;
 
     &lt;?php the_post_thumbnail(); ?&gt;
 
+    &lt;p&gt;&lt;u&gt;De samenvatting:&lt;/u&gt;&lt;/p&gt;
+
     &lt;p&gt;&lt;?php the_excerpt(); ?&gt;&lt;/p&gt;
 
+    &lt;p&gt;&lt;u&gt;De inhoud van pagina of bericht:&lt;/u&gt;&lt;/p&gt;
+
     &lt;p&gt;&lt;?php the_content(); ?&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;u&gt;De link naar pagina of bericht:&lt;/u&gt;&lt;/p&gt;
 
     &lt;a href="&lt;?php the_link(); ?&gt;"&gt;Verder lezen&lt;/a&gt;
 &lt;/div&gt;
