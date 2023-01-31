@@ -80,6 +80,15 @@ add_action( 'init', 'uw_thema_naam_primary_nav_init' );
 
 Je kan het menu beheren via "Customizer" > "Menu's". Je moet het thema wel even desactiveren en opnieuw activeren.
 
+### Gebruik van het hoofd beeld activeren
+
+function uw_thema_naam_add_post_thumbnail_supports() {
+	add_theme_support( 'post-thumbnails' );
+}
+add_action( 'after_setup_theme', 'uw_thema_naam_add_post_thumbnail_supports');
+
+Je kan nu via een (custom) post of pagina een hoofd beeld selecteren.
+
 ### Sidebar registeren in Wordpress
 <pre>
 &lt;?php

@@ -25,7 +25,7 @@ De inhoud van een pagina, post of custom post heeft als belangrijkste inhoud:
 
 Je kan die verschillende onderdelen met een eigen functie tonen.
 
-Als we dat eens toepassen voor een pagina kan de <code>page.php</code> er zo uit zien:
+We voorzien volgende code in <code>index.php</code>:
 
 <pre>
 &lt;?php
