@@ -239,13 +239,13 @@ if ($cpt_query-&gt;have_posts()) {
 
 ## Functies op maat die je in je templates kan gaan (her)gebruiken. 
 
+Je kan stukjes code die op verschillende plaatsen worden gebruikt onder brengen in een aparte functie. Die kan je plaatsen in de <code>functions.php</code>.
+
 Een eigen functie naam start je best met bijvoorbeeld de thema naam. Zo weet je in je code dat het om een eigen functie gaat en niet om een functie uit de Wordpress core.
 
-Onderstaande functie toon het beeld bij een post wanneer dat er is. Omdat het een eigen functie is kunnen we bijvoorbeeld ook een link plaatsen rond het beeld. Op die manier kan je deze functie gebruiken in een post overzicht (mét link) of op een post pagina (zónder link). 
+### Functie om <em>featured image</em> van een post te tonen
 
-Met een extra parameter <code>$post_link</code> kan je optioneel een link plaatsen rond het beeld. 
-
-Een toepassing van deze functie zie je verder op.
+Onderstaande functie toont het <em>featured image</em> van de post wanneer het beeld bestaat. Met een extra parameter <code>$post_link</code> kan je optioneel een link plaatsen rond het beeld. 
 
 <pre>
 &lt;?php
