@@ -34,6 +34,8 @@ get_header();
 &lt;div class="site-content"&gt;
     &lt;h1&gt;&lt;?php the_title(); ?&gt;&lt;/h1&gt;
 
+    &lt;?php the_post_thumbnail(); ?&gt;
+
     &lt;p&gt;&lt;?php the_excerpt(); ?&gt;&lt;/p&gt;
 
     &lt;p&gt;&lt;?php the_content(); ?&gt;&lt;/p&gt;
