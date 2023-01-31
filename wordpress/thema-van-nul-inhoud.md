@@ -39,8 +39,6 @@ get_header();
     &lt;p&gt;&lt;?php the_content(); ?&gt;&lt;/p&gt;
 
     &lt;a href="&lt;?php the_link(); ?&gt;"&gt;Verder lezen&lt;/a&gt;
-    ?&gt;
-    <hr />
 &lt;/div&gt;
 &lt;?php
 get_footer();
