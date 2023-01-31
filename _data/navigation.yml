@@ -179,10 +179,10 @@ items:
         title: 'OEFENING: Fietsgerij (4)'    
       - url: /wordpress/thema-van-nul-opzet
         published: 'yes'
-        title: 'Thema van nul (opzet)' 
+        title: 'Thema van nul: opzet' 
       - url: /wordpress/thema-van-nul-templates
         published: 'yes'
-        title: 'Thema van nul (templates)'   
+        title: 'Thema van nul: templates'   
       - url: /wordpress/oefening-fietsgerij-deel-5
         published: 'yes'
         title: 'OEFENING: Fietsgerij (5)'                            
