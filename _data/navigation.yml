@@ -180,9 +180,15 @@ items:
       - url: /wordpress/thema-van-nul-opzet
         published: 'yes'
         title: 'Thema van nul: opzet' 
-      - url: /wordpress/thema-van-nul-templates
+      - url: /wordpress/thema-van-nul-pagina-templates
         published: 'yes'
-        title: 'Thema van nul: templates'   
+        title: 'Thema van nul: pagina templates'
+      - url: /wordpress/thema-van-nul-inhoud
+        published: 'yes'
+        title: 'Thema van nul: inhoud'   
+      - url: /wordpress/thema-van-nul-template-parts
+        published: 'yes'
+        title: 'Thema van nul: template parts'           
       - url: /wordpress/oefening-fietsgerij-deel-5
         published: 'yes'
         title: 'OEFENING: Fietsgerij (5)'                            
