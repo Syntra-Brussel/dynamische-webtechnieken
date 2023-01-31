@@ -37,7 +37,7 @@ get_header();
 
     &lt;h1&gt;&lt;?php the_title(); ?&gt;&lt;/h1&gt;
 
-    &lt;p&gt;&lt;u&gt;Het hoofd beeld van pagina of bericht:&lt;/u&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;u&gt;Het <em>featured image</em> van pagina of bericht:&lt;/u&gt;&lt;/p&gt;
 
     &lt;?php the_post_thumbnail(); ?&gt;
 
@@ -51,7 +51,7 @@ get_header();
 
     &lt;p&gt;&lt;u&gt;De link naar pagina of bericht:&lt;/u&gt;&lt;/p&gt;
 
-    &lt;a href="&lt;?php the_link(); ?&gt;"&gt;Verder lezen&lt;/a&gt;
+    &lt;a href="&lt;?php the_permalink(); ?&gt;"&gt;Verder lezen&lt;/a&gt;
 &lt;/div&gt;
 &lt;?php
 get_footer();
