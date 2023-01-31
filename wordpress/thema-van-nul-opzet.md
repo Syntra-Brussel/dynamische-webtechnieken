@@ -4,16 +4,10 @@ title: Thema van nul
 url: /wordpress/thema-van-nul
 collection: wordpress
 links:
- - url: https://developer.wordpress.org/reference/functions/get_header/
- - url: https://developer.wordpress.org/reference/functions/get_footer/
- - url: https://developer.wordpress.org/reference/functions/wp_head/
- - url: https://developer.wordpress.org/reference/functions/wp_body_open/
- - url: https://developer.wordpress.org/reference/functions/wp_footer/
- - url: https://developer.wordpress.org/reference/functions/has_post_thumbnail/
- - url: https://developer.wordpress.org/reference/functions/the_post_thumbnail/
- - url: https://developer.wordpress.org/reference/functions/the_permalink/
- - url: https://developer.wordpress.org/reference/functions/get_template_part/
- - url: https://developer.wordpress.org/reference/functions/the_excerpt/
+ - url: https://developer.wordpress.org/themes/basics/main-stylesheet-style-css/
+ - url: https://developer.wordpress.org/themes/basics/theme-functions/
+ - url: https://developer.wordpress.org/reference/functions/wp_enqueue_style/
+ - url: https://developer.wordpress.org/reference/functions/add_theme_support/
 ---
 Het voordeel van een thema gebaseerd op een ander thema is dat je opbouw en CSS van het parent theme gaat overnemen. Je start niet van nul. Je kan CSS en templates overnemen in je child theme om ze wat zaken specifiek te wijzigen.
 
@@ -68,6 +62,8 @@ add_action( 'after_setup_theme', 'uw_thema_naam_custom_logo_setup' );
 ?&gt;
 </pre>
 
+Je kan het logo nu opladen via "Customizer" > "Website identiteit". Je moet het thema wel even desactiveren en opnieuw activeren.
+
 ### Primaire navigatie registreren in thema
 <pre>
 &lt;?php
@@ -81,6 +77,8 @@ function uw_thema_naam_primary_nav_init() {
 add_action( 'init', 'uw_thema_naam_primary_nav_init' );
 ?&gt;
 </pre>
+
+Je kan het menu beheren via "Customizer" > "Menu's". Je moet het thema wel even desactiveren en opnieuw activeren.
 
 ### Sidebar registeren in Wordpress
 <pre>
@@ -97,3 +95,5 @@ function uw_thema_naam_sidebar_init() {
 add_action( 'widgets_init', 'uw_thema_naam_sidebar_init' );
 ?&gt;
 </pre>
+
+Een sidebar wordt beschikbaar via "Customizer" > "Widgets". Je kan de inhoud gaan bepalen via de Gutenberg editor. 
