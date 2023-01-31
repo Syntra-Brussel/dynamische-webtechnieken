@@ -32,13 +32,13 @@ Als we dat eens toepassen voor een pagina kan de <code>page.php</code> er zo uit
 get_header();
 ?&gt;
 &lt;div class="site-content"&gt;
-    &lt;h1&gt;&lt;?php the_title(); &gt;&lt;/h1&gt;
+    &lt;h1&gt;&lt;?php the_title(); ?&gt;&lt;/h1&gt;
 
-    &lt;p&gt;&lt;?php the_excerpt(); &gt;&lt;/p&gt;
+    &lt;p&gt;&lt;?php the_excerpt(); ?&gt;&lt;/p&gt;
 
-    &lt;p&gt;&lt;?php the_content(); &gt;&lt;/p&gt;
+    &lt;p&gt;&lt;?php the_content(); ?&gt;&lt;/p&gt;
 
-    &lt;a href="&lt;?php the_link(); &gt;"&gt;Verder lezen&lt;/a&gt;
+    &lt;a href="&lt;?php the_link(); ?&gt;"&gt;Verder lezen&lt;/a&gt;
     ?&gt;
     <hr />
 &lt;/div&gt;
