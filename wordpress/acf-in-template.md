@@ -45,7 +45,9 @@ De <code>get_field()</code> retourneerd een array met die twee elementen en die 
     &lt;?php 
     $link_info = get_field('link'); 
     ?&gt;
-    &lt;li&gt;Link: <a href="&lt;?php echo $link_info['url']; ?&gt;"&gt;&lt;?php echo $link_info['title']; ?&gt;</a>&lt;/li&gt;
+    &lt;li&gt;Link: 
+        &lt;a href="&lt;?php echo $link_info['url']; ?&gt;"&gt;&lt;?php echo $link_info['title']; ?&gt;&lt;/a&gt;
+    &lt;/li&gt;
 &lt;/ul&gt;    
 </pre>
 
