@@ -25,7 +25,9 @@ Bijvoorbeeld:
 * video collectie: jaar, regissieur, ...
 * boeken referenties: jaar, ISBN, auteur, ...
 
+<div class="highlight">
 We zouden alle informatie kunnen onderbrengen in de omschrijving maar dan kunnen we het niet tonen in het overzicht bijvoorbeeld en op de detailpagina kunnen we er moeilijk specifieke opmaak aan geven via HTML en CSS.
+</div>
 
 Omdat op te lossen heeft Wordpress <em>Custom Fields</em> in het leven geroepen. Uitgebreidde op maat velden zeg maar.
 
