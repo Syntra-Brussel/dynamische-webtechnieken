@@ -10,4 +10,47 @@ links:
 
 Vanaf dat je de ACF plugin hebt geïnstalleerd en je de velden aan je (custom) post hebt toegevoegd moet je de waardes uit de velden uiteraard nog gaan opnemen in je template.
 
-Daarvoor is de functie <code>the_field()</code> beschikbaar.
+## <code>the_field()</code>
+
+De functie <code>the_field()</code> is ideaal om enkelvoudige waardes te tonen. Een tekst, een getal, ... . 
+
+Wanneer je bijvoorbeeld een custom post type "Video" hebt met daar een specifiek veld "regiseur" en "duurtijd" dan zou de code er als volgt kunnen uitzien.
+
+## single-video.php
+<pre>
+<h1><?php the_title() ?></h1>
+<ul>
+    <li>Regisseur: <?php the_field('regisseur'); ?></li>
+    <li>duurtijd: <?php the_field('duurtijd'); ?></li>
+</pre>
+
+
+## code>get_field()</code>
+
+De functie <code>get_field()</code> geeft de ruwe waarde van het veld terug. Bij een enkelvoudige waarde is gewoon de waarde.
+
+Bij meervoudige waardes geeft hij de verschillende elementen van de waarde terug.
+
+Het <code>url</code> type heeft als waarde bijvoorbeeld een <strong>URL</strong> en een <strong>linktekst</strong>.
+
+De <code>get_field()</code> retourneerd een array met die twee elementen en die kan je dan uiteraard ook gaan gebruiken in de template.
+
+<pre>
+<h1>&lt;?php the_title() ?&gt;</h1>
+<ul>
+    <li>Regisseur: &lt;?php the_field('regisseur'); ?&gt;</li>
+    <li>duurtijd: &lt;?php the_field('duurtijd'); ?&gt;</li>
+    &lt;?php 
+    $link_info = get_field('link'); 
+    ?&gt;
+    <li>Link: <a href="&lt;?php echo $link_info['url']; ?&gt;">&lt;?php echo $link_info['title']; ?&gt;</a></li>
+</ul>    
+</pre>
+
+De array structuur kan je trouwens op deze manier te zien krijgen:
+
+<pre>
+&lt;?php
+print_r(link_info);
+?&gt;
+</pre>
