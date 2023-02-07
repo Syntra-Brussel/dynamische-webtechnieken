@@ -10,11 +10,13 @@ links:
 
 ## Algemeen
 
-In een veld wordt gebruikt om een <strong>waarde</strong> te bewareb. Dat kan tekst zijn (kort of lang), een referentie naar een opgeladen beeld of een getal.
+Een veld wordt gebruikt om een <strong>waarde</strong> te bewaren. Dat kan tekst zijn (kort of lang), een referentie naar een opgeladen beeld, een getal, ... .
 
-Een veld heeft uiteraard ook altijd een <strong>naam</strong> die het doel weer geeft.
+Een veld heeft uiteraard altijd een <strong>naam</strong> die de inhoud van het veld omschrijft.
 
-Een veld kan zo <strong>in een template gebruikt</strong> worden en er kan zo ook specifiek opmaak aan gegeven worden.
+De naam wordt onder andere gebruikt om de informatie correct te gaan bewaren in de database.
+
+Een veld kan <strong>in een template gebruikt</strong> worden en er kan zo ook specifiek opmaak aan gegeven worden. Ook daarvoor zal je de naam nodig hebben.
 
 ## Velden in Wordpress zijn beperkt
 
