@@ -18,11 +18,12 @@ Wanneer je bijvoorbeeld een custom post type "Video" hebt met daar een specifiek
 
 ### single-video.php
 <pre>
-&lt;h1>&lt;?php the_title() ?&gt;&lt;/h1>
-&lt;ul>
-    &lt;li>Regisseur: &lt;?php the_field('regisseur'); ?&gt;&lt;/li>
-    &lt;li>duurtijd: &lt;?php the_field('duurtijd'); ?&gt;&lt;/li>
-</pre>
+&lt;h1&gt;&lt;?php the_title() ?&gt;&lt;/h1&gt;
+&lt;ul&gt;
+    &lt;li>Regisseur: &lt;?php the_field('regisseur'); ?&gt;&lt;/li&gt;
+    &lt;li>duurtijd: &lt;?php the_field('duurtijd'); ?&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</pre> 
 
 
 ## <code>get_field()</code>
