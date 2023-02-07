@@ -12,7 +12,7 @@ Vanaf dat je de ACF plugin hebt geïnstalleerd en je de velden aan je (custom) p
 
 ## <code>the_field()</code>
 
-De functie <code>the_field()</code> is ideaal om enkelvoudige waardes te tonen. Een tekst, een getal, ... . 
+De functie <code>the_field()</code> is ideaal om eenvoudige waardes te tonen. Een tekst, een getal, ... . 
 
 Wanneer je bijvoorbeeld een custom post type "Video" hebt met daar een specifiek veld "regiseur" en "duurtijd" dan zou de code er als volgt kunnen uitzien.
 
@@ -28,13 +28,15 @@ Wanneer je bijvoorbeeld een custom post type "Video" hebt met daar een specifiek
 
 ## <code>get_field()</code>
 
-De functie <code>get_field()</code> geeft de ruwe waarde van het veld terug. Bij een enkelvoudige waarde is gewoon de waarde.
+### Eenvoudige waarde
+De functie <code>get_field()</code> geeft de ruwe waarde van het veld terug. Bij een eenvoudige waarde is dat gewoon de waarde. De werkwijze is dat dezelfde als bij <code>the_field()</code> met dat verschil dat je wel <code>echo</code> moet gebruiken. 
 
-Bij meervoudige waardes geeft hij de verschillende elementen van de waarde terug.
+### Uitgebreide waarde
+Bij een uitgebreide waarde geeft hij de functie <code>get_field()</code> verschillende elementen van de waarde terug via een <code>array</code>.
 
 Het veld type <strong>url</strong> heeft als waarde bijvoorbeeld een <strong>URL</strong> en een <strong>linktekst</strong>.
 
-De <code>get_field()</code> retourneerd een <strong>array</strong> met die twee elementen die je dan kan gaan gebruiken in de template.
+De <code>get_field()</code> retourneert dan een <strong>array</strong> met die twee elementen die je dan kan gaan gebruiken in de template.
 
 ### single-video.php
 
@@ -54,7 +56,7 @@ De <code>get_field()</code> retourneerd een <strong>array</strong> met die twee 
 &lt;/ul&gt;    
 </pre>
 
-De array structuur kan je trouwens op deze manier te zien krijgen:
+De array elementen kan je trouwens op deze manier te zien krijgen:
 
 <pre>
 &lt;?php
