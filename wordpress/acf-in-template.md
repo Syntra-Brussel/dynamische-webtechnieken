@@ -34,7 +34,7 @@ Bij meervoudige waardes geeft hij de verschillende elementen van de waarde terug
 
 Het veld type <strong>url</strong> heeft als waarde bijvoorbeeld een <strong>URL</strong> en een <strong>linktekst</strong>.
 
-De <code>get_field()</code> retourneerd een array met die twee elementen en die kan je dan uiteraard ook gaan gebruiken in de template.
+De <code>get_field()</code> retourneerd een <strong>array</strong> met die twee elementen die je dan kan gaan gebruiken in de template.
 
 ### single-video.php
 
