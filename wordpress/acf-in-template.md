@@ -25,7 +25,7 @@ Wanneer je bijvoorbeeld een custom post type "Video" hebt met daar een specifiek
 &lt;/ul&gt;
 </pre> 
 
-
+ 
 ## <code>get_field()</code>
 
 ### Eenvoudige waarde
@@ -43,8 +43,8 @@ De <code>get_field()</code> functie retourneert dan een <strong>array</strong> m
 <pre>
 &lt;h1&gt;&lt;?php the_title() ?&gt;&lt;/h1&gt;
 &lt;ul&gt;
-    &lt;li&gt;Regisseur: &lt;?php the_field('regisseur'); ?&gt;&lt;/li&gt;
-    &lt;li&gt;duurtijd: &lt;?php the_field('duurtijd'); ?&gt;&lt;/li&gt;
+    &lt;li&gt;Regisseur: &lt;?php echo get_field('regisseur'); ?&gt;&lt;/li&gt;
+    &lt;li&gt;duurtijd: &lt;?php echo get_field('duurtijd'); ?&gt;&lt;/li&gt;
     &lt;?php 
     $link_info = get_field('link'); 
     ?&gt;
