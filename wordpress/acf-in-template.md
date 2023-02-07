@@ -36,7 +36,7 @@ Bij een uitgebreide waarde geeft hij de functie <code>get_field()</code> verschi
 
 Het veld type <strong>url</strong> heeft als waarde bijvoorbeeld een <strong>URL</strong> en een <strong>linktekst</strong>.
 
-De <code>get_field()</code> retourneert dan een <strong>array</strong> met die twee elementen die je dan kan gaan gebruiken in de template.
+De <code>get_field()</code> functie retourneert dan een <strong>array</strong> met die twee elementen die je dan kan gaan gebruiken in de template.
 
 ### single-video.php
 
