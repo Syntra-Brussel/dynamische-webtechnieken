@@ -25,7 +25,7 @@ Wanneer je bijvoorbeeld een custom post type "Video" hebt met daar een specifiek
 </pre>
 
 
-## code>get_field()</code>
+## <code>get_field()</code>
 
 De functie <code>get_field()</code> geeft de ruwe waarde van het veld terug. Bij een enkelvoudige waarde is gewoon de waarde.
 
