@@ -18,10 +18,10 @@ Wanneer je bijvoorbeeld een custom post type "Video" hebt met daar een specifiek
 
 ### single-video.php
 <pre>
-<h1><?php the_title() ?></h1>
+<h1>&lt;?php the_title() ?&gt;</h1>
 <ul>
-    <li>Regisseur: <?php the_field('regisseur'); ?></li>
-    <li>duurtijd: <?php the_field('duurtijd'); ?></li>
+    <li>Regisseur: &lt;?php the_field('regisseur'); ?&gt;</li>
+    <li>duurtijd: &lt;?php the_field('duurtijd'); ?&gt;</li>
 </pre>
 
 
