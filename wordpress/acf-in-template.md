@@ -59,7 +59,9 @@ De <code>get_field()</code> functie retourneert dan een <strong>array</strong> m
 De array elementen kan je trouwens op deze manier te zien krijgen:
 
 <pre>
+&lt;pre&gt; 
 &lt;?php
 print_r($link_info);
 ?&gt;
+&lt;/pre&gt; 
 </pre>
