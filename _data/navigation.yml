@@ -193,7 +193,7 @@ items:
         published: 'yes'
         title: 'OEFENING: Fietsgerij (5)'                            
       - url: /wordpress/acf
-        published: 'no'
+        published: 'yes'
         title: 'Advanced Custom Fields'         
   - url: /seo  
     published: 'yes'
