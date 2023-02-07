@@ -5,6 +5,7 @@ url: /wordpress/acg
 collection: wordpress
 links:
   - url: https://wordpress.org/plugins/advanced-custom-fields/
+  - url: https://wordpress.org/plugins/classic-editor/
 ---
 
 Out-of-the-box is Wordpress een Blog platform. Dat wil zeggen dat je van blog bericten volgende zaken kan beheren.
@@ -36,3 +37,10 @@ Omdat op te lossen heeft Wordpress <em>Custom Fields</em> in het leven geroepen.
 
 Daarvoor is een plugin nodig. Er zijn verschillende plugin beschikbaar om Custom Post Types te gaan definiëren maar wij gaan gebruik maken van de plugin <strong>Advanced Custom Fields</strong>.
 
+## Gutenberg Edit vs Classic Editor
+
+De Gutenberg Editor heeft de manier van content beheer in Wordpress naar een gebruiksvriendelijker niveau getilt. Zoals hierboven al aangehaald is het echter niet voor alles geschikt.
+
+De eigen gedefinieerde velden staan nu soms wat weg gedrukt. Switchen naar de <em>Classic Editor</em>, de editor die in oudere Wordpress versies werd gebruikt, is dan een goed idee. 
+ 
+Je kan de link naar die plugin hieronder vinden.
