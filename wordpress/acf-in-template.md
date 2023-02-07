@@ -16,7 +16,7 @@ De functie <code>the_field()</code> is ideaal om enkelvoudige waardes te tonen. 
 
 Wanneer je bijvoorbeeld een custom post type "Video" hebt met daar een specifiek veld "regiseur" en "duurtijd" dan zou de code er als volgt kunnen uitzien.
 
-## single-video.php
+### single-video.php
 <pre>
 <h1><?php the_title() ?></h1>
 <ul>
@@ -34,6 +34,8 @@ Bij meervoudige waardes geeft hij de verschillende elementen van de waarde terug
 Het <code>url</code> type heeft als waarde bijvoorbeeld een <strong>URL</strong> en een <strong>linktekst</strong>.
 
 De <code>get_field()</code> retourneerd een array met die twee elementen en die kan je dan uiteraard ook gaan gebruiken in de template.
+
+### single-video.php
 
 <pre>
 <h1>&lt;?php the_title() ?&gt;</h1>
