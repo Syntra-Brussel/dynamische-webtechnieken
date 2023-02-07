@@ -55,6 +55,6 @@ De array structuur kan je trouwens op deze manier te zien krijgen:
 
 <pre>
 &lt;?php
-print_r(link_info);
+print_r($link_info);
 ?&gt;
 </pre>
