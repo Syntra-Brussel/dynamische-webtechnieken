@@ -8,7 +8,18 @@ links:
   - url: https://wordpress.org/plugins/classic-editor/
 ---
 
-Out-of-the-box is Wordpress een Blog platform. Dat wil zeggen dat je van blog bericten volgende zaken kan beheren.
+## Algemeen
+
+In een veld wordt gebruikt om een <strong>waarde</strong> te bewareb. Dat kan tekst zijn (kort of lang), een referentie naar een opgeladen beeld of een getal.
+
+Een veld heeft uiteraard ook altijd een <strong>naam</strong> die het doel weer geeft.
+
+Een veld kan zo <strong>in een template gebruikt</strong> worden en er kan zo ook specifiek opmaak aan gegeven worden.
+
+## Velden in Wordpress zijn beperkt
+
+Out-of-the-box is Wordpress een Blog platform. De beschikbare velden zijn dan ook wat voorzien voor een blog:
+
 * titel (voor overzicht en detail pagina)
 * samenvatting (voor overzicht pagina)
 * omschrijving (voor detail pagina)
@@ -16,13 +27,13 @@ Out-of-the-box is Wordpress een Blog platform. Dat wil zeggen dat je van blog be
 * categorie waarop je kan worden gegroepeerd in de overzichten
 * trefwoord(en) waarop je kan filteren in de overzichten
 
-Omdat een Custom Post Type een post type is heeft ook de velden van een gewone post aan boord.
+Ook een Custom Post Type een post type is heeft dus ook alvast een mogelijkheid om deze velden te voorzien.
 
-Een bericht kan echter nog heel wat andere eigenschappen bevatten dan die hier boven zijn beschreven.
+Een bericht kan echter nog heel wat andere eigenschappen bevatten dan bij een 'klassiek' blog bericht.
 
 Bijvoorbeeld:
-* product catalogus: prijs, kleur, maat, ...
-* referentie overzicht: jaar, meerdere foto's, ...
+* producten: prijs, kleur, maat, ...
+* project referenties: jaar, meerdere foto's, ...
 * video collectie: jaar, regissieur, ...
 * boeken referenties: jaar, ISBN, auteur, ...
 
