@@ -31,7 +31,7 @@ De functie <code>get_field()</code> geeft de ruwe waarde van het veld terug. Bij
 
 Bij meervoudige waardes geeft hij de verschillende elementen van de waarde terug.
 
-Het <code>url</code> type heeft als waarde bijvoorbeeld een <strong>URL</strong> en een <strong>linktekst</strong>.
+Het veld type <strong>url</strong> heeft als waarde bijvoorbeeld een <strong>URL</strong> en een <strong>linktekst</strong>.
 
 De <code>get_field()</code> retourneerd een array met die twee elementen en die kan je dan uiteraard ook gaan gebruiken in de template.
 
