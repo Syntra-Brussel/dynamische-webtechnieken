@@ -18,10 +18,10 @@ Wanneer je bijvoorbeeld een custom post type "Video" hebt met daar een specifiek
 
 ### single-video.php
 <pre>
-<h1>&lt;?php the_title() ?&gt;</h1>
-<ul>
-    <li>Regisseur: &lt;?php the_field('regisseur'); ?&gt;</li>
-    <li>duurtijd: &lt;?php the_field('duurtijd'); ?&gt;</li>
+&lt;h1>&lt;?php the_title() ?&gt;&lt;/h1>
+&lt;ul>
+    &lt;li>Regisseur: &lt;?php the_field('regisseur'); ?&gt;&lt;/li>
+    &lt;li>duurtijd: &lt;?php the_field('duurtijd'); ?&gt;&lt;/li>
 </pre>
 
 
@@ -38,15 +38,15 @@ De <code>get_field()</code> retourneerd een array met die twee elementen en die 
 ### single-video.php
 
 <pre>
-<h1>&lt;?php the_title() ?&gt;</h1>
-<ul>
-    <li>Regisseur: &lt;?php the_field('regisseur'); ?&gt;</li>
-    <li>duurtijd: &lt;?php the_field('duurtijd'); ?&gt;</li>
+&lt;h1&gt;&lt;?php the_title() ?&gt;&lt;/h1&gt;
+&lt;ul&gt;
+    &lt;li&gt;Regisseur: &lt;?php the_field('regisseur'); ?&gt;&lt;/li&gt;
+    &lt;li&gt;duurtijd: &lt;?php the_field('duurtijd'); ?&gt;&lt;/li&gt;
     &lt;?php 
     $link_info = get_field('link'); 
     ?&gt;
-    <li>Link: <a href="&lt;?php echo $link_info['url']; ?&gt;">&lt;?php echo $link_info['title']; ?&gt;</a></li>
-</ul>    
+    &lt;li&gt;Link: <a href="&lt;?php echo $link_info['url']; ?&gt;"&gt;&lt;?php echo $link_info['title']; ?&gt;</a>&lt;/li&gt;
+&lt;/ul&gt;    
 </pre>
 
 De array structuur kan je trouwens op deze manier te zien krijgen:
