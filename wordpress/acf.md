@@ -1,7 +1,7 @@
 ---
 layout: template
 title: Advanced Custom Fields
-url: /wordpress/acg
+url: /wordpress/acf
 collection: wordpress
 links:
   - url: https://wordpress.org/plugins/advanced-custom-fields/
