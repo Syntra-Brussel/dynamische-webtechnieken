@@ -27,7 +27,7 @@ Bijvoorbeeld:
 
 <div class="highlight">
 
-<h2>Gewoon onderbrengen in de omschrijving?</h2>
+<h3>Gewoon onderbrengen in de omschrijving?</h3>
 
 <p>We zouden alle informatie kunnen onderbrengen in de omschrijving maar dan kunnen we het niet tonen in het overzicht bijvoorbeeld en op de detailpagina kunnen we er moeilijk specifieke opmaak aan geven via HTML en CSS.</p>
 </div>
