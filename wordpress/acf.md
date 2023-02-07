@@ -37,9 +37,9 @@ Omdat op te lossen heeft Wordpress <em>Custom Fields</em> in het leven geroepen.
 
 Daarvoor is een plugin nodig. Er zijn verschillende plugin beschikbaar om Custom Post Types te gaan definiëren maar wij gaan gebruik maken van de plugin <strong>Advanced Custom Fields</strong>.
 
-## Gutenberg Edit vs Classic Editor
+## Gutenberg Editor vs Classic Editor
 
-De Gutenberg Editor heeft de manier van content beheer in Wordpress naar een gebruiksvriendelijker niveau getilt. Zoals hierboven al aangehaald is het echter niet voor alles geschikt.
+De Gutenberg Editor heeft de manier van content beheer in Wordpress naar een gebruiksvriendelijker niveau getilt. Zoals hierboven al aangehaald is hij echter niet voor alles geschikt.
 
 De eigen gedefinieerde velden staan nu soms wat weg gedrukt. Switchen naar de <em>Classic Editor</em>, de editor die in oudere Wordpress versies werd gebruikt, is dan een goed idee. 
  
