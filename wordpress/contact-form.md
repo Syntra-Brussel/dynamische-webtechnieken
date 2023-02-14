@@ -6,6 +6,7 @@ collection: wordpress
 links:
   - url: https://wordpress.org/plugins/contact-form-7/
   - url: https://wordpress.org/plugins/contact-form-entries/
+  - url: https://developer.wordpress.org/reference/functions/do_shortcode/
 ---
 <div class="highlight">
 Voor alle wensen, groot of klein, heeft Wordpress wel een plugin ter beschikking.
