@@ -1,20 +1,29 @@
 ---
 layout: template
-title: Contact form
-url: /wordpress/contact-form
+title: Shortcode
+url: /wordpress/shortcode
 collection: wordpress
 links:
   - url: https://wordpress.org/plugins/contact-form-7/
   - url: https://wordpress.org/plugins/contact-form-entries/
   - url: https://developer.wordpress.org/reference/functions/do_shortcode/
 ---
-<div class="highlight">
-Voor alle wensen, groot of klein, heeft Wordpress wel een plugin ter beschikking.
-</div>
+
+## Inleiding
+
+Via een <em>shortcode</em> kan je een stukje specifieke code van een plugin uitvoeren. 
+
+De shortcode is uitgevonden voor niet-developers. Zodat ook zij 'eenvoudig' bepaalde stukje code kunnen invoegen via de Wordpress Editor.
+
+Developer kunnen die stukjes code ook gaan invoegen via de <code>do_shortcode()</code> functie in PHP.
+
+## Voorbereiding
+
+We gaan <em>shortcodes</em> gebruiken uit aan de hand van een contact formulier via de <strong>contact form 7</strong> plugin.
 
 Een <strong>contactformulier</strong> is ziets dat op elke websites voor komt maar toch al iets complexer in mekaar steekt en waarvoor dus een plugin beschikbaar is. 
 
-Als je <em>Googled</em> op de termen "Wordpress" en "form" kom je heelwat mogelijkheden tegen. Wij gaan eens experimenteren met de <strong>"Contact form 7" plugin</strong>.
+Via de link onderaan kan je de plugin installeren in de <code>wp-content/plugins<code> folder.
 
 ## Contactformulier configureren
 De plugin heeft geen grafische interface maar het voorbeeld wijst zichzelf wel uit. En via de knoppen bovenaan kan je nieuwe velden toevoegen.
