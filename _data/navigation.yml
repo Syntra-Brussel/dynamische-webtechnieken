@@ -201,7 +201,7 @@ items:
       - url: /wordpress/oefening-fietsgerij-deel-6
         published: 'yes'
         title: 'OEFENING: Fietsgerij (6)'         
-      - url: /wordpress/contact-form
+      - url: /wordpress/shortcode
         published: 'yes'
         title: 'Contact formulier'      
       - url: /wordpress/oefening-fietsgerij-deel-7

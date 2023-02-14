@@ -11,11 +11,17 @@ links:
 
 ## Inleiding
 
-Via een <em>shortcode</em> kan je een stukje specifieke code van een plugin uitvoeren. 
+Het Wordpress eco systeem bukt van de plugins om de mogelijkheden van je Wordpress website uit te breiden. 
 
-De shortcode is uitgevonden voor niet-developers. Zodat ook zij 'eenvoudig' bepaalde stukje code kunnen invoegen via de Wordpress Editor.
+Er zijn plugin beschikbaar om slideshows, formulieren, foto galerijen, ... in te voegen in je pagina inhoud.
+
+Via een <em>shortcode</em> kan je een stukje specifieke code van een plugin gaan invoegen in een website. 
+
+De shortcode is eigenlijk uitgevonden voor niet-developers. Zodat ook zij 'eenvoudig' bepaalde stukjes code kunnen gaan invoegen via de Wordpress Editor.
 
 Developer kunnen die stukjes code ook gaan invoegen via de <code>do_shortcode()</code> functie in PHP.
+
+Wil je bijvoorbeeld een slideshow gaan 
 
 ## Voorbereiding
 
