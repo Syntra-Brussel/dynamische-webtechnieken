@@ -17,7 +17,7 @@ Daarvoor moeten twee dingen gebeuren:
 Binnen de <code>functions.php</code> voeg je openieuw een functie toe die via <code>add_action('widgets_init', '<em>functienaam</em>')</code> wordt uitgevoerd.
 
 <pre>
-<?php
+&lt?php
 function top_sidebar_init() {
     register_sidebar( array(
         'name' => 'Top',
@@ -29,7 +29,7 @@ function top_sidebar_init() {
  } 
  
 add_action( 'widgets_init', 'top_sidebar_init' );
-&gt;
+?&gt;
 </pre>
 
 De functie <code>register_sidebar(<em>parameters-array</em>)</code> is de functie om een eigen sidebar toe te voegen binnen Wordpress. Ze wordt via beschikbaar via de "Weergave" > "Widgets".
