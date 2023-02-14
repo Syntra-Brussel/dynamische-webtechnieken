@@ -13,19 +13,17 @@ links:
 
 Het Wordpress eco systeem bukt van de plugins om de mogelijkheden van je Wordpress website uit te breiden. 
 
-Er zijn plugin beschikbaar om slideshows, formulieren, foto galerijen, ... in te voegen in je pagina inhoud.
+Er zijn plugin beschikbaar om <strong>slideshows, formulieren, foto galerijen, ...</strong> in te voegen op je pagina.
 
-Via een <em>shortcode</em> kan je een stukje specifieke code van een plugin gaan invoegen in een website. 
+Na het installeren en configureren van de inhoud kan je via een <em>shortcode</em> stukje specifieke code van een plugin gaan invoegen. 
 
 De shortcode is eigenlijk uitgevonden voor niet-developers. Zodat ook zij 'eenvoudig' bepaalde stukjes code kunnen gaan invoegen via de Wordpress Editor.
 
-Developer kunnen die stukjes code ook gaan invoegen via de <code>do_shortcode()</code> functie in PHP.
-
-Wil je bijvoorbeeld een slideshow gaan 
+Een developer kan die stukjes code ook gaan invoegen via de <code>do_shortcode()</code> functie in PHP.
 
 ## Voorbereiding
 
-We gaan <em>shortcodes</em> gebruiken uit aan de hand van een contact formulier via de <strong>contact form 7</strong> plugin.
+We gaan <em>shortcodes</em> gebruiken aan de hand van een contact formulier via de <strong>contact form 7</strong> plugin.
 
 Een <strong>contactformulier</strong> is ziets dat op elke websites voor komt maar toch al iets complexer in mekaar steekt en waarvoor dus een plugin beschikbaar is. 
 
