@@ -27,7 +27,7 @@ We gaan <em>shortcodes</em> gebruiken aan de hand van een contact formulier via 
 
 Een <strong>contactformulier</strong> is ziets dat op elke websites voor komt maar toch al iets complexer in mekaar steekt en waarvoor dus een plugin beschikbaar is. 
 
-Via de link onderaan kan je de plugin installeren in de <code>wp-content/plugins<code> folder.
+Via de link onderaan kan je de plugin installeren in de <code>wp-content/plugins</code> folder.
 
 ## Contactformulier tonen
 
