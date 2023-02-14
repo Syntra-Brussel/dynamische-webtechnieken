@@ -29,43 +29,6 @@ Een <strong>contactformulier</strong> is ziets dat op elke websites voor komt ma
 
 Via de link onderaan kan je de plugin installeren in de <code>wp-content/plugins<code> folder.
 
-## Contactformulier configureren
-De plugin heeft geen grafische interface maar het voorbeeld wijst zichzelf wel uit. En via de knoppen bovenaan kan je nieuwe velden toevoegen.
-
-<pre>
-<label> Your name
-    [text* your-name autocomplete:name] </label>
-
-<label> Your email
-    [email* your-email autocomplete:email] </label>
-
-<label> Subject
-    [text* your-subject] </label>
-
-<label> Your message (optional)
-    [textarea your-message] </label>
-
-[submit "Send"]
-</pre>
-
-Je kan hier:
-- labels vertalen
-- Extra velden toeveogen (via de knoppen bovenaan of via de editor)
-
-Het *-tje staat voor een verplicht veld
-
-### GDPR
-
-Iedereen heeft ongetwijfeld al van de GDPR wetgeving gehoord? Die maakt dat je als gebruiker uitdrukkelijk toestemming moet geven om informatie op een website te verwerken.
-
-Om die reden is het ook verplicht om gebruikers uitdrukkelijk de toestemming te vragen voor het werken met de peroonsgegevens. 
-
-In het formulier is het daarom belangrijk een extra checkbox toe te voegen voor die toestemming.
-
-<pre>
-[acceptance akkoord]Ja, ik ga akkoord met het <a href="#">privacybeleid</a>[/acceptance]
-</pre>
-
 ## Contactformulier tonen
 
 ### De Shortcode
@@ -105,5 +68,42 @@ get_footer();
 &lt;/div&gt;
 </pre>
 
-## Inzendeingen
+## Contactformulier configureren
+De plugin heeft geen grafische interface maar het voorbeeld wijst zichzelf wel uit. En via de knoppen bovenaan kan je nieuwe velden toevoegen.
+
+<pre>
+<label> Your name
+    [text* your-name autocomplete:name] </label>
+
+<label> Your email
+    [email* your-email autocomplete:email] </label>
+
+<label> Subject
+    [text* your-subject] </label>
+
+<label> Your message (optional)
+    [textarea your-message] </label>
+
+[submit "Send"]
+</pre>
+
+Je kan hier:
+- labels vertalen
+- Extra velden toeveogen (via de knoppen bovenaan of via de editor)
+
+Het *-tje staat voor een verplicht veld
+
+### GDPR
+
+Iedereen heeft ongetwijfeld al van de GDPR wetgeving gehoord? Die maakt dat je als gebruiker uitdrukkelijk toestemming moet geven om informatie op een website te verwerken.
+
+Om die reden is het ook verplicht om gebruikers uitdrukkelijk de toestemming te vragen voor het werken met de peroonsgegevens. 
+
+In het formulier is het daarom belangrijk een extra checkbox toe te voegen voor die toestemming.
+
+<pre>
+[acceptance akkoord]Ja, ik ga akkoord met het <a href="#">privacybeleid</a>[/acceptance]
+</pre>
+
+## Inzendingen
 Een inzending via een contactformulier wordt in Wordpress niet standaard bewaard. Via de <strong>plugin "Contact form entries"</strong> kan je dat toch verwezelijken.
