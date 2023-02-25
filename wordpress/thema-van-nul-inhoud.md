@@ -37,6 +37,14 @@ get_header();
 
     &lt;?php the_post_thumbnail(); ?&gt;
 
+    &lt;p&gt;&lt;u&gt;De URL van de <em>featured image</em> van pagina of bericht:&lt;/u&gt;&lt;/p&gt;
+
+    &lt;?php echo get_the_post_thumbnail_url(); ?&gt;
+
+    &lt;p&gt;&lt;u&gt;De URL van de <em>featured image</em>, in het grootste formaat, van pagina of bericht:&lt;/u&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;?php echo get_the_post_thumbnail_url(get_the_ID(), 'full'); ?&gt;&lt;/p&gt;
+
     &lt;p&gt;&lt;u&gt;De samenvatting:&lt;/u&gt;&lt;/p&gt;
 
     &lt;p&gt;&lt;?php the_excerpt(); ?&gt;&lt;/p&gt;
