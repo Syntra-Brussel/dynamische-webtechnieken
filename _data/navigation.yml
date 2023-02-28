@@ -206,7 +206,10 @@ items:
         title: 'Contact formulier'      
       - url: /wordpress/oefening-fietsgerij-deel-7
         published: 'yes'
-        title: 'OEFENING: Fietsgerij (7)'                   
+        title: 'OEFENING: Fietsgerij (7)'    
+      - url: /wordpress/eindopdracht
+        published: 'yes'
+        title: 'EINDOPDRACHT: Le Moulin de Gué'                           
   - url: /seo  
     published: 'no'
     title: 'SEO'
