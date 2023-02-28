@@ -71,8 +71,11 @@ Verder komt in de footer rechts de primaire navigatie terug.
 
 <img src="mdg/home_inhoud.jpg" class="shadow" />
 
-Voor de inhoud wordt de editor van de pagina gebruikt.
-
 <img src="mdg/home_laatste_nieuws.jpg" class="shadow" />
 
-Hier komt een overzicht van de 3 recentste nieuwsberichten ("post" bericht type).
+### Kamers
+
+<img src="mdg/kamers.jpg" class="shadow" />
+
+<img src="mdg/kamers_praktisch.jpg" class="shadow" />
+
