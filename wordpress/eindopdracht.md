@@ -27,7 +27,7 @@ De statische HTML/CSS kan je <a href="mdg/mdg.zip">hier</a> downloaden.
 
 De CSS binnen de statische website is al behoorlijk volledig zo opgebouwd dat hij <em>Wordpress vriendelijk</em> is. 
 
-Je mag hem zeker aanpassen. Het is wel een <em>best practice</em> zoveel mogelijk aanpassingen onderaan de CSS toe te voegen en de bestaande CSS zoveel mogelijk in tact te houden. Regels onderaan krijgen namelijk voorrang bij uitvoering.
+Je mag hem zeker aanpassen. Het is wel een <em>best practice</em> om zoveel eventuele aanpassingen onderaan de CSS toe te voegen (bijvoorbeeld onder de <code>/* eigen CSS */</code> comment en de bestaande CSS zoveel mogelijk in tact te houden. Regels onderaan krijgen worden namelijk als laatste uitgevoerd en passen zo eerdere CSS instellingen aan.
 
 ## Instructies
 
