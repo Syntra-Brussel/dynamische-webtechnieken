@@ -1,6 +1,6 @@
 ---
 layout: template
-title: Eindopdracht
+title: Eindopdracht 'MDG'
 url: /wordpress/eindopdracht
 collection: wordpress
 ---
@@ -12,3 +12,7 @@ collection: wordpress
 <p>De Wordpress implementatie kan volledig uitgevoerd worden met de aangeleerde technieken en gebruikte plugin.</p>
 <p>Er een kleine "uitsmijter" voorzien bij het gastenboek waar een extra plugin wordt voorgesteld om de <em>kriebels</em> te tonen nadat ze via het formulier zijn ingevuld. Hou deze uitdaging sowieso voor het laatst.</p>
 </div>
+
+## Instructief
+
+De statische HTML/CSS kan je <a href="mdg/mdg.zip">hier</a> downloaden.
