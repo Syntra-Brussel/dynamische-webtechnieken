@@ -1,6 +1,6 @@
 ---
 layout: template
-title: Eindopdracht 'MDG'
+title: Eindopdracht 'Le Moulin de Gué'
 url: /wordpress/eindopdracht
 collection: wordpress
 ---
