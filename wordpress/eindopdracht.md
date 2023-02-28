@@ -45,7 +45,7 @@ De beste garantie op een zo mooi mogelijk resultaat is door de structuur van de 
 ### Daar gaan we
 
 <div class="highlight">
-Zorg voor weinig mogelijk dubbele code (met het oog op de andere templates). Maak gebruik van template parts waar mogelijk.
+Zorg voor zo weinig mogelijk dubbele code en hou template bestanden leesbaar. Maak gebruik van <em>template parts</em> waar mogelijk.
 </div>
 
 1. Zet een eigen thema op (vanaf nul, dus <strong>geen child theme</strong>)
