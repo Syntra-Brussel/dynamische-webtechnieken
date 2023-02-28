@@ -48,7 +48,7 @@ De beste garantie op een zo mooi mogelijk resultaat is door de structuur van de 
 Zorg voor zo weinig mogelijk dubbele code en hou template bestanden leesbaar. Maak gebruik van <em>template parts</em> waar mogelijk.
 </div> 
 
-1. Zet een eigen thema op (vanaf nul, dus <strong>geen child theme</strong>)
+1. Zet een eigen thema 'mdg' op (vanaf nul, dus <strong>geen child theme</strong>)
 2. Voorzie de nodige bestanden binnen het thema om het te herkennen in Wordpress
 3. Registreer het logo en de primaire menu (voor boven en beneden).
 4. Voorzie de eerste template die altijd verplicht is en zorg voor de header en footer die op elke pagina gaan terug komen. 
