@@ -46,7 +46,7 @@ De beste garantie op een zo mooi mogelijk resultaat is door de structuur van de 
 
 <div class="highlight">
 Zorg voor zo weinig mogelijk dubbele code en hou template bestanden leesbaar. Maak gebruik van <em>template parts</em> waar mogelijk.
-</div>
+</div> 
 
 1. Zet een eigen thema op (vanaf nul, dus <strong>geen child theme</strong>)
 2. Voorzie de nodige bestanden binnen het thema om het te herkennen in Wordpress
