@@ -27,7 +27,7 @@ De statische HTML/CSS kan je <a href="mdg/mdg.zip">hier</a> downloaden.
 
 De CSS binnen de statische website is al behoorlijk volledig en zo opgebouwd dat hij <em>Wordpress vriendelijk</em> is. 
 
-Je mag hem zeker aanpassen. Het is wel een <em>best practice</em> om zoveel eventuele aanpassingen onderaan de CSS toe te voegen (bijvoorbeeld onder de <code>/* eigen CSS */</code> comment en de bestaande CSS zoveel mogelijk in tact te houden. Regels onderaan worden namelijk als laatste uitgevoerd en passen zo eerdere CSS instellingen aan.
+Je mag hem zeker aanpassen. Het is wel een <em>best practice</em> om eventuele aanpassingen onderaan de CSS toe te voegen (bijvoorbeeld onder de <code>/* eigen CSS */</code> comment en de bestaande CSS zoveel mogelijk in tact te houden. Regels onderaan worden namelijk als laatste uitgevoerd en passen zo eerdere CSS instellingen aan.
 
 <div class="highlight">
 De beste garantie op een zo mooi mogelijk resultaat is door de structuur van de statische webpagina's zoveel mogelijk te behouden als je deze over neemt in je Wordpress templates.
@@ -52,3 +52,27 @@ Zorg voor zo weinig mogelijk dubbele code en hou template bestanden leesbaar. Ma
 2. Voorzie de nodige bestanden binnen het thema om het te herkennen in Wordpress
 3. Registreer het logo en de primaire menu (voor boven en beneden).
 4. Voorzie de eerste template die altijd verplicht is en zorg voor de header en footer die op elke pagina gaan terug komen. 
+
+### Wederkerende elementen
+
+#### Header
+<img src="mdg/header.jpg" class="shadow" />
+Op elke pagina komt bovenaan een banneer beeld met daarvoor de pagina titel te staan. Op de startpagina is dat banner beeld wat hoger voorzien.
+
+Ook de primary menu en het logo behoren tot de header. Beide zijn beheerbaar via Wordpress en moeten dus dynamisch worden voorzien.
+
+#### Footer
+<img src="mdg/footer.jpg" class="shadow" />
+De footer onderaan start vanaf de section "Genieten in bourgogne!". Dat beeld met die slogan mag je statisch behouden.
+
+Verder komt in de footer rechts de primaire navigatie terug.
+
+### Start pagina
+
+<img src="mdg/home_inhoud.jpg" class="shadow" />
+
+Voor de inhoud wordt de editor van de pagina gebruikt.
+
+<img src="mdg/home_laatste_nieuws.jpg" class="shadow" />
+
+Hier komt een overzicht van de 3 recentste nieuwsberichten ("post" bericht type).
