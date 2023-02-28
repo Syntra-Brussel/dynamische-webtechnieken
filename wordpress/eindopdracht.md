@@ -15,15 +15,19 @@ collection: wordpress
 
 ## Indienen van de opdracht
 
-Je dient je Wordpress project in, ten laatste <strong>zondag 5 maart 2023 om 23u59</strong>. 
+* Je dient je Wordpress project in, ten laatste <strong>zondag 5 maart 2023 om 23u59</strong>. 
 
-Je doet door een export te maken van je volledige website via de <a href="https://nl.wordpress.org/plugins/all-in-one-wp-migration/">All-in-one WP Migration</a> plugin. Op de pagina van de plugin staat een instructie video.
+* Je doet door een export te maken van je volledige website via de <a href="https://nl.wordpress.org/plugins/all-in-one-wp-migration/">All-in-one WP Migration</a> plugin. Op de pagina van de plugin staat een instructie video.
 
-De export levert een <code>.wpress</code> bestand op. Pas de bestandsnaam <strong>NIET</strong> aan. Verstuur deze integraal via <a href="https://www.wetransfer.com">WeTransfer</a> naar <a href="mailto:bert@data-web.be">bert@data-web.be</a>.
+* De export levert een <code>.wpress</code> bestand op. Pas de bestandsnaam <strong>NIET</strong> aan. Verstuur deze integraal via <a href="https://www.wetransfer.com">WeTransfer</a> naar <a href="mailto:bert@data-web.be">bert@data-web.be</a>.
 
 ## Statische HTML en CSS
 
 De statische HTML/CSS kan je <a href="mdg/mdg.zip">hier</a> downloaden.
+
+De CSS binnen de statische webpagina is al behoorlijk volledig zo opgebouwd dat hij <em>Wordpress vriendelijk</em> is. 
+
+Je mag hem zeker aanpassen. Het is wel een <em>best practice</em> zoveel mogelijk aanpassingen onderaan de CSS toe te voegen en de bestaande CSS zoveel mogelijk in tact te houden. Regels onderaan krijgen namelijk voorrang bij uitvoering.
 
 ## Instructies
 
@@ -33,3 +37,9 @@ De statische HTML/CSS kan je <a href="mdg/mdg.zip">hier</a> downloaden.
 3. Zet een Wordpress op in de folder <code>httpdocs/mdg</code> volgens de instructies die je hebt geleerd. De database geef je de naam <strong>mdg</strong>. De Wordpress website zal dus toegankelijk zijn via <a target="_blank" href="http://localhost/mdg/">http://localhost/mdg/</a>.
 4. Open de <code>httpdocs/mdg</code> folder als een nieuw project in Visual Studio Code.
 5. Je kan nu starten aan je Wordpress integratie. <strong>Succes</strong>.
+
+### Daar gaan we
+1. Zet een eigen thema op (vanaf nul, dus <strong>geen child theme</strong>)
+2. Voorzie de nodige bestanden binnen het thema om het te herkennen in Wordpress
+3. Registreer het logo en de primaire menu (voor boven en beneden).
+4. Voorzie de eerste template die altijd verplicht is en zorg voor de header en footer die op elke pagina gaan terug komen. Zorg voor weinig mogelijk dubbele code (met het oog op de andere templates).
