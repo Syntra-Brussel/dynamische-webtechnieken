@@ -85,3 +85,9 @@ Verder komt in de footer rechts de primaire navigatie terug.
 
 <img src="mdg/diensten.jpg" class="shadow" />
 
+### Contact
+
+<img src="mdg/contact_form_kaart.jpg" class="shadow" />
+
+<img src="mdg/contact_vervoer.jpg" class="shadow" />
+
