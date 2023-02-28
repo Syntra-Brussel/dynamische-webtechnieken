@@ -9,8 +9,8 @@ collection: wordpress
 <h3>Vooraf</h3>
 <p>De bedoeling van deze eindopdracht is niet om HTML / CSS skills te testen. Wel om te evalueren of je de verschillende Wordpress technieken en PHP kan toepassen om een dynamische website te creëren.</p> 
 <p>Laat daarom zoveel mogelijk zien. Ook al is het resultaat (nog) niet 100%.</p>
-<p>De Wordpress integratie kan volledig uitgevoerd worden met de aangeleerde technieken en gebruikte plugin.</p>
-<p>Er is een kleine "uitsmijter" voorzien bij het gastenboek waar een extra plugin wordt voorgesteld om de <em>kriebels</em> te tonen nadat ze via het formulier zijn ingevuld. Hou deze uitdaging sowieso voor het laatst.</p>
+<p>De Wordpress integratie kan volledig uitgevoerd worden met de aangeleerde technieken en gebruikte plugins in de verschillende lessen.</p>
+<p>Er is een kleine "uitsmijter" voorzien bij het gastenboek waar een extra plugin wordt voorgesteld om de gastenboek berichten te tonen nadat ze via het gastenboek formulier zijn ingevuld. Hou deze uitdaging sowieso voor het laatst.</p>
 </div>
 
 ## Indienen van de opdracht
