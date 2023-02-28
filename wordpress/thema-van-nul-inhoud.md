@@ -5,6 +5,7 @@ url: /wordpress/thema-van-nul
 collection: wordpress
 links:
  - url: https://developer.wordpress.org/reference/functions/the_title/
+ - url: https://developer.wordpress.org/reference/functions/the_date/
  - url: https://developer.wordpress.org/reference/functions/the_excerpt/
  - url: https://developer.wordpress.org/reference/functions/the_content/
  - url: https://developer.wordpress.org/reference/functions/the_post_thumbnail/
@@ -32,6 +33,12 @@ get_header();
     &lt;p&gt;&lt;u&gt;De titel van pagina of bericht:&lt;/u&gt;&lt;/p&gt;
 
     &lt;h1&gt;&lt;?php the_title(); ?&gt;&lt;/h1&gt;
+
+    &lt;p&gt;&lt;u&gt;De datum van creatie van pagina of bericht:&lt;/u&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;?php the_date(); ?&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;?php the_date('d/m/Y'); ?&gt;&lt;/p&gt;
 
     &lt;p&gt;&lt;u&gt;Het <em>featured image</em> van pagina of bericht:&lt;/u&gt;&lt;/p&gt;
 
