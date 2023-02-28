@@ -79,7 +79,7 @@ Verder komt in de footer rechts de primaire navigatie terug.
 
 <img src="mdg/kamers_praktisch.jpg" class="shadow" />
 
-### Kamers
+### Diensten
 
 <img src="mdg/diensten_inhoud.jpg" class="shadow" />
 
