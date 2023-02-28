@@ -32,7 +32,7 @@ Je mag hem zeker aanpassen. Het is wel een <em>best practice</em> om zoveel even
 <div class="highlight">
 De beste garantie op een zo mooi mogelijk resultaat is door de structuur van de statische webpagina's zoveel mogelijk te behouden als je deze over neemt in je Wordpress templates.
 </div>
- 
+
 ## Instructies
 
 ### Voorbereiding
