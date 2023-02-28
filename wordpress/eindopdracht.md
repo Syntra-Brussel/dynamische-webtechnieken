@@ -105,4 +105,4 @@ Als je alle andere zaken hebt afgerond en je hebt nog wat tijd over is deze "uit
 
 We hebben tijdens de les een plugin leren kennen die de inzendingen van een contact formulier ook effectief gaat bewaren binnen Wordpress om deze achteraf te kunnen raadplegen. Echter worden die inzendingen niet als een bericht bewaard zoals we dat al kennen.
 
-Er is een plugin <a href="https://wordpress.org/plugins/post-my-contact-form-7/" target="_blank">Post My CF 7" die toe laat om de gegevens van een inzending te om te zetten naar een (custom) post. Als dat lukt kan de inzendingen wel tonen op dezelfde manier als je bijvoorbeeld een overzicht van "diensten" of "kamers" toont.
+Er is een plugin <a href="https://wordpress.org/plugins/post-my-contact-form-7/" target="_blank">"Post My CF 7"</a> die toe laat om de gegevens van een inzending te om te zetten (<em>mappen</em>) naar een (custom) post. Als dat lukt kan de inzendingen wel tonen op dezelfde manier als je bijvoorbeeld een overzicht van "diensten" of "kamers" toont.
