@@ -25,7 +25,7 @@ collection: wordpress
 
 De statische HTML/CSS kan je <a href="mdg/mdg.zip">hier</a> downloaden.
 
-De CSS binnen de statische webpagina is al behoorlijk volledig zo opgebouwd dat hij <em>Wordpress vriendelijk</em> is. 
+De CSS binnen de statische website is al behoorlijk volledig zo opgebouwd dat hij <em>Wordpress vriendelijk</em> is. 
 
 Je mag hem zeker aanpassen. Het is wel een <em>best practice</em> zoveel mogelijk aanpassingen onderaan de CSS toe te voegen en de bestaande CSS zoveel mogelijk in tact te houden. Regels onderaan krijgen namelijk voorrang bij uitvoering.
 
