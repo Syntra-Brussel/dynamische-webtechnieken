@@ -27,7 +27,7 @@ De statische HTML/CSS kan je <a href="mdg/mdg.zip">hier</a> downloaden.
 
 De CSS binnen de statische website is al behoorlijk volledig en zo opgebouwd dat hij <em>Wordpress vriendelijk</em> is. 
 
-Je mag hem zeker aanpassen. Het is wel een <em>best practice</em> om eventuele aanpassingen onderaan de CSS toe te voegen (bijvoorbeeld onder de <code>/* eigen CSS */</code> comment en de bestaande CSS zoveel mogelijk in tact te houden. Regels onderaan worden namelijk als laatste uitgevoerd en passen zo eerdere CSS instellingen aan.
+Soms zal je de CSS wel wat moeten aanpassen. Het is een <em>best practice</em> om eventuele aanpassingen onderaan de CSS toe te voegen (bijvoorbeeld onder de <code>/* eigen CSS */</code> comment en de bestaande CSS zoveel mogelijk in tact te houden. Regels onderaan worden namelijk als laatste uitgevoerd en passen zo eerdere CSS instellingen aan.
 
 <div class="highlight">
 De beste garantie op een zo mooi mogelijk resultaat is door de structuur van de statische webpagina's zoveel mogelijk te behouden als je deze over neemt in je Wordpress templates.
@@ -91,3 +91,6 @@ Verder komt in de footer rechts de primaire navigatie terug.
 
 <img src="mdg/contact_vervoer.jpg" class="shadow" />
 
+### Toerisme
+
+<img src="mdg/toerisme.jpg" class="shadow" />
