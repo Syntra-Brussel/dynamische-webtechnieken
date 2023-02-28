@@ -43,7 +43,12 @@ De beste garantie op een zo mooi mogelijk resultaat is door de structuur van de 
 5. Je kan nu starten aan je Wordpress integratie. <strong>Succes</strong>.
 
 ### Daar gaan we
+
+<div class="highlight">
+Zorg voor weinig mogelijk dubbele code (met het oog op de andere templates). Maak gebruik van template parts waar mogelijk.
+</div>
+
 1. Zet een eigen thema op (vanaf nul, dus <strong>geen child theme</strong>)
 2. Voorzie de nodige bestanden binnen het thema om het te herkennen in Wordpress
 3. Registreer het logo en de primaire menu (voor boven en beneden).
-4. Voorzie de eerste template die altijd verplicht is en zorg voor de header en footer die op elke pagina gaan terug komen. Zorg voor weinig mogelijk dubbele code (met het oog op de andere templates).
+4. Voorzie de eerste template die altijd verplicht is en zorg voor de header en footer die op elke pagina gaan terug komen. 
