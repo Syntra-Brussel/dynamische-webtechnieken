@@ -15,7 +15,7 @@ collection: wordpress
 
 ## Indienen van de opdracht
 
-* Je dient je Wordpress project in, ten laatste <strong>zondag 5 maart 2023 om 23u59</strong>. 
+* Je dient je Wordpress project in, ten laatste, <strong>zondag 5 maart 2023 om 23u59</strong>. 
 
 * Je doet door een export te maken van je volledige website via de <a href="https://nl.wordpress.org/plugins/all-in-one-wp-migration/">All-in-one WP Migration</a> plugin. Op de pagina van de plugin staat een instructie video.
 
