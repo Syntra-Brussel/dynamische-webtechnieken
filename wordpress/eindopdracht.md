@@ -38,8 +38,8 @@ De beste garantie op een zo mooi mogelijk resultaat is door de structuur van de 
 ## Instructies
 
 ### Voorbereiding
-1. Maak een <code>dmg</code> folder aan in je <code>httpdocs</code> folder op je XAMPP server.
-2. Download de statische website via de link hierboven en plaats de inhoud van de ZIP in de <code>dmg/statisch</code> folder. De statische website kan nu bekeken worden in de browser via de URL <a target="_blank" href="http://localhost/mdg/statisch/">http://localhost/mdg/statisch/</a> (localhost kan eventueel moeten worden gewijzigd naar je lokaal IP adres, check daarvoor het XAMPP controle paneel).
+1. Maak een <code>mdg</code> folder aan in je <code>httpdocs</code> folder op je XAMPP server.
+2. Download de statische website via de link hierboven en plaats de inhoud van de ZIP in de <code>mdg/statisch</code> folder. De statische website kan nu bekeken worden in de browser via de URL <a target="_blank" href="http://localhost/mdg/statisch/">http://localhost/mdg/statisch/</a> (localhost kan eventueel moeten worden gewijzigd naar je lokaal IP adres, check daarvoor het XAMPP controle paneel).
 3. Zet een Wordpress op in de folder <code>httpdocs/mdg</code> volgens de instructies die je hebt geleerd. De database geef je de naam <strong>mdg</strong>. De Wordpress website zal dus toegankelijk zijn via <a target="_blank" href="http://localhost/mdg/">http://localhost/mdg/</a>.
 4. Open de <code>httpdocs/mdg</code> folder als een nieuw project in Visual Studio Code.
 5. Je kan nu starten aan je Wordpress integratie. <strong>Succes</strong>.
